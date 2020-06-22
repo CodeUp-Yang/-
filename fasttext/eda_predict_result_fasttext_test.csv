@@ -1,0 +1,317 @@
+text,real_label,predict_label
+Nothing to do by default,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Auto generated method stub,yes,no
+Saves the database including only the specified entries,yes,no
+This Event is fired from link org jabref logic autosaveandbackup AutosaveManager in case that a save task is pending,no,no
+this is kept in sync with the database upon adding removing an entry it is updated as well,no,no
+Writes all data to the specified writer using each object s toString method,no,no
+Checks if the database contains entries,yes,no
+Returns whether an entry with the given ID exists entry type hashcode,no,no
+Returns a set of Strings that contains all field names that are visible This means that the fields are not internal fields Internal fields are fields that are starting with,no,no
+Collects entries having the specified BibTeX key and returns these entries as list The order of the entries is the order they appear in the database,no,no
+Inserts the entry given that its ID is not already in use use Util createId to make up a unique ID for an entry,no,no
+Removes the given entry The Entry is removed based on the id link BibEntry id,no,no
+Sets the database s preamble,yes,no
+Removes the string with the given id,yes,no
+Returns the string with the given id,yes,no
+Check if there are strings,yes,no
+Copies the preamble of another BibDatabase,yes,no
+Take the given BibEntry and resolve any string references,no,no
+If we get to this point the string has obviously not been defined locally Check if one of the standard BibTeX month strings has been used,no,no
+save actions defined apply for every entry,yes,no
+We did not find the boundaries of the string ref This makes it impossible to interpret it as a string label So we should just append the rest of the text and finish,no,no
+The file where this database was last saved to,no,no
+Returns the first existing file directory from link getFileDirectories FilePreferences,no,no
+Take care using CrossRefEntry Comparator that referred entries occur after referring ones This is a necessary requirement for BibTeX to be able to resolve referenced entries correctly,no,no
+Filter for empty string as this would be expanded to the jar directory with Paths get,yes,no
+3 preferences directory,yes,no
+if dir is only current directory just use its parent real current directory as path,no,no
+Returns the opposite mode of the current mode as link BibDatabaseMode,yes,no
+This node s parent or null if this node has no parent,no,no
+This node s child or null if this node has no child,yes,no
+Returns this node s parent or an empty Optional if this node has no parent,no,no
+Returns true if this node is an ancestor of the given node p A node is considered an ancestor of itself,no,no
+Adds the given node at the end of the chain E g A B C D A B C D,no,no
+We use some explicit casts of the form T this The constructor ensures that this cast is valid,no,no
+Filters change events and only relays major changes,no,no
+Search all fields Search within the ACM Guide to Computing Literature encompasses the ACM Full Text Collection BibTeX format,no,no
+Map to collect entry type definitions that we must save along with entries using them,no,no
+This exception is thrown in case that the SQL database structure is not compatible with the current shared database support mechanisms,no,no
+Some file formats write something at the start of the file like the encoding,no,no
+use a map instead of a set since I need to know how many of each key is in there,no,no
+Helper function for counting the number of the key usages Removes the given key from the internal keyset together with the count of it if the key is set to 1 If it is not set to 1 the counter will be decreased br Special case If a null or empty key is passed it is not counted and thus not removed,no,no
+Runs the formatter on the specified field in the given entry If the formatter returns an empty string then the field is removed,no,no
+Do nothing,yes,no
+Array of children may be empty if this node has no children but never null,no,no
+This node s parent or null if this node has no parent,yes,no
+Get the child index of this node in its parent p If this node is a root then an UnsupportedOperationException is thrown Use the isRoot method to check for this case,no,no
+Gets the number of levels above this node i e the distance from the root to this node p If this node is the root returns 0,no,no
+Returns the path from the root to get to this node The last element in the path is this node,no,no
+Returns the previous sibling of this node in the parent s children list Returns an empty Optional if this node has no parent or is the parent s first child p This method performs a linear search that is O n where n is the number of children,no,no
+Returns whether the specified index is a valid index for a child,yes,no
+Check if we must write the type definition for this entry as well Our criterion is that all non standard types not all customized standard types must be written,no,no
+Removes the subtree rooted at this node from the tree giving this node an empty parent Does nothing if this node is the root of it tree,no,no
+If user defined entry type then add it Otherwise enrich returns empty optional it is a completely unknown entry type so ignore it,no,no
+Sorts the list of children according to the order induced by the specified link Comparator p All children must be mutually comparable using the specified comparator that is code c compare e1 e2 must not throw a code ClassCastException for any children code e1 and code e2 in the list,no,no
+Removes this node from its parent and makes it a child of the specified node by adding it to the specified position in the children list In this way the whole subtree based at this node is moved to the given node,no,no
+Creates a deep copy of this node and all of its children,no,no
+nothing to sort,yes,no
+Perform checks and changes for users with a preference set from an older JabRef version,no,no
+Added from Jabref 2 11 beta 4 onwards to fix wrong encoding names,no,no
+Upgrade the sort order preferences for the current version The old preference is kept in case an old version of JabRef is used with these preferences but it is only used when the new preference does not exist,no,no
+Write type definitions if any,yes,no
+Migrate default pattern,no,no
+Pref node already exists do not migrate from previous version,no,yes
+finally write whatever remains of the file but at least a concluding newline,no,no
+Returns a unique key for the formatter that can be used for its identification,yes,no
+Formats a field value by with a particular formatter transformation Calling this method with a null argument results in a NullPointerException,no,no
+FulltextFetcher implementation that attempts to find a PDF URL at ACS,no,no
+Returns a default hashcode of the formatter based on its key,yes,no
+add new list into the hashmap if needed,yes,no
+add the formatter to the map if it is not already there,no,no
+convert the contents of the hashmap into the correct serialization,no,no
+Then we go through the string looking for references to other strings If we find references to strings that we will write but still haven t we write those before proceeding This ensures that the string order will be acceptable for BibTeX,no,no
+Imports a Biblioscape Tag File The format is described on http www biblioscape com download Biblioscape8 pdf Several Biblioscape field types are ignored Others are only included in the BibTeX field comment,no,no
+ignore empty lines e g at file,no,no
+end entry delimiter item complete,yes,no
+else if entry getKey equals AC hm put entry getValue toString else if entry getKey equals LP hm put entry getValue toString,yes,no
+to find type first check TW then RT,no,no
+depending on bibtexType decide where to place the titleRT and titleTI,yes,no
+concatenate address and country,yes,no
+set comment if present,yes,no
+Return a BibEntry by looking up the given url from the BibSonomy scraper,no,no
+First try to match by string names,no,no
+We have found a string with a matching name,yes,no
+But they have non matching contents so we ve found a change,no,no
+No match for this string,yes,no
+See if we can detect a name change for those entries that we couldn t match based on their content,no,no
+Finally see if there are remaining strings in the new database They must have been added,no,no
+We re dealing with a special character usually either an undotted i or j or an accent like one in Table 3 1 of the LaTeX manual or a foreign character like one in Table 3 2 if the first character after the left brace is a backslash the special character ends with the matching right brace How we handle what is in between depends on the special character In general this code will do reasonably well if there is other stuff too between braces but it doesn t try to do anything special with colon s,no,no
+Retrieve PDF link,no,no
+Determine whether there starts a special char at pos e g oe AE Return it as string If nothing found return Optional empty Also used by BibtexPurify,no,no
+All characters lower case Obey,yes,no
+three options 1 original order 2 order specified in metaData 3 order specified in preferences,no,no
+skip over open brace,no,no
+skip over the backslash,no,no
+Converts the first character of each word of the given string to a upper case and all others to lower case but does not change words starting with,yes,no
+From the Bibtex manual Pops the top two string literals it changes the case of the second according to the specifications of the first as follows Note The word letters in the next sentence refers only to those at brace level 0 the top most brace level no other characters are changed except perhaps for special characters described in Section 4 If the first literal is the string t it converts to lower case all letters except the very first character in the string which it leaves alone and except the first character following any colon and then nonnull white space which it also leaves alone if it s the string l it converts all letters to lower case and if it s the string u it converts all letters to upper case It then pushes this resulting string If either type is incorrect it complains and pushes the null string however if both types are correct but the specification string i e the first string isn t one of the legal ones it merely pushes the second back onto the stack after complaining Another note It ignores case differences in the specification string for example the strings t and T are equivalent for the purposes of this built in function Christopher I think this should be another grammar This parser is horrible,no,no
+Doi field seems to contain Doi cleanup note url ee field,no,no
+We have begun to use getSortedEntries for both database save operations and non database save operations In a non database save operation such as the exportDatabase call we do not wish to use the global preference of saving in standard order,no,no
+http www diva portal org smash aboutdiva jsf dswid 3222 DiVA portal contains research publications and student theses from 40 Swedish universities and research institutions,no,no
+FulltextFetcher implementation that follows the DOI resolution redirects and scans for a full text PDF URL,no,no
+follow all redirects and scan for a single pdf link,no,no
+some publishers are quite slow default is 3s,no,no
+Only check if pdf is included in the link or inside the text ACM uses tokens without PDF inside the link See https github com lehner LocalCopy for more scrape ideas,no,no
+return if only one link was found high accuracy,no,no
+Gets an object for a desired key from this BibtexKeyPattern or one of it s parents in the case of DatabaseBibtexKeyPattern This method first tries to obtain the object from this BibtexKeyPattern via the code get code method of code Hashtable code If this fails we try the default br If that fails we try the parent br If that fails we return the DEFAULT LABELPATTERN br,no,no
+Start drag n drop,yes,no
+A list of all field which are supported,yes,no
+Will only happen if both entries have the field and the content is identical,no,no
+Will only happen if field exists,no,no
+Returns an array of default commandline options to start bootstrapped instance of soffice with You may use it in connection with bootstrap method for example like this pre List list Arrays asList Bootstrap getDefaultOptions list remove nologo list remove nodefault list add invisible Bootstrap bootstrap list toArray new String list size pre,no,no
+Find out if we are configured with DISABLE DYNLOADING or not Try to load the lo bootstrap shared library which won t exist in the DISABLE DYNLOADING case And which will be already loaded otherwise so nothing unexpected happens that case Yeah this would be simpler if I just could be bothered to keep a separate branch for DISABLE DYNLOADING on Android merging in master periodically until I know for sure whether it is what I want or not,no,no
+Get the XTextRange corresponding to the named bookmark param name The name of the bookmark to find return The XTextRange for the bookmark throws WrappedTargetException throws NoSuchElementException,yes,no
+get a reference to the body text of the document,no,no
+We need to catch this one here because the OpenOfficePanel class is loaded before connection and therefore cannot directly reference or catch a DisposedException which is in a OO JAR file,no,no
+Manages which link SidePaneComponent s are shown,no,no
+We need normalized in parenthesis markers for uniqueness checking purposes,no,no
+insert bookmark at the end of the document instead of mxDocText getEnd you could use a text cursor s XTextRange interface or any XTextRange,no,no
+Check if there is page info stored for this citation If so insert it into the citation text before inserting the citation,no,no
+get XTextContent interface,yes,no
+query XBookmarksSupplier from document model and get bookmarks collection,no,yes
+Insert bookmark,no,no
+Insert a copy of the entry,yes,no
+If no empty keys return true,yes,no
+select among multiple installations,yes,no
+This exception is used to indicate that connection to OpenOffice has been lost,yes,no
+Preferences dialog Contains a TabbedPane and tabs will be defined in separate classes Tabs MUST implement the PreferencesTab interface since this dialog will call the storeSettings method of all tabs when the user presses ok,no,no
+This is called if a user starts typing some characters into the keyboard with focus on one ListView The ListView will scroll to the next cell with the name of the PreviewLayout fitting those characters,no,no
+Helper class for sorting visible components based on their preferred position,no,no
+This method is called when the dialog is opened or if it is made visible after being hidden The tab should update all its values This is the ONLY PLACE to set values for the fields in the tab It is ILLEGAL to set values only at construction time because the dialog will be reused and updated,no,no
+Store settings,yes,no
+Theme configuration,yes,no
+This method is called before the link storeSettings method to check if there are illegal settings in the tab or if is ready to be closed This calls the appropriate method in the ViewModel,no,no
+Build a panel for checkbox settings,no,no
+External file links,no,no
+This class manages the GUI state of JabRef including currently selected database currently selected group active search active number of search results,no,no
+shift on win or no modifier,no,no
+menu getItems add nextPreviewLayout menu getItems add previousPreviewLayout,yes,no
+Check whether this operation requires BibTeX keys to be set for the entries If true is returned an error message will be displayed if keys are missing return true if BibTeX keys are required for this operation,no,no
+Linux gnuclient emacslient escaping java string insert cite Blah2001 so sh receives insert cite Blah2001 so emacs receives insert cite Blah2001,no,no
+Redo the change,yes,no
+Redo the change,yes,no
+Load FXML,no,no
+true if the input should be split at a single white space instead of the usual delimiter and for names Useful if the input consists of a list of last names,no,no
+We only create the context menu when really necessary,no,no
+Formatter that only accepts integer More or less taken from http stackoverflow com a 36749659 873661,no,no
+Pseudo classes for drag and drop,yes,no
+We only create the context menu when really necessary,no,no
+Utility class with static methods for javafx link Text objects,no,no
+Runs the given task and returns a Future representing that task Usually you want to use the other method link execute BackgroundTask param V type of return value of the task param task the task to run,no,no
+Shutdown the task executor,yes,no
+Node is directly matched so show it,no,no
+Ensures that suggestion providers are up to date when entries are changed or added,no,no
+Queue on JavaFX thread and wait for completion,no,no
+String converter to be used to convert suggestions to strings,no,no
+Creates a link BackgroundTask that first runs this task and based on the result runs a second task param nextOperation the function that performs the next operation,no,no
+open folders is needed to indirectly support email programs which cannot handle the unofficial mailto attachment property,no,no
+Add the given new possible suggestions to thisSuggestionProvider,yes,no
+key field name,yes,no
+Stores all words in the given field which are separated by SEPARATING CHARS,no,no
+The header can be removed,no,no
+Returns the indexed BasePanel,yes,no
+This class is a wrapper class for the containing list as it is currently not possible to inject complex object types into FXML controller,no,no
+TODO implement,no,no
+TODO Re implement customize entry types feature https github com JabRef jabref issues 4719,no,no
+This method opens a pdf using the giving the parameters to the executing pdf reader,no,no
+Check that the file exists,yes,no
+normalize white spaces,no,no
+External changes to currentPage should result in scrolling to this page,no,no
+Poor mans reverse databinding necessary because we use a constant value above,no,no
+put keywords back,no,no
+First remove fields that the user has removed,no,no
+See if the user has changed the entry type,no,no
+Entry type unknown treat all fields as required,no,no
+Gets a StackPane of related article information to be displayed in the Related Articles tab,no,no
+Ctrl on Windows no modifier on Xubuntu,no,no
+Required fields,yes,no
+Special tabs,no,no
+Remove subscription for old entry if existing,no,no
+Needed to track for which type of entry this tab was build and to rebuild it if the type changes,no,no
+The tab just got the focus Override this method if you want to perform a special action on focus like selecting the first field in the editor,no,no
+Set up details pane,no,no
+Copies the meta and content information of the pdf annotation to the clipboard,no,no
+Opens a new issue on GitHub and copies log to clipboard,no,no
+Set the global variable for this database s file directory before exporting so formatters can resolve linked files correctly This is an ugly hack,no,no
+Performs an export action,yes,no
+Set the global variable for this database s file directory before exporting so formatters can resolve linked files correctly This is an ugly hack,no,no
+Make sure we remember which filter was used to set the default for next time,no,no
+can not use BackgroundTask wrap Runnable because Runnable run can t throw Exceptions,no,no
+Set new location,no,no
+FIXME Show merge dialog,no,no
+Make sure directory exists since otherwise copy fails,no,yes
+GUI Dialog for the feature Find unlinked files,yes,no
+Bind global state,no,no
+Directory,no,no
+panelDirectory setBorder BorderFactory createTitledBorder BorderFactory createEtchedBorder Localization lang Select directory panelFiles setBorder BorderFactory createTitledBorder BorderFactory createEtchedBorder Localization lang Select files panelEntryTypesSelection setBorder BorderFactory createTitledBorder BorderFactory createEtchedBorder Localization lang BibTeX entry creation,yes,yes
+Subscribe to the search,yes,no
+Look up the external file type registered for this filename if any param filename The name of the file whose type to look up return The ExternalFileType registered or null if none,no,no
+First find a list of the default types,yes,no
+This entry indicates that a default entry type should be removed,no,no
+Then add the new one,yes,no
+groupSidePane getToggleCommand setSelected sidePaneManager isComponentVisible GroupSidePane class previewToggle setSelected Globals prefs getPreviewPreferences isPreviewPanelEnabled generalFetcher getToggleCommand setSelected sidePaneManager isComponentVisible WebSearchPane class openOfficePanel getToggleCommand setSelected sidePaneManager isComponentVisible OpenOfficeSidePanel class,yes,no
+No file type was recognized Try to find a usable file type based on mime type,no,no
+No type could be found from mime type Try based on the extension,no,no
+Construct an ExternalFileType from a String array This is used when reading file type definitions from Preferences where the available data types are limited We assume that the array contains the same values as the main constructor in the same order,no,no
+Stores the list of external entry types in the preferences,no,no
+Check if there are path separators in the suffix if so it is definitely not a proper suffix so we should give up,no,no
+Adds the given list of menu items to the context menu The usage of link Supplier prevents that the menus need to be instantiated at this point They are populated when the user needs them which prevents many unnecessary allocations when the main table is just scrolled with the entry editor open,no,no
+Found the linked file so move it,yes,no
+TODO Reenable customize entry types feature https github com JabRef jabref issues 4719 factory createMenuItem StandardActions CUSTOMIZE ENTRY TYPES new CustomizeEntryAction this,no,no
+TODO Show progress,no,no
+If we did not find a file type from the MIME type try based on extension,no,no
+Converts a String value to the Type T If the type cannot be directly casted to T this method must be overriden in a subclass param string The input value to convert return The value or null if the value could not be casted,no,no
+The default context menu with a specific menu copying a DOI URL param textArea text area that this menu will be connected to return menu containing items of the default menu and an item for copying a DOI URL,no,no
+This class represents a file link for a Bibtex entry,no,no
+author jzieren,no,no
+We want to notify all tabs about the changes to avoid problems when changing the column set,no,no
+Number of hits,no,no
+remember path to edited node this cannot be stored as a reference because the reference itself might change the method below is more robust,no,no
+traverse path up to but last element,yes,no
+The path to the global groups root node,no,no
+This holds the new subtree the root s modified children to allow redo,no,no
+get node to edit TODO NULL,no,no
+Dialog for creating or modifying groups Operates directly on the Vector containing group information,no,no
+create layout,no,no
+Edit group changed name to something that is already present,no,no
+configure for current type,no,no
+The groups side pane,yes,no
+panel getUndoManager addEdit new UndoableMoveGroup this groupsRoot moveChange panel markBaseChanged frame output Localization lang Moved group 0 node getNode getGroup getName,yes,no
+In case we want to move an item in the same parent and the item is moved down we need to adjust the target index,no,no
+TODO Keep assignments,no,no
+WarnAssignmentSideEffects warnAssignmentSideEffects newGroup panel frame,yes,no
+New languages of the help have to be added here,no,no
+Save was cancelled or an error occurred,no,no
+Such an error console can be useful in getting complete bug reports especially from Windows users without asking users to run JabRef in a command window to catch the error info p It offers a separate tab for the log output,no,no
+css certificate,yes,no
+css file image,yes,no
+Focus is on text field copy paste cut selected text,no,no
+css github circle,yes,yes
+css library books,yes,no
+css check,yes,no
+css mdi regex,yes,no
+handled by FX in TextInputControl paste,no,no
+Show dialog,yes,no
+This import method never throws an IOException,no,no
+Bibtex result We must merge it into our main base,no,yes
+set timestamp and owner set timestamp and owner,no,no
+TODO Remove old entry Or add it to a list of entries to be deleted We only delete it after Ok is clicked entriesToDelete add other get,no,no
+Add entries,yes,no
+This method is queried in order to find out whether the action needs to be performed or not param pr The result of the BIB parse operation return true if the action should be called false otherwise,no,no
+Opens the given file If null or 404 nothing happens,no,no
+List of actions that may need to be called after opening the file Such as upgrade actions etc that may depend on the JabRef version that wrote the file,no,no
+This method will execute the concrete file opening and loading in a background thread,no,no
+If no files are remaining to open this could mean that a file was already open If so we may have to raise the correct tab,no,no
+Converts journal full names to either iso or medline abbreviations for all selected entries,no,no
+Converts journal abbreviations back to full name for all selected entries,no,no
+never null,no,no
+This class provides a editable text field that is used as table cell It handles the editing of the abbreviation column,no,no
+Unabbreviate the journal name of the given entry,no,no
+icon setToolTipText qualityViewModel getLocalization,yes,no
+icon setToolTipText rankViewModel getLocalization,yes,no
+Init preferences,yes,no
+TODO reflective access should be removed,no,no
+for Entry String SortType entries preferences getColumnPreferences getSortTypesForColumns entrySet Optional TableColumn BibEntryTableViewModel column this getColumns stream filter col entries getKey equals col getText findFirst column ifPresent col col setSortType entries getValue this getSortOrder add col,yes,no

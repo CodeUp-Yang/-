@@ -1,0 +1,249 @@
+yes	@implNote taken from {@link com.sun.javafx.scene.control.behavior.TextAreaBehavior#contextMenuRequested(javafx.scene.input.ContextMenuEvent)}
+yes	icon.setToolTipText(printedViewModel.getLocalization());
+yes	Ask if the user really wants to close the given database
+yes	each entry type
+yes	finally add things to the currently opened tab
+yes	db file exists
+yes	Dir must be a folder, not a file
+yes	Save
+yes	Clears the current log
+yes	Revert the change.
+yes	Get the search describer for a given search query.
+yes	Returns the HashMap containing all key bindings.
+yes	Adds the given entries to this node's group.
+yes	default
+yes	Bug report body
+yes	Do nothing by default
+yes	The only instance of this class:
+yes	Selected entries
+yes	Remove the entry from the import inspection dialog.
+yes	Check if this looks like a remote link:
+yes	Get list of exporters and sort before adding to file dialog
+yes	Initialize protected terms loader
+yes	setContentType(CONTENT_TYPE); StyleSheet sheet = ((HTMLEditorKit) getEditorKit()).getStyleSheet(); sheet.addRule(BODY_STYLE); sheet.addRule(ADDITION_STYLE); sheet.addRule(REMOVAL_STYLE); sheet.addRule(CHANGE_STYLE); setEditable(false);
+yes	Create a new SuggestionProviderString
+yes	Set the new sections name to 'Child_Section'
+yes	UndoableAddOrRemoveGroup undo = new UndoableAddOrRemoveGroup(groupsRoot, new GroupTreeNodeViewModel(newGroups), UndoableAddOrRemoveGroup.ADD_NODE); ce.addEdit(undo);
+yes	retrieve bookmark by name
+yes	Run validation checks
+yes	Be happy with the first found BibEntry and move on to next key
+yes	css: open-in-app *
+yes	css: paperclip*
+yes	PushToApplication
+yes	Create and run cleaner
+yes	If we found it, remove it from the type list:
+yes	Show progress indicator
+yes	Returns the int representing the selected hierarchical group context.
+yes	Update journal abbreviation loader
+yes	Generate dialog title
+yes	css: file-multiple *
+yes	css: star-circle *
+yes	Gets invoked if an entry in the current database changes.
+yes	css:arrow-up-bold *
+yes	Check if there are empty keys
+yes	Represents the view model for a page in the document viewer.
+yes	Updates the view to reflect changes to visible components.
+yes	unknown, cannot un/abbreviate anything
+yes	reset all fields
+yes	css: clipboard-arrow-left *
+yes	Executes a callable task that provides a return value after the calculation is done. @param command The task to execute. @return A Future object that provides the returning value.
+yes	Use default key bindings
+yes	Runs the specified {@link Runnable} on the JavaFX application thread and waits for completion.
+yes	JabRef MainClass
+yes	Create buttons
+yes	Executes a collection of callable tasks and returns a List of the resulting Future objects after the calculation is done. @param tasks The tasks to execute @return A List of Future objects that provide the returning values.
+yes	kill the remote thread
+yes	update all tab titles
+yes	Class for fetching and merging bibliographic information
+yes	Create button that triggers search
+yes	nan
+yes	If we found it, remove it from the type list:
+yes	Check if there are two entries selected
+yes	css: server-plus*
+yes	This method returns the enum constant value
+yes	Runs the given task and returns a Future representing that task.
+yes	File doesn't exist, so we can't move it.
+yes	Loop through the available databases
+yes	If not, start GUI
+yes	empty
+yes	New ZIP file chooser.
+yes	expand node and all children on drag over
+yes	css: code-equal *
+yes	Find entries in clipboard
+yes	insert the connector
+yes	css: file-powerpoint *
+yes	Detect Google search URL
+yes	update keywords
+yes	css: auto-fix*
+yes	css: twitter *
+yes	cloud-upload*
+yes	Removal of a node and all of its children.
+yes	If the crossref entry is not already in the database
+yes	Set headings
+yes	Creates a new auto-completion binding between the given textInputControl and the given suggestion provider.
+yes	Removal of a single node. Children, if any, are kept.
+yes	Map containing all registered external file types:
+yes	Process arguments
+yes	css: label-outline *
+yes	Remove entry
+yes	Add the new component
+yes	Perform migrations
+yes	expand or collapse the tree item and reset the time
+yes	Returns the path to the system's applications folder.
+yes	Opens a shared database.
+yes	no parameters
+yes	url?
+yes	First, remove tabs that we do not want to show
+yes	css: close-circle *
+yes	Format a name field for the table, according to user preferences.
+yes	css: view-list *
+yes	Nothing to do here
+yes	imageView.setImage(new WritableImage(getDesiredWidth(), getDesiredHeight()));
+yes	prefs.putBoolean(JabRefPreferences.WINDOW_MAXIMISED, getExtendedState() == Frame.MAXIMIZED_BOTH);
+yes	Dialog for managing term list files.
+yes	perform permutation
+yes	Stream.allMatch() (in contrast to Stream.anyMatch() returns 'true' for empty streams, so this has to be checked explicitly.
+yes	Deleted since it does not work anymore. Needs refactoring.MenuItem previousPreviewLayout = new MenuItem(Localization.lang("Previous preview layout"));previousPreviewLayout.setAccelerator(keyBindingRepository.getKeyCombination(KeyBinding.PREVIOUS_PREVIEW_LAYOUT));previousPreviewLayout.setOnAction(event -> basePanel.previousPreviewStyle());MenuItem nextPreviewLayout = new MenuItem(Localization.lang("Next preview layout"));nextPreviewLayout.setAccelerator(keyBindingRepository.getKeyCombination(KeyBinding.NEXT_PREVIEW_LAYOUT));nextPreviewLayout.setOnAction(event -> basePanel.nextPreviewStyle());
+yes	Opens the given URL using the system browser
+yes	Constructor taking two entries
+yes	css: eye *
+yes	first check if a valid entry is selected
+yes	Dir must be a folder, not a file
+yes	Set-up key bindings specific for the entry editor.
+yes	Sets the indeterminate status of the progress bar. <p>
+yes	entry type
+yes	Display warnings, if any
+yes	Set the string associated with this file type's icon.
+yes	Added comparator for Read Status
+yes	General
+yes	Check if we should italicize the "et al." string in citations:
+yes	Inform the user to select entries first.
+yes	css: file-excel *
+yes	icon.setToolTipText(Localization.lang("Open") + " URL");
+yes	checkbox-marked-circle-outline *
+yes	Returns the currently viewed BasePanel.
+yes	If there are entries to add
+yes	default value
+yes	Remove all current possible suggestions
+yes	default pattern
+yes	Check if we are running an acceptable version of Java
+yes	{@inheritDoc}
+yes	everything is ok
+yes	If the given component is visible it will be hidden and the other way around.
+yes	icon.setToo(Localization.lang("Open") + " PDF");
+yes	Focuses the given field.
+yes	Set pasteActionHandler variable to passed handler
+yes	Check if the cloned entry has a crossref field
+yes	must be here
+yes	icon.setToolTipText(Localization.lang("Open %0 file", fileType.getName()));
+yes	Automatically imports the files given as arguments.
+yes	Return null if the directory is not valid.
+yes	setBounds(GraphicsEnvironment.getLocalGraphicsEnvironment().getMaximumWindowBounds()); WindowLocation pw = new WindowLocation(this, JabRefPreferences.POS_X, JabRefPreferences.POS_Y, JabRefPreferences.SIZE_X, JabRefPreferences.SIZE_Y); pw.displayWindowAtStoredLocation();
+yes	icon.setToolTipText(Localization.lang("Open file"));
+yes	Add to group
+yes	empty tab without database
+yes	insert the factory of the loader
+yes	@return Merged BibEntry
+yes	Focuses the search field if it is not focused.
+yes	Decide whether to show this tab for the given entry.
+yes	Register undo/redo listener
+yes	icon.setToolTipText(Localization.lang("Open") + " ArXiv URL");
+yes	insert the acceptor
+yes	Specific importer:
+yes	Font configuration
+yes	Ignore
+yes	Find default choice, if any
+yes	For each cited key
+yes	connection string
+yes	IEEETran
+yes	Sort the visible components by their preferred position
+yes	Find the default directory for this field type:
+yes	Set-up annotation list
+yes	Generate keys for given entries.
+yes	create default local component context
+yes	If there are entries to remove
+yes	Save the database
+yes	Use the received map directly
+yes	Register for changes
+yes	Empty
+yes	Moves the given component down.
+yes	TODO: NULL TODO: Null TODO: NULL
+yes	basePanel.getPreviewPanel().updateLayout(preferences.getPreviewPreferences());
+yes	Returns a list of BasePanel.
+yes	Redo the change.
+yes	Refresh all cite markers in the document.
+yes	Revert the change.
+yes	Good bye!
+yes	Name the reference
+yes	Frame titles.
+yes	In case it did not work
+yes	Makes sure that the given component is visible.
+yes	The action concerned with opening an existing database.
+yes	icon.setToolTipText(priorityViewModel.getLocalization());
+yes	Except every file
+yes	The current version of the installed JabRef
+yes	No occurrence, or at the end Check if there are path separators in the suffix - if so, it is definitely not a proper suffix, so we should give up:
+yes	Pass other keys to parent
+yes	Steps to reproduce
+yes	do not open the original file
+yes	Create help button for currently selected fetcher
+yes	Adding of a single node (group).
+yes	This method returns the default key binding, the key(s) which are assigned
+yes	Revert the change.
+yes	and adding merged entries:
+yes	remove newlines && hyphens before linebreaks
+yes	Other fields
+yes	Editor for external file types.
+yes	configure elements
+yes	Updates the view with the contents of the given entry.
+yes	Store visual state
+yes	Subscribe to type changes for rebuilding the currently visible tab
+yes	Headings
+yes	get XTextContent interface
+yes	Method to change the currentAbbrevaition property to a new abbreviation.
+yes	Update the merged entry
+yes	release panel from save status
+yes	Set text of each of the boxes
+yes	Do nothing
+yes	Check the given possible suggestion is a match (is a valid suggestion)
+yes	Read name format options: MK:
+yes	Get the page number of the current page in the document.
+yes	fields
+yes	Ask if keys should be generated
+yes	Swing
+yes	Preferences and XML
+yes	Annotations (@PostConstruct)
+yes	Libre Office
+yes	do nothing
+yes	empty
+yes	The rationale
+yes	Puts content onto the clipboard.
+yes	Get the String residing on the clipboard. @return any text found on the Clipboard; if none found, return an empty String.
+yes	Download web resource to temporary file
+yes	Check if we should import preferences from a file:
+yes	List to put imported/loaded database(s) in.
+yes	Show just a warning message if encoding did not work for all characters:
+yes	Set up auto completion for this database
+yes	AutoCompleter used in the search bar
+yes	check if file is modified
+yes	The action for copying selected entries.
+yes	The action for copying the selected entry's key.
+yes	The action for copying the selected entry's title.
+yes	Collect all non-null keys.
+yes	Collect all non-null keys.
+yes	Collect all non-null keys.
+yes	Create an UndoableInsertEntry object.
+yes	The database just changed.
+yes	Set up name autocompleter for search:
+yes	This will create and display new {@link TextInputDialog} with a text field with a default value to enter data
+yes	Create and display error dialog displaying the given exception. @param message   the error message @param exception the exception causing the error
+yes	 Create and display error dialog displaying the given exception. @param exception the exception causing the error
+yes	Create and display error dialog displaying the given message.
+yes	Shows a custom dialog and returns the result. @param dialog dialog to show @param <R>    type of result
+yes	Do nothing
+yes	Remote listener
+yes	Key binding preferences
+yes	Background tasks
+yes	Width of Ranking Icon Column
+yes	update preferences
+yes	JabRef Launcher

@@ -1,0 +1,1311 @@
+yes	implnote taken from link com sun javafx scene control behavior textareabehavior contextmenurequested javafx scene input contextmenuevent
+yes	icon settooltiptext printedviewmodel getlocalization
+no	synchronize changes of the underlying date value with the temporalaccessorvalue
+yes	ask if the user really wants to close the given database
+no	css information
+no	check if there is a default type with the same name if so this is a modification of that type so remove the default one
+yes	each entry type
+no	todo username domain and identity should be included as in net version todo should check seems that it is not included in log4j2
+no	already parsed via command line parameter e g jabref jar somefile bib
+yes	finally add things to the currently opened tab
+no	to simplify the exporter api we simply do a normal export to a temporary file and read the contents afterwards
+no	this class monitors a set of files for changes upon detecting a change it notifies the registered link fileupdatelistener s implementation based on https stackoverflow com questions 16251273 can i watch for single file change with watchservice not the whole directory
+no	for autogroup
+no	creates a new list in which each element is converted using the provided mapping all changes to the underlying list are propagated to the converted list in contrast to link org fxmisc easybind easybind map observablelist function the items are converted when the are inserted and at the initialization instead of when they are accessed thus the initial cpu overhead and memory consumption is higher but the access to list items is quicker
+no	sets the link consumer that is invoked after the task has failed with an exception the consumer always runs on the javafx thread
+no	todo add undo final undoablemodifysubtree undo new undoablemodifysubtree getgrouptreeroot node remove subgroups panel getundomanager addedit undo
+yes	db file exists
+no	another unlikely possibility is that both disk and mem version has been modified in the same way check for this too
+no	should only occur when preferences are set directly via preferences put and not via setfirstnamemode
+yes	dir must be a folder not a file
+no	this method is called when the user presses ok in the preferences dialog this calls the appropriate method in the viewmodel
+no	todo doesn t work for citations in footnotes tables
+yes	save
+no	constructor with optional column captions for the two entries
+no	if content selector values are present then we want to show the auto complete suggestions immediately on focus
+no	this is called when the user drops some previewlayouts on another cell in chosenlistview to sort them
+no	helper methods for javafx binding some methods are taken from https bugs openjdk java net browse jdk 8134679
+no	formats a string to multiple texts by replacing some parts and adding font characteristics
+no	copies the given list of link logevent s to the clipboard
+no	all entries had keys
+no	add radio buttons if the two entries do not have identical fields
+no	delivers possible completions as a list of link bibentry based on their cite key
+no	css eye
+no	method to add a new abbreviation to the abbreviations list property it also sets the currentabbreviation property to the new abbreviation
+no	class for handling general actions cut copy and paste the focused component is kept track of by globals focuslistener and we call the action stored under the relevant name in its action map
+no	returns a new observablevalue that holds the value held by this observablevalue or code other when this observablevalue is empty
+no	a command that is only executable if a database is open deprecated use instead
+no	define focused tab
+no	a single tab displayed in the entryeditor holding several fieldeditors
+no	poll with timeout in case the library is not analyzed completely but contains no more duplicates
+yes	clears the current log
+no	sets a a new key bind to this objects key binding object if the given key event is a valid combination of keys
+yes	revert the change
+no	fade new page in for smoother transition
+no	css rss
+yes	get the search describer for a given search query
+no	does the actual operation on a bibtex entry based on the settings specified in this same dialog returns the number of occurrences replaced
+no	should be opened in browser
+yes	returns the hashmap containing all key bindings
+no	add menu for fetching bibliographic information
+no	ctrl on win
+no	adds the specified node as a child of the current root the group contained in b newgroups b must not be of type allentriesgroup since every tree has exactly one allentriesgroup its root the b newgroups b are inserted directly i e they are not deepcopy d
+yes	adds the given entries to this node s group
+no	no we canceled or there is no panel to get the database from highly unlikely
+yes	default
+yes	bug report body
+yes	do nothing by default
+no	text after the citation
+yes	the only instance of this class
+no	placeholder class for a custom generic type safe dragboard to be used in drag and drop does not depend on serialization don t use this class directly use the instance provided in link guiglobals localdragboard
+no	search and import unknown references from associated bib files
+no	a wizard dialog for generating a new sub database from existing tex aux file
+no	shows a dialog with the warnings from an import or open of a file
+no	get permutation array
+no	set pseudo classes to indicate if row is root or sub item 1 deep
+no	don t report this error since this getting the suffix is a non critical operation and this error will be triggered and reported elsewhere
+yes	selected entries
+no	for all fields in joint add a row and possibly radio buttons
+no	puts a list of link previewlayout in the map all previous content is cleared
+yes	remove the entry from the import inspection dialog
+no	second check if the duplicate is of another entry in the import
+no	todo remove old entry or add it to a list of entries to be deleted we only delete it after ok is clicked entriestodelete add other get
+no	taken from https stackoverflow com questions 23326562 apache pdfbox convert pdf to images
+yes	check if this looks like a remote link
+yes	get list of exporters and sort before adding to file dialog
+no	save all properties dependent on the id this makes it possible to restore them
+yes	initialize protected terms loader
+no	returns menuitemcontainer node associated with this menu item which can contain 1 label node of type label for displaying menu item text 2 right node of type label for displaying accelerator text or an arrow if it s a menu 3 graphic node for displaying menu item icon and 4 left node for displaying either radio button or check box this is basically rewritten impl styleablegetnode which should not be used since it s marked as deprecated
+yes	setcontenttype content type stylesheet sheet htmleditorkit geteditorkit getstylesheet sheet addrule body style sheet addrule addition style sheet addrule removal style sheet addrule change style seteditable false
+no	sets the name and the abbreviation of the code currentabbreviation property to the values of the code abbreviationsname and code abbreviationsabbreviation properties
+no	finally go through all citation markers and update those referring to entries in our current list
+no	describe advanced search expression
+no	if we re going to override some cite keys warn the user about it
+no	this method is called after the new database has been added to the gui if the isactionnecessary method returned true note if several such methods need to be called sequentially it is important that all implementations of this method do not return until the operation is finished
+no	searches recursively all files in the specified directory br br all files matched by the given link unlinkedpdffilefilter are taken into the resulting tree br br the result will be a tree structure of nodes of the type link checkboxtreeitem br br the user objects that are attached to the nodes is the link filenodewrapper which wraps the link file object br br for ensuring the capability to cancel the work of this recursive method the first position in the integer array state must be set to 1 to keep the recursion running when the states value changes the method will resolve its recursion and return what it has saved so far
+no	this method attaches a linked file from a url if not already linked to an entry using the key and value pair from the findfulltexts map and then downloads the file into the given targetdirectory
+no	init paste handler for urleditor to format pasted url link in textarea
+yes	create a new suggestionproviderstring
+yes	set the new sections name to child section
+no	ok done then try to gather in all we have found since we might have found one or more bibtex results it s best to gather them in a bibdatabase
+no	todo can we find out whether the save was actually done or not
+no	this method shall be used to add a new journal abbreviation file to the set of journal abbreviation files it basically just calls the link openfile path method
+yes	undoableaddorremovegroup undo new undoableaddorremovegroup groupsroot new grouptreenodeviewmodel newgroups undoableaddorremovegroup add node ce addedit undo
+no	no new version could be found only respect the ignored version on automated version checks
+no	compare the deleted entry in memory with the one in the tmpfile the entry could have been removed in memory
+yes	retrieve bookmark by name
+yes	run validation checks
+yes	be happy with the first found bibentry and move on to next key
+yes	css open in app
+no	fills the current values to the text fields
+no	create a default suggestion provider based on the tostring method of the generic objects
+no	the lines above work also if the dir does not exist at all null is accepted by the filechooser as no inital path
+yes	css paperclip
+no	converts the citations into the rtf format
+yes	pushtoapplication
+no	returns the default context menu items except undo redo
+no	use preferences value if no db is open
+no	we have to use supplier for the localized text so that language changes are correctly reflected
+no	todo switch icon color searchicon seticon icontheme jabreficon advanced search geticon
+no	we have overwritten the marker for the start of the reference list we need to add it again
+yes	create and run cleaner
+yes	if we found it remove it from the type list
+no	work around for different input methods https github com fxmisc richtextfx issues 146
+no	this class represents a change in any field value the relevant information is the bibentry the field name the old and the new value old new values can be null
+no	parse the temporary file
+yes	show progress indicator
+no	fail on unsupported java versions
+no	get the string associated with this file type s icon
+no	things to be appended to an opened tab should be done after opening all tabs add them to the list
+no	settitle frame title
+no	we do not trim the value at the assignment to enable users to have spaces at the beginning and at the end of the pattern
+no	jni convenience easier to iterate over array than calling hashtable
+no	create menu items one for each case changer
+no	we import all files and collect their results
+no	constructs a link listcell based on the view model of the row and a bunch of specified converter methods
+no	todo store undo if undo isempty groupselector concludeassignment undoablechangeentriesofgroup getundoableedit target undo target getnode assignedentries
+no	todo this means a duplicate string name exists so it s not a very exceptional situation we should maybe give a warning
+no	dialog shown when closing of application needs to wait for a save operation to finish
+no	todo find a better way to update preview
+no	we are alone so we start the server
+no	keep track of changes made to the columns like reordering or resizing
+no	the encoding of shared database is always utf 8
+no	replace the placeholder if used
+no	if the file is an ordinary file i e not a resource part of a jar bundle we watch it for changes and turn on live reloading
+no	shift on windows or no modifier
+no	show tooltips
+no	this class provides a editable text field that is used as table cell it handles the editing of the name column
+no	return the first one we found anyway
+no	regex is correct otherwise ok would have been disabled therefore i don t catch anything here
+yes	returns the int representing the selected hierarchical group context
+no	todo warn if assignment has undesired side effects modifies a field keywords if warnassignmentsideeffects warnassignmentsideeffects mnode getnode getgroup mpanel frame return user aborted operation
+no	bidirectional binding does not work so use listeners instead
+no	main function for building the merge entry jpanel
+no	a prefstab is a component displayed in the preferencedialog it needs to extend from component
+no	the actual operation this method will not be called on the event dispatch thread so it should not do gui operations without utilizing invokelater
+no	create a dummy group
+no	an action for launching mass field functionality defaults to selected entries or all entries if none are selected input field name either set field or clear field
+no	need to toggle a twice to make sure nothing is selected
+no	ctrl on win no modifier on xubuntu
+no	if we are supposed to set character format for citations must run a test before we delete old citation markers otherwise if the specified character format doesn t exist we end up deleting the markers before the process crashes due to a the missing format with catastrophic consequences for the user need to do this only once
+no	get center of focused cell
+no	opens a new console starting on the given file location if no command is specified in link globals the default system console will be executed
+no	i think setting root to null is not possible
+no	general info dialog the macadapter calls this method when quit is selected from the application menu cmd q is pressed or quit is selected from the dock the function returns a boolean indicating if quitting is ok or not p non osx jabref calls this when choosing quit from the menu p side effect tears down jabref
+no	fits the standard found x entries message thus hinders the searchbar to jump around while searching if the frame width is too small
+no	view model for a field editor that shows various options backed by a map
+no	hide horizontal scrollbar and always wrap text
+no	delivers possible completions as a list of link author s
+no	xml syntax highlighting for richtextfx codearea created by c carlos martins github cemartins license bsd 2 clause see https github com fxmisc richtextfx blob master license and https github com fxmisc richtextfx blob master richtextfx demos readme md xml editor
+no	inserts the jabrefpreferences values into the the properties of the viewmodel
+no	alt on windows
+no	for each column get either actual width or if it does not exist default value
+no	opens the import inspection dialog to let the user decide which of the given entries to import
+yes	update journal abbreviation loader
+yes	generate dialog title
+no	wrapper around one of our actions from link action to convert them to controlsfx link org controlsfx control action action
+no	open file browser
+no	flipped around
+yes	css file multiple
+no	find office executable relative to this class s class loader
+no	add the entries to the open tab
+yes	css star circle
+no	set empty background and create proper rendering in background for smoother loading
+no	function to initialize parameters currently it is expected that commandpathpreferencekey is set to the path of the application
+no	the root of the global groups tree
+yes	gets invoked if an entry in the current database changes
+no	wait until office is started
+no	check if we are supposed to set a character format for citations
+yes	css arrow up bold
+no	todo reflective access should be removed
+no	creates a column for dois or urls the code firstfield is preferred to be shown over code secondfield
+no	get the comparator to order the suggestions
+yes	check if there are empty keys
+no	repeat for individual file dir reuse text and dir vars
+no	alt on win
+yes	represents the view model for a page in the document viewer
+no	menu to show up on right click in a text field for converting text formats
+no	this is ugly but we have no proper update mechanism in place to propagate the changes so redraw everything
+no	todo print error message localization lang pdf does not exist
+no	prints parsing statistics
+no	calls the link abbreviationsfileviewmodel writeorcreate method for each file in the journalfiles property which will overwrite the existing files with the content of the abbreviations property of the abbriviationsfile non existing files will be created
+no	sets the link consumer that is invoked after the task is successfully finished the consumer always runs on the javafx thread
+no	copyright c 2014 2016 controlsfx all rights reserved redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation and or other materials provided with the distribution neither the name of controlsfx any associated website nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission this software is provided by the copyright holders and contributors as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed in no event shall controlsfx be liable for any direct indirect incidental special exemplary or consequential damages including but not limited to procurement of substitute goods or services loss of use data or profits or business interruption however caused and on any theory of liability whether in contract strict liability or tort including negligence or otherwise arising in any way out of the use of this software even if advised of the possibility of such damage
+no	extract destination url
+yes	updates the view to reflect changes to visible components
+no	this class represents a change in any field value the relevant information is the bibentry the field name the old and the new value old new values can be null
+no	abstract class for pushing entries into different editors
+no	put the warning into as exception text it will be displayed to the user
+no	this wraps the old swing commands so that they fit into the new infrastructure in the long term this class should be removed
+no	the default context menu with a specific menu item to cleanup url
+no	icon is chosen based on field name in cell so map fields to its names
+no	execute command
+no	ignored
+no	returns true if there is an external file type registered for this extension
+yes	unknown cannot un abbreviate anything
+no	vim set shiftwidth 4 softtabstop 4 expandtab
+no	redo the change
+no	we need to get the tab header the following is a ugly workaround
+yes	reset all fields
+no	similar to link org fxmisc easybind monadic monadicobservablevalue
+no	nan
+yes	css clipboard arrow left
+no	todo replace by http docs oracle com javase 7 docs api java awt desktop html http stackoverflow com questions 18004150 desktop api is not supported on the current platform
+yes	executes a callable task that provides a return value after the calculation is done param command the task to execute return a future object that provides the returning value
+no	need to run this on the javafx thread
+no	set original filename again
+no	if required check that all entries have bibtex keys defined
+no	check if the value returned by getcolumnvalue is the same as a simple check of the entry s field s would give the reasons for being different are combinations may also happen the entry has a crossref where the field content is obtained from the field has a string in it which getcolumnvalue resolves there are some alias fields for example if the entry has a date field but no year field link bibentry getresolvedfieldoralias string bibdatabase will return the year value from the date field when queried for year
+no	todo imlement default
+yes	use default key bindings
+no	store shown columns and their width in preferences
+no	todo add undo final undoableaddorremovegroup undo new undoableaddorremovegroup groupsroot node undoableaddorremovegroup remove node keep children panel getundomanager addedit undo
+no	read all saved file paths and read their abbreviations
+no	on linux java fx fonts look blurry per default this can be improved by using a non default rendering setting see https github com woky javafx hates linux
+yes	runs the specified link runnable on the javafx application thread and waits for completion
+yes	jabref mainclass
+no	bootstraps the component context from a uno installation
+no	if globals prefs iskeywordsyncenabled return final bibentry entry event getbibentry namedcompount code similar to specialfieldupdatelistener namedcompound nc new namedcompound localization lang synchronized special fields based on keywords list fieldchange changes specialfieldsutils syncspecialfieldsfromkeywords entry globals prefs getkeyworddelimiter for fieldchange change changes nc addedit new undoablefieldchange change don t insert the compound into the undomanager it would be added before the component which undoes the insertion of the entry and creates heavy problems which prohibits the undo the deleting multiple entries
+no	get target folder
+no	ctrl on windows no modifier on xubuntu
+no	default command
+no	reloads the jabrefpreferences into the ui
+no	we define two file type objects as equal if their name extension openwith and iconname are equal
+yes	create buttons
+no	time stamp
+no	this class can be used to wrap an see observablelist inside it when wrapped any listener listening for updates to the wrapped observablelist for example because of a binding to it is ensured to be notified on the javafx application thread it should be used to implement bindings where updates come in from a background thread but should be reflected in the ui where it is necessary that changes to the ui are performed on the javafx application thread
+yes	executes a collection of callable tasks and returns a list of the resulting future objects after the calculation is done param tasks the tasks to execute return a list of future objects that provide the returning values
+no	this will set the code currentfile property to the link abbreviationsfileviewmodel object that was added to the code journalfiles list property lastly if there are no files in the list property this methode will do nothing as the code currentfile property is already code null
+no	method to delete the abbreviation set in the currentabbreviation property the currentabbreviationproperty will be set to the previous or next abbreviation in the abbreviations property if applicable else it will be set to code null if there are no abbreviations left
+no	we need to sort the reference marks according to their order of appearance
+no	returns a wrapper around the given list that posts changes on the javafx thread
+yes	kill the remote thread
+no	first try xmp import if empty try pdf import otherwise create empty entry
+no	revert the change
+no	go through unchanged types remove them from the ones that should be stored and from the list of defaults since we don t need to mention these in prefs
+no	checks if all tabs are valid todo after conversion of all tabs use mvvmfx validator todo should be observable for binding of ok button in view
+no	next add all the visible tabs if not already present at the right position
+yes	update all tab titles
+no	helper class to create and style controls according to an link action
+yes	class for fetching and merging bibliographic information
+no	paranoia ensure that there are never two instances of allentriesgroup
+yes	create button that triggers search
+no	activate context menu if user presses the context menu key
+yes	nan
+no	add the edit field for bibtex key
+no	remove all reference marks that don t look like jabref citations
+no	although entries are redefined without use this also updates linksourcebase
+no	for the remaining entries intersection has to be used this approach ensures that one empty keyword list leads to an empty set of common keywords
+no	a very simple implementation of the link taskexecutor interface every submitted task is invoked in a separate thread
+no	all buttons in base dialogs react on enter
+no	but not for this entry
+yes	if we found it remove it from the type list
+no	the main window of the application
+no	redo the change
+no	tools for automatically detecting openoffice or libreoffice installations
+no	heuristic missed so try to get page number from first shown page
+no	assuming the current page is a4 or has same aspect ratio
+yes	check if there are two entries selected
+no	this class controls the user interface of the journal abbreviations dialog the ui elements and their layout are defined in the fxml file
+no	only add tab if db is not already open
+no	this class represents the change of type for an entry
+no	general
+no	sets the title of the main window
+no	check mode of currently used db
+no	no parent root just add
+no	write the entries using sw which is used later to form the email content
+no	opens the given files if one of it is null or 404 nothing happens
+no	ask for consent to send data to mr dlib on first time to tab
+no	only the first of the extensions gotten from filetype is saved into the class using get 0
+no	the path to the edited subtree s root node
+no	up to version 2 4b the mime type is not included
+no	applicationinsights java copyright c microsoft corporation all rights reserved mit license permission is hereby granted free of charge to any person obtaining a copy of this software and associated documentation files the software to deal in the software without restriction including without limitation the rights to use copy modify merge publish distribute sublicense and or sell copies of the software and to permit persons to whom the software is furnished to do so subject to the following conditions the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software the software is provided as is without warranty of any kind express or implied including but not limited to the warranties of merchantability fitness for a particular purpose and noninfringement in no event shall the authors or copyright holders be liable for any claim damages or other liability whether in an action of contract tort or otherwise arising from out of or in connection with the software or the use or other dealings in the software
+no	on windows store application as empty if the default option is selected or if the application name is empty
+no	creates a list of all files leaf nodes in the tree structure which have been selected
+yes	css server plus
+yes	this method returns the enum constant value
+no	copies the doi url to the clipboard
+no	update type label
+no	update key list to match the new sorting
+yes	runs the given task and returns a future representing that task
+no	alt on windows
+no	runs the cleanup on the entry and records the change
+no	this action can be invoked without an open database so we have to check if we have one before trying to invoke methods to execute changes in the preferences
+no	set up the list of external file types either from default values or from values recorded in preferences
+no	notifies the tab that it got focus and should display the given entry
+no	handled by fx in textinputcontrol paste
+yes	file doesn t exist so we can t move it
+no	opens edit group dialog and changes the given group to the edited one
+no	we can t watch files directly so monitor their parent directory for updates
+no	extract the list of bibtex keys from a reference mark name
+no	leave the expansion state of the tree item as it is
+no	display link to expand text
+no	start looking at changes
+no	change root group even though it ll be allentries anyway
+no	when mime type is included the array length should be 5
+yes	loop through the available databases
+no	replace both entries by merged entry
+no	if value null and then call nullfield has been omitted as updatefield also handles value null
+no	storing a backup of the whole subtree is not required when children are kept
+no	inserts each citation into a html body and copies it to the clipboard
+no	only one linked file open directly
+yes	if not start gui
+yes	empty
+no	after adding the databases go through each and see if any post open actions need to be done for instance checking if we found new entry types that can be imported or checking if the database contents should be modified due to new features in this version of jabref note that we have to check whether i does not go over getbasepanelcount this is because importtoopen might have been used which adds to loadeddatabases but not to getbasepanelcount
+yes	new zip file chooser
+yes	expand node and all children on drag over
+no	todo merge with import
+yes	css code equal
+yes	find entries in clipboard
+no	access the child section s xtextcontent interface and insert it into the document
+no	set the visibility of the progress bar in the right end of the status line at the bottom of the frame
+no	converts a path relative to a base path into a class name
+no	the following is necesary to initiate the drag and drop in javafx although we don t need the contents it doesn t work without
+no	masktext a a
+no	use the correct viewer even if pdf and ps are mixed up
+no	this interface defines potential actions that may need to be taken after opening a bib file into jabref this can for instance be file upgrade actions that should be offered due to new features in jabref and may depend on e g which jabref version the file was last written by this interface is introduced in an attempt to add such functionality in a flexible manner
+no	warning before overwriting is only relevant if overwriting can happen
+no	todo remove this copy as soon as the one included in ai is compatible with log4j 3
+yes	insert the connector
+no	as there is no concept like an empty node icon we return simply the other icon
+no	add all bibdatabases databases to the frame
+no	this is a simple implementation of a generic suggestion provider callback the complexity of suggestion generation is o n where n is the number of possible suggestions
+no	returns a newer version excluding any non stable versions except if the installed one is unstable too if no newer version was found then an empty optional is returned
+no	prints the connection problem to the status bar and shows a dialog if it was executed manually
+yes	css file powerpoint
+yes	detect google search url
+yes	update keywords
+yes	css auto fix
+no	bootstraps the initial component context from a native uno installation see also code cppuhelper defaultbootstrap initialcomponentcontext code
+yes	css twitter
+no	drag and drop support
+no	file on disk has changed thus look for notable changes and notify listeners in case there are such changes
+no	append a given value to a given field for all entries in a collection this method does not update any undomanager but returns a relevant compoundedit that should be registered by the caller
+no	we have to use reflection to get the associated label
+no	if so mark base changed prevent the undo button from removing change marking
+no	passed file we take the first one should be focused
+no	decides if the content stored in the given link dragboard can be droped on the given target row currently the following sources are allowed another group will be added as subgroup on drop entries if the group implements link groupentrychanger will be assigned to group on drop
+no	the string was removed or renamed locally we guess that it was removed
+no	returns a consent dialog used to ask permission to send data to mr dlib
+no	left text pane
+no	initializes the components the layout the data structure and the actions in this dialog
+no	add type change menu
+no	this property is only needed to get proper ide support in fxml files e g validation that parameter passed to icon is indeed of type link icontheme jabreficons
+yes	cloud upload
+yes	removal of a node and all of its children
+no	this worker checks if there is a new version of jabref available if there is it will display a dialog to the user offering him multiple options to proceed see changelog go to the download page ignore this version and remind later if the versions check is executed manually and this is the latest version it will also display a dialog to inform the user
+yes	if the crossref entry is not already in the database
+no	insert it at the current position
+no	especially for the track execute when the action run the same function but from different source
+no	action for the save and save as operations called from basepanel this class is also used for save operations when closing a database or quitting the applications the save operation is loaded off of the gui thread using link backgroundtask callers can query whether the operation was canceled or whether it was successful
+no	the default menu that contains functions for changing the case of text and doing several conversions
+yes	set headings
+no	this method should be called after storing the preferences to collect the properties which require a restart of jabref to load
+yes	creates a new auto completion binding between the given textinputcontrol and the given suggestion provider
+no	we accept all kinds of dates not just in the format specified
+no	this whole method is part of a background task when autodecting instances so we need to show dialog in fx thread
+no	taken from http stackoverflow com a 9417836 873661
+no	we always want that the first item is selected after a change this also automatically selects the first file on the initial load
+no	function to get the command to be executed for pushing keys to be cited
+no	for some reason the graphic is not set correctly by the link actionutils class so we have to fix this by hand
+no	entry type or bibtex key will never be resolved
+yes	removal of a single node children if any are kept
+no	copyright c 2014 2015 controlsfx all rights reserved redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation and or other materials provided with the distribution neither the name of controlsfx any associated website nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission this software is provided by the copyright holders and contributors as is and any express or implied warranties including but not limited to the implied warranties of merchantability and fitness for a particular purpose are disclaimed in no event shall controlsfx be liable for any direct indirect incidental special exemplary or consequential damages including but not limited to procurement of substitute goods or services loss of use data or profits or business interruption however caused and on any theory of liability whether in contract strict liability or tort including negligence or otherwise arising in any way out of the use of this software even if advised of the possibility of such damage
+no	use property as initial source
+yes	map containing all registered external file types
+no	workaround taken from https bitbucket org controlsfx controlsfx issues 330 making textfieldssetupclearbuttonfield
+no	always overwrite keys by default
+no	we are not alone there is already a server out there send command line arguments to other instance
+yes	process arguments
+no	nothing set so we use the default values
+no	run the actual open in a thread to prevent the program locking until the file is loaded
+no	it could be that somehow the path is null for example if it got deleted in the meantime
+no	extract url parameter
+no	collect all callables to execute in one collection
+no	todo add undo store undo information abstractundoableedit undoaddpreviousentries null undoablemodifygroup undo new undoablemodifygroup groupselector this groupsroot node newgroup if undoaddpreviousentries null panel getundomanager addedit undo else namedcompound nc new namedcompound modify group nc addedit undo nc addedit undoaddpreviousentries nc end panel getundomanager addedit nc if addchange isempty undoaddpreviousentries undoablechangeentriesofgroup getundoableedit null addchange
+no	adds the filename to the top of the menu if it already is in the menu it is merely moved to the top
+no	this view model can be used both for add exporter and modify exporter functionalities it takes an optional exporter which is empty for add exporter and takes the selected exporter for modify exporter it returns an optional exporter which empty if an invalid or no exporter is created and otherwise contains the exporter to be added or that is modified
+no	we need to catch this one here because the openofficepanel class is loaded before connection and therefore cannot directly reference or catch a disposedexception which is in a oo jar file
+yes	css label outline
+no	this resize policy is almost the same as link tableview constrained resize policy we make sure that the width of all columns sums up to the total width of the table however in contrast to link tableview constrained resize policy we size the columns initially by their preferred width
+no	we have to cast the bibentries from the bibentrysuggestionprovider to parsedentrylink
+no	puts a list of link bibentry in the map all previous content is cleared
+no	this wraps the old swing commands so that they fit into the new infrastructure in the long term this class should be removed
+no	run in one minute
+no	see if there are duplicate citations marks referring to different entries if so we need to use uniquefiers
+no	todo http api openoffice org docs developersguide officedev officedev xhtml 1 1 3 2 1 2 frame hierarchies
+no	todo print error message localization lang error while writing file tostring ex
+no	parse the modified file
+no	represents a binding between a text input control and a auto completion popup this class is a slightly modified version of link impl org controlsfx autocompletion autocompletiontextfieldbinding that works with general text input controls instead of just text fields
+no	creates an instance of link linkedfile based on the given file we try to guess the file type and relativize the path against the given file directories todo move this method to link linkedfile as soon as link customexternalfiletype lives in model
+no	create a default suggestion provider based on the tostring method of the generic objects using the provided stringconverter
+yes	remove entry
+no	repaints the table with the most recent font configuration
+no	updates the timestamp of changed entries if the feature is enabled
+yes	add the new component
+no	setting the character format failed so we throw an exception that will result in an error message for the user
+no	implementation of link taskexecutor that runs every task on the current thread i e in a sequential order this class is not designed to be used in production but should make code involving asynchronous operations deterministic and testable
+no	no file matched the name try to open it directly using the given app
+no	represents the viewport for a page note the instances of link documentviewerpage are reused i e not every page is rendered in a new instance but instead link documentviewerpage updateitem object is called
+no	set a given field to a given value for all entries in a collection this method does not update any undomanager but returns a relevant compoundedit that should be registered by the caller
+no	go back to the relevant position
+no	displays an bibentry using the given layout format
+no	saved now exit
+no	try to get as much information from the temporal accessor
+no	there is apparently no neat way to get the page number from a pdpage thus this old style for loop
+no	read the prefs information for file types
+no	start office process
+no	make a list of all pdfs linked from this entry
+no	this method is called when the dialog is opened or if it is made visible after being hidden this calls the appropriate method in the viewmodel
+yes	perform migrations
+no	constructs a link tablecell based on the value of the cell and a bunch of specified converter methods
+no	store new patterns globally
+no	a backup of the groups before the modification
+no	mappedlist implementation based on https github com corda corda blob master client jfx src main kotlin net corda client jfx utils mappedlist kt
+no	start of ugly hack we need to find out which tabs will be shown and which not and remove and re add the appropriate tabs to the editor we don t want to simply remove all and re add the complete list of visible tabs because the tabs give an ugly animation the looks like all tabs are shifting in from the right this hack is required since tabbed gettabs setall visibletabs changes the order of the tabs in the editor
+no	make sure the layout is set according to the checkbox
+no	shift on win or no modifier
+yes	expand or collapse the tree item and reset the time
+no	the user wants to save
+no	open the file
+yes	returns the path to the system s applications folder
+yes	opens a shared database
+yes	no parameters
+no	this will wrap the built in and ieee abbreviations in pseudo abbreviation files and add them to the list of journal abbreviation files
+yes	url
+yes	first remove tabs that we do not want to show
+no	prevent right click to select group
+yes	css close circle
+no	unknown external file type this instance represents a file type unknown to jabref this can happen for example when a database is loaded which contains links to files of a type that has not been defined on this jabref instance
+no	wait 500 ms then try to connect again but do not wait longer than 5 min 600 500 ms total
+no	returns a text formatter that restricts input to integers
+yes	format a name field for the table according to user preferences
+yes	css view list
+no	ok we have seen this exact marker before
+no	execute the callables and wait for the results
+no	stores all user dialogs related to link backupmanager
+yes	nothing to do here
+no	the minimum number of selected entries to ask the user for confirmation
+no	exception used to indicate that the plugin attempted to set a character format that is not defined in the current openoffice document
+no	create call with arguments we need a socket pipe does not work https api libreoffice org examples examples html
+yes	imageview setimage new writableimage getdesiredwidth getdesiredheight
+no	return a boolean if the selected entry have url or doi
+no	this class can be used to wrap a see stringproperty inside it when wrapped any listener listening for updates to the wrapped stringproperty for example because of a binding to it is ensured to be notified on the javafx application thread it should be used to implement bindings where updates come in from a background thread but should be reflected in the ui where it is necessary that changes to the ui are performed on the javafx application thread
+yes	prefs putboolean jabrefpreferences window maximised getextendedstate frame maximized both
+yes	dialog for managing term list files
+no	check if a path to the command has been specified
+no	will only happen if field exists
+no	we need to make a copy as instances of logevent are reused by log4j
+yes	perform permutation
+yes	stream allmatch in contrast to stream anymatch returns true for empty streams so this has to be checked explicitly
+no	if there is no value do nothing
+no	set the default value
+no	update the citation list depending on the selected reference
+no	enable actions that depend on connect
+yes	deleted since it does not work anymore needs refactoring menuitem previouspreviewlayout new menuitem localization lang previous preview layout previouspreviewlayout setaccelerator keybindingrepository getkeycombination keybinding previous preview layout previouspreviewlayout setonaction event basepanel previouspreviewstyle menuitem nextpreviewlayout new menuitem localization lang next preview layout nextpreviewlayout setaccelerator keybindingrepository getkeycombination keybinding next preview layout nextpreviewlayout setonaction event basepanel nextpreviewstyle
+no	for all types
+no	we only handle entry modify here so the context is always a path
+yes	opens the given url using the system browser
+yes	constructor taking two entries
+no	we create a decoration pane ourselves for performance reasons otherwise it has to be injected later leading to a complete redraw relayout of the complete scene
+yes	css eye
+yes	first check if a valid entry is selected
+no	return a string for displaying a node name and its number of children if it is a directory
+yes	dir must be a folder not a file
+yes	set up key bindings specific for the entry editor
+no	bootstraps a servicemanager with the jurt base components registered see also unoidl code com sun star lang servicemanager code
+no	the footnote s anchor gives the correct position in the text
+no	see if it helps to append in
+no	remove annotations for the current entry and reinitialize annotation cache
+no	for some reason the graphic is not set correctly so let s fix this
+no	set up groups tree
+no	store the directory for next time
+no	those threads will be allowed to finish
+no	fetches possibly saved data and configures the control elements respectively
+no	exception used to indicate that the plugin attempted to set a character format that is not defined in the current openoffice document
+no	autosave
+yes	sets the indeterminate status of the progress bar p
+no	the action was either canceled or unsuccessful
+no	remove fields which are not in the merged entry unless they are internal fields
+no	text before the citation
+yes	entry type
+yes	display warnings if any
+yes	set the string associated with this file type s icon
+yes	added comparator for read status
+no	this constructor should only be called to create a pseudo abbreviation file for built in lists this means it is a placeholder and it s path will be null meaning it has no place on the filesystem it s ispseudofile property will therefore be set to true
+no	todo reflective access should be removed
+no	a new or modified entry type construct it from the string array
+no	to account for numbering and for uniqiefiers we must refresh the cite markers
+no	open a http pdf ps viewer for the given link string
+yes	general
+no	read all keybindings from the keybinding repository and create table keybinding models for them
+no	text leading up to s1 insert s2
+no	migrations warning for migrating the review into the comment field
+no	todo show detailed description of the changes stringbuilder sb new stringbuilder html localization lang changes have been made to the following metadata elements p br nbsp nbsp sb append changes stream map unit unit key collect collectors joining br nbsp nbsp sb append html infopane settext sb tostring
+no	global string constants for gui actions
+no	put everything together
+yes	check if we should italicize the et al string in citations
+yes	inform the user to select entries first
+no	performs the change this method is responsible for adding a proper undo edit to the namedcompound so the change can be undone
+no	set up bindings
+no	try to contact already running jabref
+yes	css file excel
+no	opens the url with the users standard browser if that fails a popup will be shown to instruct the user to open the link manually and the link gets copied to the clipboard
+no	sets the link runnable that is invoked after the task is finished irrespectively if it was successful or failed with an error
+no	field editor that provides various pre defined options as a drop down combobox
+no	this method stores all file paths of the files in the journalfiles property to the global jabref preferences pseudo abbreviation files will not be stored
+yes	icon settooltiptext localization lang open url
+no	an empty search field should cause the search to be cleared
+no	priority icon used for the menu
+yes	checkbox marked circle outline
+yes	returns the currently viewed basepanel
+no	generate keys
+no	this class is similar to link graphicvalidationdecoration but with a different style and font based icon
+no	this method returns a jcomponent detailing the nature of the change
+no	only remove explicit groups from the entries keyword groups should not be deleted
+no	are there children or children of children that are matched if yes we also need to show this node
+yes	if there are entries to add
+no	node should be generated for each call as nodes can be added to the scene graph only once
+no	the user doesn t want to override cite keys
+no	todo add undo panel getundomanager addedit new undoablefieldchange entry editor getname text nextabbreviation
+no	shows a dialog with the warnings from an import or open of a file
+no	the popup has private access in link autocompletionbinding so we use reflection to access it
+no	try to strip the query string if any to get the correct suffix
+no	add chosen export type to last used pref to become default
+no	create a new textsection from the document factory and access it s xnamed interface
+no	a tag item in a link tagbar
+no	todo warn if warnassignmentsideeffects warnassignmentsideeffects node getnode getgroup panel frame return user aborted operation
+no	todo expand parent to make new group visible parent expand
+no	this class will copy each selected entry s bibtex key as a hyperlink to its url to the clipboard in case an entry doesn t have a bibtex key it will not be copied in case an entry doesn t have an url this will only copy the bibtex key
+no	check whether there is another icon defined for this file type
+no	this needs to fixed because it gives asdf when going prefs get lyxpipe
+no	concatenates the formatted message of the given link logevent s by using the a new line separator
+no	creates a link backgroundtask that first runs this task and based on the result runs a second task
+no	opens new group dialog and add the resulting group to the specified group
+no	on all oses there is a generic application available to handle file opening so use this one
+no	generate the new cite keys for each entry
+yes	default value
+no	customization of appearance parameters
+no	remove node then insert all children
+yes	remove all current possible suggestions
+no	get entries and check if it makes sense to perform this operation
+no	this method first saves all external files to its internal list then writes all abbreviations to their files and finally updates the abbreviations auto complete it basically calls link saveexternalfileslist link savejournalabbreviationfiles and finally link journalabbreviationloader update journalabbreviationpreferences
+no	do not open the original file
+no	finds the entry in the list best fitting the specified entry even if no entries get a score above zero an entry is still returned
+no	no more bps to check we found a matching one
+yes	default pattern
+no	we try to find the page that is displayed in the center of the viewport
+no	function to get the command name in case it is different from the application name
+yes	check if we are running an acceptable version of java
+yes	inheritdoc
+no	alt on windows
+no	general information
+no	compare normalized markers since the actual markers can be different
+no	all keywords from first entry have to be added
+no	must be set here because in initialize the button is still null
+yes	everything is ok
+no	see if we can find a type with matching name in the default type list
+no	we need to wait with setting the divider since it gets reset a few times during the initial set up
+no	we calculate the new hit value we could be more intelligent and try to figure out the new number of hits based on the entry change for example a previously matched entry gets removed hits hits 1
+no	it was modified remove its entry from the defaults list since the type hasn t been removed
+no	cannot rename remote links
+no	remember modified children for redo
+yes	if the given component is visible it will be hidden and the other way around
+no	interface presents user described paste behaviour applying to paste method
+yes	icon settoo localization lang open pdf
+no	first get a list of the default file types as a starting point
+no	the name to change to is already in the database so we can t comply
+no	look up the external file type registered with this name if any
+no	todo add undo redo ce addedit new undoableinsertentry panel getdatabase entry
+no	the action concerned with generate a new sub database from latex aux file
+no	starts the search of unlinked files according chosen directory and the file type selection the search will process in a separate thread and a progress indicator will be displayed
+no	gets the filename for the current linked file and compares it to the new suggested filename
+no	modified externally
+no	responsible for managing of all threads except gui threads in jabref
+no	all the logic is done in openit even raising an existing panel
+yes	focuses the given field
+yes	set pasteactionhandler variable to passed handler
+no	gets invoked if the user selects a different group we need to notify the link statemanager about this change so that the main table gets updated
+no	merge entries
+no	this panel contains the two comboboxes and the add button
+no	gets invoked if the user changes the active database we need to get the new group tree and update the view
+no	use a application if the app is specified and just open filename otherwise
+no	set default values overwritten if editedgroup null
+yes	check if the cloned entry has a crossref field
+no	print icon used for menu
+no	return a string array representing this file type this is used for storage into preferences and the same array can be used to construct the file type later using the string constructor
+yes	must be here
+no	this method will write all abbreviations of this abbreviation file to the file on the file system it essentially will check if the current file is a built in list and if not it will call link abbreviationwriter writeorcreate
+no	constructs an link image for the image representing the given function in the resource file listing images param name the name of the icon such as open save saveas etc return the link image for the function
+no	need to toggle a twice to make sure everything is selected
+no	fetch entries from gui
+yes	icon settooltiptext localization lang open 0 file filetype getname
+no	the default context menu with a specific menu for normalizing person names regarding to bibtex rules
+no	update the map of uniquefiers for the benefit of both the following generation of new citation markers and for the method that builds the bibliography
+no	check if any of the files are already open
+yes	automatically imports the files given as arguments
+yes	return null if the directory is not valid
+yes	setbounds graphicsenvironment getlocalgraphicsenvironment getmaximumwindowbounds windowlocation pw new windowlocation this jabrefpreferences pos x jabrefpreferences pos y jabrefpreferences size x jabrefpreferences size y pw displaywindowatstoredlocation
+no	css file find
+yes	icon settooltiptext localization lang open file
+no	here we store the names of all current files if there is no current file we remove any previously stored filename
+yes	add to group
+no	the subtree that was added or removed
+no	run a recursive search in a background task
+no	read a typical java property url into a map currently doesn t support escaping of the character it simply looks for the first to determine where the key ends both the key and the value is trimmed for whitespace at the ends
+no	asks the user for confirmation that he really wants to the delete the file from disk or just remove the link
+no	different actions depending on where the user releases the drop in the target row bottom top import entries center link files to entry
+yes	empty tab without database
+no	exporterviewmodel wraps a templateexporter from logic and is used in the exporter customization dialog view and viewmodel
+no	the preferences panel for key generation
+yes	insert the factory of the loader
+no	we try to to prevent publishing changes in the search field directly to the search task that takes some time for larger group structures
+no	build individual layout cards for each group
+no	installs the style file and provides live reloading p the live reloading has to be turned on by setting the code djabref theme css code property there two possible modes 1 when only code djabref theme css code is specified then the standard code base css code that is found will be watched and on changes in that file the style sheet will be reloaded and changes are immediately visible 2 when a path to a css file is passed to code djabref theme css code then the given style is loaded in addition to the base css file changes in the specified css file lead to an immediate redraw of the interface p when working from an ide this usually means that the code base css code is located in the build folder to use the css file that is located in the sources directly the full path can be given as value for the vm option code djabref theme css path to src base css code
+no	set entry number in case that is included in the preview layout
+no	for some reason the graphic is not set correctly so let s fix this todo find a way to reuse jabreficonview
+no	pass other keys to children
+no	class is indirectly constructed by log4j
+no	different actions depending on where the user releases the drop in the target row bottom top insert source row before after this row center add as child
+no	opens a file browser of the folder of the given file if possible the file is selected
+no	fixme prefix can be removed
+no	this class represents the removal of an entry the constructor needs references to the database the entry and the map of open entry editors the latter to be able to close the entry s editor if it is opened after an undo and the removal is then undone
+no	we know that tmpentry is not equal to diskentry check if it has been modified locally as well since last tempfile was saved
+no	the preferences might be not initialized in tests return immediately todo replace this ugly workaround by proper injection propagation
+yes	return merged bibentry
+yes	focuses the search field if it is not focused
+yes	decide whether to show this tab for the given entry
+yes	register undo redo listener
+yes	icon settooltiptext localization lang open arxiv url
+no	reporting etc this method is called on the event dispatch thread after pushentries returns
+no	creates an object that can undo redo an edit event
+no	we have to use reflection since tableutil is not visible to us
+yes	insert the acceptor
+no	todo font padding customization setfont guiglobals currentfont
+no	we have sorted the citation markers according to their order of appearance so we simply count up for each marker referring to a new entry
+yes	specific importer
+no	get the office component context
+no	the type of the editing add node remove node keep children remove node and children
+yes	font configuration
+no	shift on windows or no modifier
+no	gui component that allows editing of the fields of a bibentry i e the one that shows up when you double click on an entry in the table p it hosts the tabs required general optional and the buttons to the left p entryeditor also registers itself to the event bus receiving events whenever a field of the entry changes enabling the text fields to update themselves if the change is made from somewhere else
+no	todo float marked entries model updatemarkingstate globals prefs getboolean jabrefpreferences float marked entries
+yes	ignore
+yes	find default choice if any
+no	this marker appears for more than one unique entry
+no	constructs a link treetablecell based on the view model of the row and a bunch of specified converter methods
+no	override used newline character with the one stored in the preferences the preferences return the system newline character sequence as default
+yes	for each cited key
+yes	connection string
+no	generates a plain text string out of the preview and copies it additionally to the html to the clipboard wysiwyg editors use the html plain text editors the text
+yes	ieeetran
+yes	sort the visible components by their preferred position
+no	this method should be called after storing the preferences this calls the appropriate method in the viewmodel
+no	should this be done after we know it was successfully opened
+yes	find the default directory for this field type
+yes	set up annotation list
+no	bootstraps an initial component context with service manager and basic jurt components inserted
+no	redo
+yes	generate keys for given entries
+no	this action keeps a reference to a url when activated it shows the help dialog unless it is already visible and shows the url in it
+no	only serialize linked files not the ones that are automatically found
+no	puts the value of the concrete class in a map all previous content stored in the map is removed
+yes	create default local component context
+no	update appearance of group
+no	checks if there are duplicates to the given entry in the list of entries to be imported
+yes	if there are entries to remove
+no	general fields from preferences
+no	class for creating the information about customizable entry editor tabs
+no	do not make this class final as it otherwise can t be mocked for tests
+no	refresh all reference marks with the citation markers we computed
+yes	save the database
+no	class that defines interaction with an external application in the form of pushing selected entries to it
+no	a hyperlink click listener for javafx webview to open links on click in the browser code adapted from a href https stackoverflow com a 33445383 https stackoverflow com a 33445383 a
+no	constructs a link treetablecell based on the view model of the row and a bunch of specified converter methods
+no	looks up the url for the image representing the given function in the resource file listing images
+no	quick hack to disable navigating
+yes	use the received map directly
+yes	register for changes
+yes	empty
+no	disables selection
+yes	moves the given component down
+no	for the case that the password is already set
+no	updated the original entry with the new fields
+no	gui for tab displaying article recommendations based on the currently selected bibentry
+yes	todo null todo null todo null
+no	a date picker with configurable datetime format where both date and time can be changed via the text field and the date can additionally be changed via the javafx default date picker also supports incomplete dates first recall how the date picker normally works the user selects a date in the popup which sets link valueproperty to the selected date the converter link converterproperty is used to transform the date to a string representation and display it in the text field the idea is now to intercept the process and add an additional step the user selects a date in the popup which sets link valueproperty to the selected date the date is converted to a link temporalaccessor i e enriched by a time component using link addcurrenttime localdate the string converter link stringconverterproperty is used to transform the temporal accessor to a string representation and display it in the text field inspiration taken from https github com edvin tornadofx controls blob master src main java tornadofx control datetimepicker java
+no	a simple command that does not track progress of the action
+no	create a new entry and add it to the undo stack remove the other two entries and add them to the undo stack which is not working
+no	if we are not allowed to overwrite values check if there is a non empty value already for this entry for the new field
+no	holds the version in memory check if it has been modified
+no	this class provides a view model for abbreviation objects which can also define placeholder objects of abbreviations this is indicated by using the code pseudoabbreviation property
+no	todo implement jump to entry todo add toolitp for tag localization lang jump to entry this feature was removed while converting the linked entries editor to javafx right now there is no nice way to re implement it as we have no good interface to control the focus of the main table except directly using the jabrefframe class as below parsedentrylink getlinkedentry ifpresent e frame getcurrentbasepanel highlightentry e
+yes	basepanel getpreviewpanel updatelayout preferences getpreviewpreferences
+no	the mouse location within the cell when the dropping gesture occurs
+no	store changes to table preferences this method is called when the user clicks ok
+no	todo rework so that we don t rely on jabrefframe and not the complete preferences
+no	util class for searching files on the file system which are not linked to a provided link bibdatabase
+no	entry type unknown treat all fields as required
+no	switch to currently selected entry if mode is changed to live
+yes	returns a list of basepanel
+no	we need to wrap the list since otherwise sorting in the table does not work
+no	creates a vbox of the related article information to be used in the stackpane displayed in the related articles tab
+yes	redo the change
+yes	refresh all cite markers in the document
+no	todoswingutilities invokelater undo putvalue action short description event getundodescription undo setenabled event iscanundo redo putvalue action short description event getredodescription redo setenabled event iscanredo
+no	move all children to newnode then add newnode
+no	checks whether the file exists or if a new file should be opened the file will be added to the set of journal abbreviation files if the file also exists its abbreviations will be read and written to the abbreviations property
+no	todo reflective access should be removed
+no	if user does not change anything with his action we do not do anything either even no output message
+no	enriches a suggestion provider by a given set of content selector values
+yes	revert the change
+no	always fill out all the available space
+yes	good bye
+no	enrich auto completion by content selector values
+yes	name the reference
+no	the log event will be forwarded to the link logmessages archive
+no	todo after conversion of all tabs to mvvm rework interface and make validsettings bindable button btnsave button this getdialogpane lookupbutton savebutton btnsave disableproperty bind viewmodel validsettings validproperty not
+yes	frame titles
+no	set to true in case the command could not be executed e g if the file is not found set to true in case the tunnel to the program if one is used does not operate set to true if the corresponding path is not defined in the preferences
+no	add context menu only for non null items
+no	copies the selected entries and formats them with the selected citation style or preview then it is copied to the clipboard this worker cannot be reused
+no	this class defines a type of external files that can be linked to from jabref the class contains enough information to provide an icon a standard extension and a link to which application handles files of this type
+no	error stream has been closed see if there were any errors
+yes	in case it did not work
+no	link filefilter implementation that allows only files which are not linked in any of the link bibentry s of the specified link bibdatabase br br this link filefilter sits on top of another link filefilter implementation which it first consults only if this major filefilter has accepted a file this implementation will verify on that file
+no	sort entries into current members and non members of the group current members will be removed current non members will be added
+no	for only full the auto completer returns the full name e g smith bob for only abbreviated the auto completer returns the first name abbreviated e g smith b for both the auto completer returns both versions
+no	resolve the bibtex key from a citation reference marker name and look up the index of the key in a list of keys
+no	send event to trigger changes
+no	this class provides a model for managing journal abbreviation lists it provides all necessary methods to create modify or delete journal abbreviations and files to visualize the model one can bind the properties to ui elements
+yes	makes sure that the given component is visible
+no	todo show parserwarnings if any not here for importformatreader unknownformatimport p imports parserresultwarningdialog showparserresultwarningdialog p parserresult frame
+yes	the action concerned with opening an existing database
+yes	icon settooltiptext priorityviewmodel getlocalization
+no	check if the type has changed
+no	in case no stringconverter was provided use the default strategy
+no	installs the base css file as a stylesheet in the given scene changes in the css file lead to a redraw of the scene using the new css file
+no	todo add undo and display message movegroupchange undo new movegroupchange grouptreenodeviewmodel source getparent getnode source getnode getpositioninparent target getnode target getchildcount
+yes	except every file
+yes	the current version of the installed jabref
+yes	no occurrence or at the end check if there are path separators in the suffix if so it is definitely not a proper suffix so we should give up
+no	this method causes all open basepanels to set up their tables anew when called from prefsdialog3 this updates to the new settings
+no	pretend that we just switched to the current file in order to refresh the display
+yes	pass other keys to parent
+no	must be executed after the initialization of the view otherwise it doesn t work
+no	remember the type in case we need to uniquefy
+yes	steps to reproduce
+yes	do not open the original file
+no	we have to put entry editor previous before because otherwise the decrease font size is found first
+no	update active search query when switching between databases
+yes	create help button for currently selected fetcher
+no	in case of removing a node but keeping all of its children the number of children has to be stored
+no	move contents from one field to another for a collection of entries
+yes	adding of a single node group
+no	this is called when the user drops some previewlayouts either in the availablelistview or in the empty space of chosenlistview
+no	todo use web search instead as soon as it is available todo use web search instead as soon as it is available
+no	executes the task on the current thread the code is essentially taken from link javafx concurrent task taskcallable call but adapted to run sequentially
+yes	this method returns the default key binding the key s which are assigned
+no	todo add undo undoableaddorremovegroup undo new undoableaddorremovegroup parent new grouptreenodeviewmodel newgroupnode undoableaddorremovegroup add node panel getundomanager addedit undo
+no	test if the field is legally set
+no	need to run this async otherwise the dialog does not work
+yes	revert the change
+yes	and adding merged entries
+yes	remove newlines hyphens before linebreaks
+no	creates a link backgroundtask that first runs this task and based on the result runs a second task
+no	this action checks whether any new custom entry types were loaded from this bib file if so an offer to remember these entry types is given
+no	nan
+yes	other fields
+no	register listener the wrapper created by the fxcollections will set a weak listener on the wrapped list this weak listener gets garbage collected hence we need to maintain a reference to this list
+no	try to download fulltext pdf for selected entry ies by following url or doi link
+yes	editor for external file types
+yes	configure elements
+no	this class is essentially a wrapper around link task we cannot use link task directly since it runs certain update notifications on the javafx thread and so makes testing harder we take the opportunity and implement a fluid interface
+yes	updates the view with the contents of the given entry
+no	try to connect to office
+no	switch tab if asked to do so
+yes	store visual state
+no	this class has an abstract ui role as it listens for an link autosaveevent and saves the bib file associated with the given link basepanel
+no	set owner timestamp
+no	the submenu will behave dependent on what style is currently selected citation preview
+no	find the linking footnote marker
+no	tests if we are running an acceptable java and terminates jabref when we are sure the version is not supported this test uses the requirements for the java version as specified in code gradle build code it is possible to define a minimum version including the built number and to indicate whether java 9 can be used which it currently can t it tries to compare this version number to the version of the currently running jvm the check is optimistic and will rather return true even if we could not exactly determine the version p note users with a very old version like 1 6 will not profit from this since class versions are incompatible and jabref won t even start currently jabref won t start with java 9 either but the warning that it cannot be used with this version is helpful anyway to prevent users to update from an old 1 8 directly to version 9 additionally we soon might have a jabref that does start with java 9 but is not perfectly compatible therefore we should leave the java 9 check alive
+yes	subscribe to type changes for rebuilding the currently visible tab
+no	may happen during initialization just ignore
+no	look for the last in the link and return the following characters this gives the extension for most reasonably named links
+no	no selected group show all entries
+yes	headings
+yes	get xtextcontent interface
+yes	method to change the currentabbrevaition property to a new abbreviation
+yes	update the merged entry
+yes	release panel from save status
+yes	set text of each of the boxes
+yes	do nothing
+no	this class represents the removal of an entry the constructor needs references to the database the entry and the map of open entry editors the latter to be able to close the entry s editor if it is opened before the insert is undone
+no	this method is called to indicate that the settings panel returned from the getsettingspanel method has been shown to the user and that the user has indicated that the settings should be stored this method must store the state of the widgets in the settings panel to globals prefs
+yes	check the given possible suggestion is a match is a valid suggestion
+yes	read name format options mk
+no	this method inserts a cite marker in the text for the given bibentry and may refresh the bibliography
+no	fixme move to viewmodel until fieldformattercleanupspanel is property implemented
+no	since the directory does not exist we cannot move it to there so this option is not checked regardless of the presets stored in the preferences
+no	todo reflective access should be removed
+no	ensure that there is always only one allentriesgroup
+no	class for manipulating the bibliography of the currently start document in openoffice
+no	check for running jabref
+no	the macadapter calls this method when about is selected from the application menu
+no	todo be a bit smarter and try to infer correct icon for example using link org jabref gui externalfiletype externalfiletypes getexternalfiletypebyname string
+no	restore focus to field run this async so that editor is already initialized correctly
+yes	get the page number of the current page in the document
+no	first see if the stripped link gives a reasonable suffix
+no	hide progress indicator if finished over 70 loaded
+yes	fields
+yes	ask if keys should be generated
+no	quote string so explorer handles url query strings correctly
+no	this class provides a model for abbreviation files it actually doesn t save the files as objects but rather saves their paths this also allows to specify pseudo files as placeholder objects
+no	set language to none
+no	to align with buttons below which also have 0 5em padding
+no	todo switch icon color searchicon seticon icontheme jabreficon search geticon
+no	the entry currently shown
+no	setting a multi value special field the setted value is displayed too
+no	first hide old page and show background instead recalculate size of background to make sure its correct
+no	for some reason the graphic is not set correctly so let s fix this
+no	exception used to indicate that the plugin attempted to set a character format that is not defined in the current openoffice document
+no	submits a one shot task that becomes enabled after the given delay
+no	css folder
+no	this action may only be used in a menu or button never in the entry editor filelisteditor and entryeditor have other ways to update the file links
+no	backwards compatibility stub
+yes	swing
+yes	preferences and xml
+yes	annotations postconstruct
+yes	libre office
+no	a mocking class used as a placeholder for the real oracle jdbc drivers to prevent build errors
+no	no data
+no	a mocking class used as a placeholder for the real oracle jdbc drivers to prevent build errors
+no	a mocking class used as a placeholder for the real oracle jdbc drivers to prevent build errors
+yes	do nothing
+no	fixme reuse searchworker here
+no	fixme reuse searchworker here
+no	a mocking class used as a placeholder for the real oracle jdbc drivers to prevent build errors
+no	a mocking class used as a placeholder for the real oracle jdbc drivers to prevent build errors
+no	a mocking class used as a placeholder for the real oracle jdbc drivers to prevent build errors
+no	this package contains stubs for oracle jdbc to prevent build errors if the non distributable oraclejdbdc6 jar is unavailable in the classpath
+yes	empty
+no	annotation to indicate that usage of apachecommonslang3 is explicitly allowed the intention is to fully switch to google guava and only use apache commons lang3 if there is no other possibility
+yes	the rationale
+no	print statistics
+no	defines the different modes that the basepanel can operate in
+yes	puts content onto the clipboard
+yes	get the string residing on the clipboard return any text found on the clipboard if none found return an empty string
+no	will open a file like importfile but will also request jabref to focus on this database
+no	run an entry fetcher from the command line
+yes	download web resource to temporary file
+no	means guess the format
+no	check if we should reset all preferences to default values
+yes	check if we should import preferences from a file
+yes	list to put imported loaded database s in
+no	enables blanks within the search term stands for a blank
+no	export matches
+no	read in the export format take default format if no format entered
+no	default exporter html table with abstract bibtex
+no	export new database
+no	leftover arguments that have a bib extension are interpreted as bib files to open other files and files that could not be opened as bib we try to import instead
+no	we will try to import this file normally we will import it into a new tab but if this import has been initiated by another instance through the remote listener we will instead import it into the current library this will enable easy integration with web browsers that can open a reference file in jabref
+no	write an output if something could be resolved
+yes	show just a warning message if encoding did not work for all characters
+no	this signals that the latest import should be stored in bibtex format to the given file
+no	this signals that the latest import should be stored in the given format to the given file
+no	set the global variable for this database s file directory before exporting so formatters can resolve linked files correctly this is an ugly hack
+no	string clearsearch clearsearch maintable getinputmap put globals getkeyprefs getkey keybinding clear search clearsearch maintable getactionmap put clearsearch new abstractaction override public void actionperformed actionevent e need to close these here b c this action overshadows the responsible actions when the main table is selected switch mode case showing nothing frame getglobalsearchbar endsearch break case showing preview getpreviewpanel close break case showing editor case will show editor entryeditorclosing getentryeditor break default logger warn unknown basepanelmode mode doing nothing break maintable getactionmap put actions cut new abstractaction override public void actionperformed actionevent e try runcommand actions cut catch throwable ex logger warn could not cut ex maintable getactionmap put actions copy new abstractaction override public void actionperformed actionevent e try runcommand actions copy catch throwable ex logger warn could not copy ex maintable getactionmap put actions paste new abstractaction override public void actionperformed actionevent e try runcommand actions paste catch throwable ex logger warn could not paste ex
+no	the search can lead to an unexpected 100 cpu usage which is perceived as a bug if the search incidentally starts at a directory with lots of stuff below it is now disabled by default
+no	returns a collection of suggestion providers which are populated from the current library
+no	generates and copies citations based on the selected entries to the clipboard param outputformat the desired link citationstyleoutputformat
+no	removes the selected entries from the database param cut if false the user will get asked if he really wants to delete the entries and it will be localized as deleted if true the action will be localized as cut
+no	this method is called from jabrefframe if a database specific action is requested by the user runs the command if it is defined or prints an error message to the standard error stream
+no	this method is called from jabrefframe when the user wants to create a new entry param bibentry the new entry
+yes	set up auto completion for this database
+no	sets the entry editor as the bottom component in the split pane if an entry editor already was shown makes sure that the divider doesn t move updates the mode to showing editor then shows the given entry param entry the entry to edit
+no	this method selects the given entry and scrolls it into view in the table if an entryeditor is shown it is given focus afterwards
+no	this method is called from an entryeditor when it should be closed we relay to the selection listener which takes care of the rest
+no	closes the entry editor if it is showing the given entry
+no	depending on whether a preview or an entry editor is showing save the current divider location in the correct preference setting
+no	get an array containing the currently selected entries the array is stable and not changed if the selection changes return a list containing the selected entries is never null
+no	set the query the user currently searches while this basepanel is active
+no	ensures that the search auto completer is up to date when entries are changed aka let the auto completer if any harvest words from the entry actual methods for autocomplete indexingmust run in javafx thread
+no	ensures that the results of the current search are updated when a new entry is inserted into the database actual methods for performing search must run in javafx thread
+no	keeps track of the string dialog if it is open
+no	to contain instantiated entry editors this is to save time as most enums this must not be null
+yes	autocompleter used in the search bar
+no	used to track whether the base has changed since last save
+no	the query the user searches when this basepanel is active
+no	ensure that at each addition of a new entry the entry is added to the groups interface
+no	ensure that all entry changes mark the panel as changed
+yes	check if file is modified
+no	if the database is not empty and no file is assigned the database came from an import and has to be treated somehow mark as changed this also happens internally at basepanel to ensure consistency line 224
+yes	the action for copying selected entries
+no	the action for pasting entries or cell contents more robust detection of available content flavors doesn t only look at first one offered support for parsing string flavor clipboard contents which are bibtex entries this allows you to a paste entire bibtex entries from a text editor web browser etc b copy and paste entries between multiple instances of jabref since only the text representation seems to get as far as the x clipboard at least on my system
+yes	the action for copying the selected entry s key
+yes	the action for copying the selected entry s title
+no	the action for copying a cite for the selected entry
+no	the action for copying the bibtex keys as hyperlinks to the urls of the selected entries
+no	collect all non null titles
+no	all entries had titles
+yes	collect all non null keys
+no	all entries had keys
+yes	collect all non null keys
+no	all entries had keys
+no	ok in a future version this string should be configurable to allow arbitrary exports
+yes	collect all non null keys
+no	all entries had keys
+no	set owner and timestamp
+yes	create an undoableinsertentry object
+yes	the database just changed
+no	focus field and entry in main table async to give entry editor time to load
+no	add the listener that binds selection to state manager todo should be replaced by proper javafx binding as soon as table is implemented in javafx
+no	update entry editor and preview according to selected entries
+no	todo register these actions globally
+no	restore last splitting state before maintable is created as creation affects the stored size of the entryeditors
+yes	set up name autocompleter for search
+no	saves the divider position as soon as it changes we need to keep a reference to the subscription otherwise the binding gets garbage collected
+no	create changemonitor and changepane so we get notifications about outside changes to the file
+no	if the database is not empty and no file is assigned the database came from an import and has to be treated somehow mark as changed
+no	ensure that the suggestion providers are in sync with entries
+no	create empty suggestion providers if auto completion is deactivated
+no	put an asterisk behind the filename to indicate the database has changed
+no	run the search operation
+no	automatically add new entry to the selected group or set of groups
+no	imo only used to update the status found x entries
+no	no url or doi found in the url and doi fields look for web links in the file field as a fallback
+no	useful for checking out new algorithm improvements and thresholds not used inside the jabref code itself
+no	this method takes care of creating dependencies by default it just creates a new instance of the class dependencies without default constructor are constructed by hand
+no	use our own method to construct dependencies
+no	this interface provides methods to create dialogs and show them to the user
+no	this will create and display new link choicedialog of type t with a default choice and a collection of possible choices implnote the implementation should accept code null for code defaultchoice but callers should use link showchoicedialogandwait string string string collection
+no	this will create and display new link textinputdialog with a text fields to enter data
+yes	this will create and display new link textinputdialog with a text field with a default value to enter data
+no	this will create and display a new information dialog it will include a blue information icon on the left and a single ok button to create an information dialog with custom buttons see also link showcustombuttondialogandwait alert alerttype string string buttontype
+no	this will create and display a new information dialog it will include a yellow warning icon on the left and a single ok button to create a warning dialog with custom buttons see also link showcustombuttondialogandwait alert alerttype string string buttontype
+no	this will create and display a new error dialog it will include a red error icon on the left and a single ok button to create a error dialog with custom buttons see also link showcustombuttondialogandwait alert alerttype string string buttontype
+yes	create and display error dialog displaying the given exception param message the error message param exception the exception causing the error
+yes	create and display error dialog displaying the given exception param exception the exception causing the error
+yes	create and display error dialog displaying the given message
+no	this will create and display a new confirmation dialog it will include a blue question icon on the left and a ok and cancel button to create a confirmation dialog with custom buttons see also link showcustombuttondialogandwait alert alerttype string string buttontype
+no	create and display a new confirmation dialog it will include a blue question icon on the left and a ok with given label and cancel button to create a confirmation dialog with custom buttons see also link showcustombuttondialogandwait alert alerttype string string buttontype
+no	create and display a new confirmation dialog it will include a blue question icon on the left and a ok with given label and cancel also with given label button to create a confirmation dialog with custom buttons see also link showcustombuttondialogandwait alert alerttype string string buttontype return true if the use clicked ok otherwise false
+no	create and display a new confirmation dialog it will include a blue question icon on the left and a yes with given label and cancel also with given label button to create a confirmation dialog with custom buttons see also link showcustombuttondialogandwait alert alerttype string string buttontype moreover the dialog contains a opt out checkbox with the given text to support do not ask again behaviour
+no	create and display a new confirmation dialog it will include a blue question icon on the left and a yes with given label and cancel also with given label button to create a confirmation dialog with custom buttons see also link showcustombuttondialogandwait alert alerttype string string buttontype moreover the dialog contains a opt out checkbox with the given text to support do not ask again behaviour
+yes	shows a custom dialog and returns the result param dialog dialog to show param r type of result
+no	constructs and shows a canceable link progressdialog clicking cancel will cancel the underlying service and close the dialog param title title of the dialog param content message to show above the progress bar param task the link task which executes the work and for which to show the dialog
+no	nan
+no	shows a new file save dialog the method doesn t return until the displayed file save dialog is dismissed the return value specifies the file chosen by the user or an empty link optional if no selection has been made after a file was selected the given file dialog configuration is updated with the selected extension type if any
+no	shows a new file open dialog the method doesn t return until the displayed open dialog is dismissed the return value specifies the file chosen by the user or an empty link optional if no selection has been made after a file was selected the given file dialog configuration is updated with the selected extension type if any return the selected file or an empty link optional if no file has been selected
+no	shows a new file open dialog the method doesn t return until the displayed open dialog is dismissed the return value specifies the files chosen by the user or an empty link list if no selection has been made return the selected files or an empty link list if no file has been selected
+no	shows a new directory selection dialog the method doesn t return until the displayed open dialog is dismissed the return value specifies the file chosen by the user or an empty link optional if no selection has been made return the selected directory or an empty link optional if no directory has been selected
+no	displays a print dialog allow the user to update job state such as printer and settings these changes will be available in the appropriate properties after the print dialog has returned the print dialog is also used to confirm the user wants to proceed with printing
+no	shows a new dialog that list all files contained in the given archive and which lets the user select one of these files the method doesn t return until the displayed open dialog is dismissed the return value specifies the file chosen by the user or an empty link optional if no selection has been made return the selected file or an empty link optional if no file has been selected
+no	contains all the different link dataformat s that may occur in jabref
+no	dialog that prompts the user to choose a type for an entry returns null if canceled
+no	the buttontype will always be cancel even if we pressed one of the entry type buttons
+no	we set the managed property so that they will only be rendered when they are visble so that the nodes only take the space when visible avoids removing and adding from the scence graph
+yes	do nothing
+no	this class provides a super class for all dialogs implemented in javafx to create a custom javafx dialog one should create an instance of this class and set a dialog pane through the inherited link dialog setdialogpane dialogpane method the dialog can be shown via link dialog show or link dialog showandwait the layout of the pane should be defined in an external fxml file and loaded it via the link fxmlloader
+no	this field is initialized upon startup only gui code is allowed to access it logic code should use dependency injection
+no	this field is initialized upon startup only gui code is allowed to access it logic code should use dependency injection
+no	manager for the state of the gui
+yes	remote listener
+no	in the main program this field is initialized in jabref java each test case initializes this field if required
+no	key binding preferences
+yes	key binding preferences
+yes	background tasks
+no	fixme workaround for bug https github com microsoft applicationinsights java issues 662
+no	static variables for graphics files and keyboard shortcuts
+no	perform initializations that are only used in graphical mode this is to prevent the xlib connection to 0 0 refused by server error when access to the x server on un x is unavailable
+no	add some additional space to improve appearance
+yes	width of ranking icon column
+no	set up entry editor colors first time
+yes	update preferences
+no	number of characters per line
+no	boolean options
+no	this class provides methods to create default javafx dialogs which will also work on top of swing windows the created dialogs are instances of the link fxdialog class the available dialogs in this class are useful for displaying small information graphic dialogs rather than complex windows for more complex dialogs it is advised to rather create a new sub class of link fxdialog
+no	need to force the alert to layout in order to grab the graphic as we are replacing the dialog pane with a custom pane
+no	create a new dialog pane that has a checkbox instead of the hide show details button use the supplied callback for the action of the checkbox
+no	fool the dialog into thinking there is some expandable content a group won t take up any space if it has no children
+yes	jabref launcher
+no	the side pane is displayed at the left side of jabref and shows instances of link sidepanecomponent
+no	override this method if the component needs to make any changes before it can close
+no	override this method if the component needs to do any actions after it is shown
+yes	nothing to do by default
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	auto generated method stub
+yes	saves the database including only the specified entries
+no	this event is fired from link org jabref logic autosaveandbackup autosavemanager in case that a save task is pending
+no	this is kept in sync with the database upon adding removing an entry it is updated as well
+no	writes all data to the specified writer using each object s tostring method
+yes	checks if the database contains entries
+no	returns whether an entry with the given id exists entry type hashcode
+no	returns a set of strings that contains all field names that are visible this means that the fields are not internal fields internal fields are fields that are starting with
+no	collects entries having the specified bibtex key and returns these entries as list the order of the entries is the order they appear in the database
+no	inserts the entry given that its id is not already in use use util createid to make up a unique id for an entry
+no	removes the given entry the entry is removed based on the id link bibentry id
+yes	sets the database s preamble
+yes	removes the string with the given id
+yes	returns the string with the given id
+yes	check if there are strings
+yes	copies the preamble of another bibdatabase
+no	take the given bibentry and resolve any string references
+no	if we get to this point the string has obviously not been defined locally check if one of the standard bibtex month strings has been used
+yes	save actions defined apply for every entry
+no	we did not find the boundaries of the string ref this makes it impossible to interpret it as a string label so we should just append the rest of the text and finish
+no	the file where this database was last saved to
+no	returns the first existing file directory from link getfiledirectories filepreferences
+no	take care using crossrefentry comparator that referred entries occur after referring ones this is a necessary requirement for bibtex to be able to resolve referenced entries correctly
+yes	filter for empty string as this would be expanded to the jar directory with paths get
+yes	3 preferences directory
+no	if dir is only current directory just use its parent real current directory as path
+yes	returns the opposite mode of the current mode as link bibdatabasemode
+no	this node s parent or null if this node has no parent
+yes	this node s child or null if this node has no child
+no	returns this node s parent or an empty optional if this node has no parent
+no	returns true if this node is an ancestor of the given node p a node is considered an ancestor of itself
+no	adds the given node at the end of the chain e g a b c d a b c d
+no	we use some explicit casts of the form t this the constructor ensures that this cast is valid
+no	filters change events and only relays major changes
+no	search all fields search within the acm guide to computing literature encompasses the acm full text collection bibtex format
+no	map to collect entry type definitions that we must save along with entries using them
+no	this exception is thrown in case that the sql database structure is not compatible with the current shared database support mechanisms
+no	some file formats write something at the start of the file like the encoding
+no	use a map instead of a set since i need to know how many of each key is in there
+no	helper function for counting the number of the key usages removes the given key from the internal keyset together with the count of it if the key is set to 1 if it is not set to 1 the counter will be decreased br special case if a null or empty key is passed it is not counted and thus not removed
+no	runs the formatter on the specified field in the given entry if the formatter returns an empty string then the field is removed
+yes	do nothing
+no	array of children may be empty if this node has no children but never null
+yes	this node s parent or null if this node has no parent
+no	get the child index of this node in its parent p if this node is a root then an unsupportedoperationexception is thrown use the isroot method to check for this case
+no	gets the number of levels above this node i e the distance from the root to this node p if this node is the root returns 0
+no	returns the path from the root to get to this node the last element in the path is this node
+no	returns the previous sibling of this node in the parent s children list returns an empty optional if this node has no parent or is the parent s first child p this method performs a linear search that is o n where n is the number of children
+yes	returns whether the specified index is a valid index for a child
+no	check if we must write the type definition for this entry as well our criterion is that all non standard types not all customized standard types must be written
+no	removes the subtree rooted at this node from the tree giving this node an empty parent does nothing if this node is the root of it tree
+no	if user defined entry type then add it otherwise enrich returns empty optional it is a completely unknown entry type so ignore it
+no	sorts the list of children according to the order induced by the specified link comparator p all children must be mutually comparable using the specified comparator that is code c compare e1 e2 must not throw a code classcastexception for any children code e1 and code e2 in the list
+no	removes this node from its parent and makes it a child of the specified node by adding it to the specified position in the children list in this way the whole subtree based at this node is moved to the given node
+no	creates a deep copy of this node and all of its children
+yes	nothing to sort
+no	perform checks and changes for users with a preference set from an older jabref version
+no	added from jabref 2 11 beta 4 onwards to fix wrong encoding names
+no	upgrade the sort order preferences for the current version the old preference is kept in case an old version of jabref is used with these preferences but it is only used when the new preference does not exist
+yes	write type definitions if any
+no	migrate default pattern
+no	pref node already exists do not migrate from previous version
+no	finally write whatever remains of the file but at least a concluding newline
+yes	returns a unique key for the formatter that can be used for its identification
+no	formats a field value by with a particular formatter transformation calling this method with a null argument results in a nullpointerexception
+no	fulltextfetcher implementation that attempts to find a pdf url at acs
+yes	returns a default hashcode of the formatter based on its key
+yes	add new list into the hashmap if needed
+no	add the formatter to the map if it is not already there
+no	convert the contents of the hashmap into the correct serialization
+no	then we go through the string looking for references to other strings if we find references to strings that we will write but still haven t we write those before proceeding this ensures that the string order will be acceptable for bibtex
+no	imports a biblioscape tag file the format is described on http www biblioscape com download biblioscape8 pdf several biblioscape field types are ignored others are only included in the bibtex field comment
+no	ignore empty lines e g at file
+yes	end entry delimiter item complete
+yes	else if entry getkey equals ac hm put entry getvalue tostring else if entry getkey equals lp hm put entry getvalue tostring
+no	to find type first check tw then rt
+yes	depending on bibtextype decide where to place the titlert and titleti
+yes	concatenate address and country
+yes	set comment if present
+no	return a bibentry by looking up the given url from the bibsonomy scraper
+no	first try to match by string names
+yes	we have found a string with a matching name
+no	but they have non matching contents so we ve found a change
+yes	no match for this string
+no	see if we can detect a name change for those entries that we couldn t match based on their content
+no	finally see if there are remaining strings in the new database they must have been added
+no	we re dealing with a special character usually either an undotted i or j or an accent like one in table 3 1 of the latex manual or a foreign character like one in table 3 2 if the first character after the left brace is a backslash the special character ends with the matching right brace how we handle what is in between depends on the special character in general this code will do reasonably well if there is other stuff too between braces but it doesn t try to do anything special with colon s
+no	retrieve pdf link
+no	determine whether there starts a special char at pos e g oe ae return it as string if nothing found return optional empty also used by bibtexpurify
+yes	all characters lower case obey
+no	three options 1 original order 2 order specified in metadata 3 order specified in preferences
+no	skip over open brace
+no	skip over the backslash
+yes	converts the first character of each word of the given string to a upper case and all others to lower case but does not change words starting with
+no	from the bibtex manual pops the top two string literals it changes the case of the second according to the specifications of the first as follows note the word letters in the next sentence refers only to those at brace level 0 the top most brace level no other characters are changed except perhaps for special characters described in section 4 if the first literal is the string t it converts to lower case all letters except the very first character in the string which it leaves alone and except the first character following any colon and then nonnull white space which it also leaves alone if it s the string l it converts all letters to lower case and if it s the string u it converts all letters to upper case it then pushes this resulting string if either type is incorrect it complains and pushes the null string however if both types are correct but the specification string i e the first string isn t one of the legal ones it merely pushes the second back onto the stack after complaining another note it ignores case differences in the specification string for example the strings t and t are equivalent for the purposes of this built in function christopher i think this should be another grammar this parser is horrible
+no	doi field seems to contain doi cleanup note url ee field
+no	we have begun to use getsortedentries for both database save operations and non database save operations in a non database save operation such as the exportdatabase call we do not wish to use the global preference of saving in standard order
+no	http www diva portal org smash aboutdiva jsf dswid 3222 diva portal contains research publications and student theses from 40 swedish universities and research institutions
+no	fulltextfetcher implementation that follows the doi resolution redirects and scans for a full text pdf url
+no	follow all redirects and scan for a single pdf link
+no	some publishers are quite slow default is 3s
+no	only check if pdf is included in the link or inside the text acm uses tokens without pdf inside the link see https github com lehner localcopy for more scrape ideas
+no	return if only one link was found high accuracy
+no	gets an object for a desired key from this bibtexkeypattern or one of it s parents in the case of databasebibtexkeypattern this method first tries to obtain the object from this bibtexkeypattern via the code get code method of code hashtable code if this fails we try the default br if that fails we try the parent br if that fails we return the default labelpattern br
+yes	start drag n drop
+yes	a list of all field which are supported
+no	will only happen if both entries have the field and the content is identical
+no	will only happen if field exists
+no	returns an array of default commandline options to start bootstrapped instance of soffice with you may use it in connection with bootstrap method for example like this pre list list arrays aslist bootstrap getdefaultoptions list remove nologo list remove nodefault list add invisible bootstrap bootstrap list toarray new string list size pre
+no	find out if we are configured with disable dynloading or not try to load the lo bootstrap shared library which won t exist in the disable dynloading case and which will be already loaded otherwise so nothing unexpected happens that case yeah this would be simpler if i just could be bothered to keep a separate branch for disable dynloading on android merging in master periodically until i know for sure whether it is what i want or not
+yes	get the xtextrange corresponding to the named bookmark param name the name of the bookmark to find return the xtextrange for the bookmark throws wrappedtargetexception throws nosuchelementexception
+no	get a reference to the body text of the document
+no	we need to catch this one here because the openofficepanel class is loaded before connection and therefore cannot directly reference or catch a disposedexception which is in a oo jar file
+no	manages which link sidepanecomponent s are shown
+no	we need normalized in parenthesis markers for uniqueness checking purposes
+no	insert bookmark at the end of the document instead of mxdoctext getend you could use a text cursor s xtextrange interface or any xtextrange
+no	check if there is page info stored for this citation if so insert it into the citation text before inserting the citation
+yes	get xtextcontent interface
+no	query xbookmarkssupplier from document model and get bookmarks collection
+no	insert bookmark
+yes	insert a copy of the entry
+yes	if no empty keys return true
+yes	select among multiple installations
+yes	this exception is used to indicate that connection to openoffice has been lost
+no	preferences dialog contains a tabbedpane and tabs will be defined in separate classes tabs must implement the preferencestab interface since this dialog will call the storesettings method of all tabs when the user presses ok
+no	this is called if a user starts typing some characters into the keyboard with focus on one listview the listview will scroll to the next cell with the name of the previewlayout fitting those characters
+no	helper class for sorting visible components based on their preferred position
+no	this method is called when the dialog is opened or if it is made visible after being hidden the tab should update all its values this is the only place to set values for the fields in the tab it is illegal to set values only at construction time because the dialog will be reused and updated
+yes	store settings
+yes	theme configuration
+no	this method is called before the link storesettings method to check if there are illegal settings in the tab or if is ready to be closed this calls the appropriate method in the viewmodel
+no	build a panel for checkbox settings
+no	external file links
+no	this class manages the gui state of jabref including currently selected database currently selected group active search active number of search results
+no	shift on win or no modifier
+yes	menu getitems add nextpreviewlayout menu getitems add previouspreviewlayout
+no	check whether this operation requires bibtex keys to be set for the entries if true is returned an error message will be displayed if keys are missing return true if bibtex keys are required for this operation
+no	linux gnuclient emacslient escaping java string insert cite blah2001 so sh receives insert cite blah2001 so emacs receives insert cite blah2001
+yes	redo the change
+yes	redo the change
+no	load fxml
+no	true if the input should be split at a single white space instead of the usual delimiter and for names useful if the input consists of a list of last names
+no	we only create the context menu when really necessary
+no	formatter that only accepts integer more or less taken from http stackoverflow com a 36749659 873661
+yes	pseudo classes for drag and drop
+no	we only create the context menu when really necessary
+no	utility class with static methods for javafx link text objects
+no	runs the given task and returns a future representing that task usually you want to use the other method link execute backgroundtask param v type of return value of the task param task the task to run
+yes	shutdown the task executor
+no	node is directly matched so show it
+no	ensures that suggestion providers are up to date when entries are changed or added
+no	queue on javafx thread and wait for completion
+no	string converter to be used to convert suggestions to strings
+no	creates a link backgroundtask that first runs this task and based on the result runs a second task param nextoperation the function that performs the next operation
+no	open folders is needed to indirectly support email programs which cannot handle the unofficial mailto attachment property
+yes	add the given new possible suggestions to thissuggestionprovider
+yes	key field name
+no	stores all words in the given field which are separated by separating chars
+no	the header can be removed
+yes	returns the indexed basepanel
+no	this class is a wrapper class for the containing list as it is currently not possible to inject complex object types into fxml controller
+no	todo implement
+no	todo re implement customize entry types feature https github com jabref jabref issues 4719
+no	this method opens a pdf using the giving the parameters to the executing pdf reader
+yes	check that the file exists
+no	normalize white spaces
+no	external changes to currentpage should result in scrolling to this page
+no	poor mans reverse databinding necessary because we use a constant value above
+no	put keywords back
+no	first remove fields that the user has removed
+no	see if the user has changed the entry type
+no	entry type unknown treat all fields as required
+no	gets a stackpane of related article information to be displayed in the related articles tab
+no	ctrl on windows no modifier on xubuntu
+yes	required fields
+no	special tabs
+no	remove subscription for old entry if existing
+no	needed to track for which type of entry this tab was build and to rebuild it if the type changes
+no	the tab just got the focus override this method if you want to perform a special action on focus like selecting the first field in the editor
+no	set up details pane
+no	copies the meta and content information of the pdf annotation to the clipboard
+no	opens a new issue on github and copies log to clipboard
+no	set the global variable for this database s file directory before exporting so formatters can resolve linked files correctly this is an ugly hack
+yes	performs an export action
+no	set the global variable for this database s file directory before exporting so formatters can resolve linked files correctly this is an ugly hack
+no	make sure we remember which filter was used to set the default for next time
+no	can not use backgroundtask wrap runnable because runnable run can t throw exceptions
+no	set new location
+no	fixme show merge dialog
+no	make sure directory exists since otherwise copy fails
+yes	gui dialog for the feature find unlinked files
+no	bind global state
+no	directory
+yes	paneldirectory setborder borderfactory createtitledborder borderfactory createetchedborder localization lang select directory panelfiles setborder borderfactory createtitledborder borderfactory createetchedborder localization lang select files panelentrytypesselection setborder borderfactory createtitledborder borderfactory createetchedborder localization lang bibtex entry creation
+yes	subscribe to the search
+no	look up the external file type registered for this filename if any param filename the name of the file whose type to look up return the externalfiletype registered or null if none
+yes	first find a list of the default types
+no	this entry indicates that a default entry type should be removed
+yes	then add the new one
+yes	groupsidepane gettogglecommand setselected sidepanemanager iscomponentvisible groupsidepane class previewtoggle setselected globals prefs getpreviewpreferences ispreviewpanelenabled generalfetcher gettogglecommand setselected sidepanemanager iscomponentvisible websearchpane class openofficepanel gettogglecommand setselected sidepanemanager iscomponentvisible openofficesidepanel class
+no	no file type was recognized try to find a usable file type based on mime type
+no	no type could be found from mime type try based on the extension
+no	construct an externalfiletype from a string array this is used when reading file type definitions from preferences where the available data types are limited we assume that the array contains the same values as the main constructor in the same order
+no	stores the list of external entry types in the preferences
+no	check if there are path separators in the suffix if so it is definitely not a proper suffix so we should give up
+no	adds the given list of menu items to the context menu the usage of link supplier prevents that the menus need to be instantiated at this point they are populated when the user needs them which prevents many unnecessary allocations when the main table is just scrolled with the entry editor open
+yes	found the linked file so move it
+no	todo reenable customize entry types feature https github com jabref jabref issues 4719 factory createmenuitem standardactions customize entry types new customizeentryaction this
+no	todo show progress
+no	if we did not find a file type from the mime type try based on extension
+no	converts a string value to the type t if the type cannot be directly casted to t this method must be overriden in a subclass param string the input value to convert return the value or null if the value could not be casted
+no	the default context menu with a specific menu copying a doi url param textarea text area that this menu will be connected to return menu containing items of the default menu and an item for copying a doi url
+no	this class represents a file link for a bibtex entry
+no	author jzieren
+no	we want to notify all tabs about the changes to avoid problems when changing the column set
+no	number of hits
+no	remember path to edited node this cannot be stored as a reference because the reference itself might change the method below is more robust
+yes	traverse path up to but last element
+no	the path to the global groups root node
+no	this holds the new subtree the root s modified children to allow redo
+no	get node to edit todo null
+no	dialog for creating or modifying groups operates directly on the vector containing group information
+no	create layout
+no	edit group changed name to something that is already present
+no	configure for current type
+yes	the groups side pane
+yes	panel getundomanager addedit new undoablemovegroup this groupsroot movechange panel markbasechanged frame output localization lang moved group 0 node getnode getgroup getname
+no	in case we want to move an item in the same parent and the item is moved down we need to adjust the target index
+no	todo keep assignments
+yes	warnassignmentsideeffects warnassignmentsideeffects newgroup panel frame
+no	new languages of the help have to be added here
+no	save was cancelled or an error occurred
+no	such an error console can be useful in getting complete bug reports especially from windows users without asking users to run jabref in a command window to catch the error info p it offers a separate tab for the log output
+yes	css certificate
+yes	css file image
+no	focus is on text field copy paste cut selected text
+yes	css github circle
+yes	css library books
+yes	css check
+yes	css mdi regex
+no	handled by fx in textinputcontrol paste
+yes	show dialog
+no	this import method never throws an ioexception
+no	bibtex result we must merge it into our main base
+no	set timestamp and owner set timestamp and owner
+no	todo remove old entry or add it to a list of entries to be deleted we only delete it after ok is clicked entriestodelete add other get
+yes	add entries
+no	this method is queried in order to find out whether the action needs to be performed or not param pr the result of the bib parse operation return true if the action should be called false otherwise
+no	opens the given file if null or 404 nothing happens
+no	list of actions that may need to be called after opening the file such as upgrade actions etc that may depend on the jabref version that wrote the file
+no	this method will execute the concrete file opening and loading in a background thread
+no	if no files are remaining to open this could mean that a file was already open if so we may have to raise the correct tab
+no	converts journal full names to either iso or medline abbreviations for all selected entries
+no	converts journal abbreviations back to full name for all selected entries
+no	never null
+no	this class provides a editable text field that is used as table cell it handles the editing of the abbreviation column
+no	unabbreviate the journal name of the given entry
+yes	icon settooltiptext qualityviewmodel getlocalization
+yes	icon settooltiptext rankviewmodel getlocalization
+yes	init preferences
+no	todo reflective access should be removed
+yes	for entry string sorttype entries preferences getcolumnpreferences getsorttypesforcolumns entryset optional tablecolumn bibentrytableviewmodel column this getcolumns stream filter col entries getkey equals col gettext findfirst column ifpresent col col setsorttype entries getvalue this getsortorder add col

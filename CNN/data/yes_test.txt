@@ -1,0 +1,128 @@
+nothing to do by default
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+auto generated method stub
+saves the database including only the specified entries
+checks if the database contains entries
+sets the database s preamble
+removes the string with the given id
+returns the string with the given id
+check if there are strings
+copies the preamble of another bibdatabase
+save actions defined apply for every entry
+filter for empty string as this would be expanded to the jar directory with paths get
+3 preferences directory
+returns the opposite mode of the current mode as link bibdatabasemode
+this node s child or null if this node has no child
+do nothing
+this node s parent or null if this node has no parent
+returns whether the specified index is a valid index for a child
+nothing to sort
+write type definitions if any
+returns a unique key for the formatter that can be used for its identification
+returns a default hashcode of the formatter based on its key
+add new list into the hashmap if needed
+end entry delimiter item complete
+else if entry getkey equals ac hm put entry getvalue tostring else if entry getkey equals lp hm put entry getvalue tostring
+depending on bibtextype decide where to place the titlert and titleti
+concatenate address and country
+set comment if present
+we have found a string with a matching name
+no match for this string
+all characters lower case obey
+converts the first character of each word of the given string to a upper case and all others to lower case but does not change words starting with
+start drag n drop
+a list of all field which are supported
+get the xtextrange corresponding to the named bookmark param name the name of the bookmark to find return the xtextrange for the bookmark throws wrappedtargetexception throws nosuchelementexception
+get xtextcontent interface
+insert a copy of the entry
+if no empty keys return true
+select among multiple installations
+this exception is used to indicate that connection to openoffice has been lost
+store settings
+theme configuration
+menu getitems add nextpreviewlayout menu getitems add previouspreviewlayout
+redo the change
+redo the change
+pseudo classes for drag and drop
+shutdown the task executor
+add the given new possible suggestions to thissuggestionprovider
+key field name
+returns the indexed basepanel
+check that the file exists
+required fields
+performs an export action
+gui dialog for the feature find unlinked files
+paneldirectory setborder borderfactory createtitledborder borderfactory createetchedborder localization lang select directory panelfiles setborder borderfactory createtitledborder borderfactory createetchedborder localization lang select files panelentrytypesselection setborder borderfactory createtitledborder borderfactory createetchedborder localization lang bibtex entry creation
+subscribe to the search
+first find a list of the default types
+then add the new one
+groupsidepane gettogglecommand setselected sidepanemanager iscomponentvisible groupsidepane class previewtoggle setselected globals prefs getpreviewpreferences ispreviewpanelenabled generalfetcher gettogglecommand setselected sidepanemanager iscomponentvisible websearchpane class openofficepanel gettogglecommand setselected sidepanemanager iscomponentvisible openofficesidepanel class
+found the linked file so move it
+traverse path up to but last element
+the groups side pane
+panel getundomanager addedit new undoablemovegroup this groupsroot movechange panel markbasechanged frame output localization lang moved group 0 node getnode getgroup getname
+warnassignmentsideeffects warnassignmentsideeffects newgroup panel frame
+css certificate
+css file image
+css github circle
+css library books
+css check
+css mdi regex
+show dialog
+add entries
+icon settooltiptext qualityviewmodel getlocalization
+icon settooltiptext rankviewmodel getlocalization
+init preferences
+for entry string sorttype entries preferences getcolumnpreferences getsorttypesforcolumns entryset optional tablecolumn bibentrytableviewmodel column this getcolumns stream filter col entries getkey equals col gettext findfirst column ifpresent col col setsorttype entries getvalue this getsortorder add col

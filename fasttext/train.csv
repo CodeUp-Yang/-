@@ -1,0 +1,994 @@
+__label__yes	implNote taken from link com sun javafx scene control behavior TextAreaBehavior contextMenuRequested javafx scene input ContextMenuEvent
+__label__yes	icon setToolTipText printedViewModel getLocalization
+__label__no	Synchronize changes of the underlying date value with the temporalAccessorValue
+__label__yes	Ask if the user really wants to close the given database
+__label__no	css information
+__label__no	Check if there is a default type with the same name If so this is a modification of that type so remove the default one
+__label__yes	each entry type
+__label__no	TODO Username domain and identity should be included as in NET version TODO Should check seems that it is not included in Log4j2
+__label__no	Already parsed via command line parameter e g jabref jar somefile bib
+__label__yes	finally add things to the currently opened tab
+__label__no	To simplify the exporter API we simply do a normal export to a temporary file and read the contents afterwards
+__label__no	This class monitors a set of files for changes Upon detecting a change it notifies the registered link FileUpdateListener s Implementation based on https stackoverflow com questions 16251273 can i watch for single file change with watchservice not the whole directory
+__label__no	for AutoGroup
+__label__no	Creates a new list in which each element is converted using the provided mapping All changes to the underlying list are propagated to the converted list In contrast to link org fxmisc easybind EasyBind map ObservableList Function the items are converted when the are inserted and at the initialization instead of when they are accessed Thus the initial CPU overhead and memory consumption is higher but the access to list items is quicker
+__label__no	Sets the link Consumer that is invoked after the task has failed with an exception The consumer always runs on the JavaFX thread
+__label__no	TODO Add undo final UndoableModifySubtree undo new UndoableModifySubtree getGroupTreeRoot node Remove subgroups panel getUndoManager addEdit undo
+__label__yes	db file exists
+__label__no	Another unlikely possibility is that both disk and mem version has been modified in the same way Check for this too
+__label__no	Should only occur when preferences are set directly via preferences put and not via setFirstnameMode
+__label__yes	Dir must be a folder not a file
+__label__no	This method is called when the user presses OK in the Preferences dialog This calls the appropriate method in the ViewModel
+__label__no	TODO doesn t work for citations in footnotes tables
+__label__yes	Save
+__label__no	Constructor with optional column captions for the two entries
+__label__no	If content selector values are present then we want to show the auto complete suggestions immediately on focus
+__label__no	This is called when the user drops some PreviewLayouts on another cell in chosenListView to sort them
+__label__no	Helper methods for javafx binding Some methods are taken from https bugs openjdk java net browse JDK 8134679
+__label__no	Formats a String to multiple Texts by replacing some parts and adding font characteristics
+__label__no	Copies the given list of link LogEvent s to the clipboard
+__label__no	All entries had keys
+__label__no	Add radio buttons if the two entries do not have identical fields
+__label__no	Delivers possible completions as a list of link BibEntry based on their cite key
+__label__no	css eye
+__label__no	Method to add a new abbreviation to the abbreviations list property It also sets the currentAbbreviation property to the new abbreviation
+__label__no	Class for handling general actions cut copy and paste The focused component is kept track of by Globals focusListener and we call the action stored under the relevant name in its action map
+__label__no	Returns a new ObservableValue that holds the value held by this ObservableValue or code other when this ObservableValue is empty
+__label__no	A command that is only executable if a database is open Deprecated use instead
+__label__no	Define focused tab
+__label__no	A single tab displayed in the EntryEditor holding several FieldEditors
+__label__no	poll with timeout in case the library is not analyzed completely but contains no more duplicates
+__label__yes	Clears the current log
+__label__no	Sets a a new key bind to this objects key binding object if the given key event is a valid combination of keys
+__label__yes	Revert the change
+__label__no	Fade new page in for smoother transition
+__label__no	css rss
+__label__yes	Get the search describer for a given search query
+__label__no	Does the actual operation on a Bibtex entry based on the settings specified in this same dialog Returns the number of occurrences replaced
+__label__no	should be opened in browser
+__label__yes	Returns the HashMap containing all key bindings
+__label__no	Add menu for fetching bibliographic information
+__label__no	ctrl on win
+__label__no	Adds the specified node as a child of the current root The group contained in b newGroups b must not be of type AllEntriesGroup since every tree has exactly one AllEntriesGroup its root The b newGroups b are inserted directly i e they are not deepCopy d
+__label__yes	Adds the given entries to this node s group
+__label__no	No we canceled or there is no panel to get the database from highly unlikely
+__label__yes	default
+__label__yes	Bug report body
+__label__yes	Do nothing by default
+__label__no	Text after the citation
+__label__yes	The only instance of this class
+__label__no	Placeholder class for a custom generic type safe dragboard to be used in drag and drop does not depend on serialization Don t use this class directly Use the instance provided in link GUIGlobals localDragboard
+__label__no	Search and import unknown references from associated BIB files
+__label__no	A wizard dialog for generating a new sub database from existing TeX AUX file
+__label__no	Shows a dialog with the warnings from an import or open of a file
+__label__no	get permutation array
+__label__no	Set pseudo classes to indicate if row is root or sub item 1 deep
+__label__no	Don t report this error since this getting the suffix is a non critical operation and this error will be triggered and reported elsewhere
+__label__yes	Selected entries
+__label__no	For all fields in joint add a row and possibly radio buttons
+__label__no	Puts A List of link PreviewLayout in the map All previous content is cleared
+__label__yes	Remove the entry from the import inspection dialog
+__label__no	Second check if the duplicate is of another entry in the import
+__label__no	TODO Remove old entry Or add it to a list of entries to be deleted We only delete it after Ok is clicked entriesToDelete add other get
+__label__no	Taken from https stackoverflow com questions 23326562 apache pdfbox convert pdf to images
+__label__yes	Check if this looks like a remote link
+__label__yes	Get list of exporters and sort before adding to file dialog
+__label__no	Save all properties dependent on the ID This makes it possible to restore them
+__label__yes	Initialize protected terms loader
+__label__no	Returns MenuItemContainer node associated with this menu item which can contain 1 label node of type Label for displaying menu item text 2 right node of type Label for displaying accelerator text or an arrow if it s a Menu 3 graphic node for displaying menu item icon and 4 left node for displaying either radio button or check box This is basically rewritten impl styleableGetNode which should not be used since it s marked as deprecated
+__label__yes	setContentType CONTENT TYPE StyleSheet sheet HTMLEditorKit getEditorKit getStyleSheet sheet addRule BODY STYLE sheet addRule ADDITION STYLE sheet addRule REMOVAL STYLE sheet addRule CHANGE STYLE setEditable false
+__label__no	Sets the name and the abbreviation of the code currentAbbreviation property to the values of the code abbreviationsName and code abbreviationsAbbreviation properties
+__label__no	Finally go through all citation markers and update those referring to entries in our current list
+__label__no	describe advanced search expression
+__label__no	if we re going to override some cite keys warn the user about it
+__label__no	This method is called after the new database has been added to the GUI if the isActionNecessary method returned true Note if several such methods need to be called sequentially it is important that all implementations of this method do not return until the operation is finished
+__label__no	Searches recursively all files in the specified directory br br All files matched by the given link UnlinkedPDFFileFilter are taken into the resulting tree br br The result will be a tree structure of nodes of the type link CheckBoxTreeItem br br The user objects that are attached to the nodes is the link FileNodeWrapper which wraps the link File Object br br For ensuring the capability to cancel the work of this recursive method the first position in the integer array state must be set to 1 to keep the recursion running When the states value changes the method will resolve its recursion and return what it has saved so far
+__label__no	This method attaches a linked file from a URL if not already linked to an entry using the key and value pair from the findFullTexts map and then downloads the file into the given targetDirectory
+__label__no	init paste handler for URLEditor to format pasted url link in textArea
+__label__yes	Create a new SuggestionProviderString
+__label__yes	Set the new sections name to Child Section
+__label__no	Ok done Then try to gather in all we have found Since we might have found one or more bibtex results it s best to gather them in a BibDatabase
+__label__no	TODO can we find out whether the save was actually done or not
+__label__no	This method shall be used to add a new journal abbreviation file to the set of journal abbreviation files It basically just calls the link openFile Path method
+__label__yes	UndoableAddOrRemoveGroup undo new UndoableAddOrRemoveGroup groupsRoot new GroupTreeNodeViewModel newGroups UndoableAddOrRemoveGroup ADD NODE ce addEdit undo
+__label__no	no new version could be found only respect the ignored version on automated version checks
+__label__no	Compare the deleted entry in memory with the one in the tmpfile The entry could have been removed in memory
+__label__yes	retrieve bookmark by name
+__label__yes	Run validation checks
+__label__yes	Be happy with the first found BibEntry and move on to next key
+__label__yes	css open in app
+__label__no	Fills the current values to the text fields
+__label__no	Create a default suggestion provider based on the toString method of the generic objects
+__label__no	The lines above work also if the dir does not exist at all NULL is accepted by the filechooser as no inital path
+__label__yes	css paperclip
+__label__no	Converts the citations into the RTF format
+__label__yes	PushToApplication
+__label__no	Returns the default context menu items except undo redo
+__label__no	use preferences value if no DB is open
+__label__no	We have to use supplier for the localized text so that language changes are correctly reflected
+__label__no	TODO switch Icon color searchIcon setIcon IconTheme JabRefIcon ADVANCED SEARCH getIcon
+__label__no	We have overwritten the marker for the start of the reference list We need to add it again
+__label__yes	Create and run cleaner
+__label__yes	If we found it remove it from the type list
+__label__no	Work around for different input methods https github com FXMisc RichTextFX issues 146
+__label__no	This class represents a change in any field value The relevant information is the BibEntry the field name the old and the new value Old new values can be null
+__label__no	Parse the temporary file
+__label__yes	Show progress indicator
+__label__no	Fail on unsupported Java versions
+__label__no	Get the string associated with this file type s icon
+__label__no	things to be appended to an opened tab should be done after opening all tabs add them to the list
+__label__no	setTitle FRAME TITLE
+__label__no	we do not trim the value at the assignment to enable users to have spaces at the beginning and at the end of the pattern
+__label__no	jni convenience easier to iterate over array than calling Hashtable
+__label__no	create menu items one for each case changer
+__label__no	We import all files and collect their results
+__label__no	Constructs a link ListCell based on the view model of the row and a bunch of specified converter methods
+__label__no	TODO Store undo if undo isEmpty groupSelector concludeAssignment UndoableChangeEntriesOfGroup getUndoableEdit target undo target getNode assignedEntries
+__label__no	TODO This means a duplicate string name exists so it s not a very exceptional situation We should maybe give a warning
+__label__no	Dialog shown when closing of application needs to wait for a save operation to finish
+__label__no	TODO Find a better way to update preview
+__label__no	We are alone so we start the server
+__label__no	Keep track of changes made to the columns like reordering or resizing
+__label__no	the encoding of shared database is always UTF 8
+__label__no	replace the placeholder if used
+__label__no	If the file is an ordinary file i e not a resource part of a jar bundle we watch it for changes and turn on live reloading
+__label__no	Shift on Windows or no modifier
+__label__no	Show tooltips
+__label__no	This class provides a editable text field that is used as table cell It handles the editing of the name column
+__label__no	return the first one we found anyway
+__label__no	regex is correct otherwise OK would have been disabled therefore I don t catch anything here
+__label__yes	Returns the int representing the selected hierarchical group context
+__label__no	TODO warn if assignment has undesired side effects modifies a field keywords if WarnAssignmentSideEffects warnAssignmentSideEffects mNode getNode getGroup mPanel frame return user aborted operation
+__label__no	Bidirectional binding does not work so use listeners instead
+__label__no	Main function for building the merge entry JPanel
+__label__no	A prefsTab is a component displayed in the PreferenceDialog It needs to extend from Component
+__label__no	The actual operation This method will not be called on the event dispatch thread so it should not do GUI operations without utilizing invokeLater
+__label__no	create a dummy group
+__label__no	An Action for launching mass field Functionality Defaults to selected entries or all entries if none are selected Input field name Either set field or clear field
+__label__no	Need to toggle a twice to make sure nothing is selected
+__label__no	ctrl on win no modifier on Xubuntu
+__label__no	If we are supposed to set character format for citations must run a test before we delete old citation markers Otherwise if the specified character format doesn t exist we end up deleting the markers before the process crashes due to a the missing format with catastrophic consequences for the user need to do this only once
+__label__no	Get center of focused cell
+__label__no	Opens a new console starting on the given file location If no command is specified in link Globals the default system console will be executed
+__label__no	I think setting root to null is not possible
+__label__no	General info dialog The MacAdapter calls this method when Quit is selected from the application menu Cmd Q is pressed or Quit is selected from the Dock The function returns a boolean indicating if quitting is ok or not p Non OSX JabRef calls this when choosing Quit from the menu p SIDE EFFECT tears down JabRef
+__label__no	fits the standard found x entries message thus hinders the searchbar to jump around while searching if the frame width is too small
+__label__no	View model for a field editor that shows various options backed by a map
+__label__no	Hide horizontal scrollbar and always wrap text
+__label__no	Delivers possible completions as a list of link Author s
+__label__no	XML Syntax Highlighting for RichTextFX Codearea created by c Carlos Martins github cemartins License BSD 2 Clause see https github com FXMisc RichTextFX blob master LICENSE and https github com FXMisc RichTextFX blob master richtextfx demos README md xml editor
+__label__no	Inserts the JabRefPreferences values into the the Properties of the ViewModel
+__label__no	Alt on Windows
+__label__no	for each column get either actual width or if it does not exist default value
+__label__no	Opens the import inspection dialog to let the user decide which of the given entries to import
+__label__yes	Update journal abbreviation loader
+__label__yes	Generate dialog title
+__label__no	Wrapper around one of our actions from link Action to convert them to controlsfx link org controlsfx control action Action
+__label__no	Open File Browser
+__label__no	Flipped around
+__label__yes	css file multiple
+__label__no	find office executable relative to this class s class loader
+__label__no	Add the entries to the open tab
+__label__yes	css star circle
+__label__no	Set empty background and create proper rendering in background for smoother loading
+__label__no	Function to initialize parameters Currently it is expected that commandPathPreferenceKey is set to the path of the application
+__label__no	The root of the global groups tree
+__label__yes	Gets invoked if an entry in the current database changes
+__label__no	wait until office is started
+__label__no	Check if we are supposed to set a character format for citations
+__label__yes	css arrow up bold
+__label__no	TODO reflective access should be removed
+__label__no	Creates a column for DOIs or URLs The code firstField is preferred to be shown over code secondField
+__label__no	Get the comparator to order the suggestions
+__label__yes	Check if there are empty keys
+__label__no	Repeat for individual file dir reuse text and dir vars
+__label__no	alt on win
+__label__yes	Represents the view model for a page in the document viewer
+__label__no	Menu to show up on right click in a text field for converting text formats
+__label__no	This is ugly but we have no proper update mechanism in place to propagate the changes so redraw everything
+__label__no	TODO Print error message Localization lang PDF does not exist
+__label__no	Prints parsing statistics
+__label__no	Calls the link AbbreviationsFileViewModel writeOrCreate method for each file in the journalFiles property which will overwrite the existing files with the content of the abbreviations property of the AbbriviationsFile Non existing files will be created
+__label__no	Sets the link Consumer that is invoked after the task is successfully finished The consumer always runs on the JavaFX thread
+__label__no	Copyright c 2014 2016 ControlsFX All rights reserved Redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met Redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer Redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation and or other materials provided with the distribution Neither the name of ControlsFX any associated website nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS AS IS AND ANY EXPRESS OR IMPLIED WARRANTIES INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED IN NO EVENT SHALL CONTROLSFX BE LIABLE FOR ANY DIRECT INDIRECT INCIDENTAL SPECIAL EXEMPLARY OR CONSEQUENTIAL DAMAGES INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES LOSS OF USE DATA OR PROFITS OR BUSINESS INTERRUPTION HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY WHETHER IN CONTRACT STRICT LIABILITY OR TORT INCLUDING NEGLIGENCE OR OTHERWISE ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+__label__no	Extract destination URL
+__label__yes	Updates the view to reflect changes to visible components
+__label__no	This class represents a change in any field value The relevant information is the BibEntry the field name the old and the new value Old new values can be null
+__label__no	Abstract class for pushing entries into different editors
+__label__no	put the warning into as exception text it will be displayed to the user
+__label__no	This wraps the old Swing commands so that they fit into the new infrastructure In the long term this class should be removed
+__label__no	The default context menu with a specific menu item to cleanup URL
+__label__no	icon is chosen based on field name in cell so map fields to its names
+__label__no	Execute command
+__label__no	Ignored
+__label__no	Returns true if there is an external file type registered for this extension
+__label__yes	unknown cannot un abbreviate anything
+__label__no	vim set shiftwidth 4 softtabstop 4 expandtab
+__label__no	Redo the change
+__label__no	We need to get the tab header the following is a ugly workaround
+__label__yes	reset all fields
+__label__no	Similar to link org fxmisc easybind monadic MonadicObservableValue
+__label__no	nan
+__label__yes	css clipboard arrow left
+__label__no	TODO Replace by http docs oracle com javase 7 docs api java awt Desktop html http stackoverflow com questions 18004150 desktop api is not supported on the current platform
+__label__yes	Executes a callable task that provides a return value after the calculation is done param command The task to execute return A Future object that provides the returning value
+__label__no	Need to run this on the JavaFX thread
+__label__no	set original filename again
+__label__no	If required check that all entries have BibTeX keys defined
+__label__no	Check if the value returned by getColumnValue is the same as a simple check of the entry s field s would give The reasons for being different are combinations may also happen The entry has a crossref where the field content is obtained from The field has a string in it which getColumnValue resolves There are some alias fields For example if the entry has a date field but no year field link BibEntry getResolvedFieldOrAlias String BibDatabase will return the year value from the date field when queried for year
+__label__no	TODO imlement default
+__label__yes	Use default key bindings
+__label__no	Store shown columns and their width in preferences
+__label__no	TODO Add undo final UndoableAddOrRemoveGroup undo new UndoableAddOrRemoveGroup groupsRoot node UndoableAddOrRemoveGroup REMOVE NODE KEEP CHILDREN panel getUndoManager addEdit undo
+__label__no	Read all saved file paths and read their abbreviations
+__label__no	On Linux Java FX fonts look blurry per default This can be improved by using a non default rendering setting See https github com woky javafx hates linux
+__label__yes	Runs the specified link Runnable on the JavaFX application thread and waits for completion
+__label__yes	JabRef MainClass
+__label__no	Bootstraps the component context from a UNO installation
+__label__no	if Globals prefs isKeywordSyncEnabled return final BibEntry entry event getBibEntry NamedCompount code similar to SpecialFieldUpdateListener NamedCompound nc new NamedCompound Localization lang Synchronized special fields based on keywords List FieldChange changes SpecialFieldsUtils syncSpecialFieldsFromKeywords entry Globals prefs getKeywordDelimiter for FieldChange change changes nc addEdit new UndoableFieldChange change Don t insert the compound into the undoManager it would be added before the component which undoes the insertion of the entry and creates heavy problems which prohibits the undo the deleting multiple entries
+__label__no	Get target folder
+__label__no	Ctrl on Windows no modifier on Xubuntu
+__label__no	default command
+__label__no	Reloads the JabRefPreferences into the UI
+__label__no	We define two file type objects as equal if their name extension openWith and iconName are equal
+__label__yes	Create buttons
+__label__no	Time stamp
+__label__no	This class can be used to wrap an see ObservableList inside it When wrapped any Listener listening for updates to the wrapped ObservableList for example because of a binding to it is ensured to be notified on the JavaFX Application Thread It should be used to implement bindings where updates come in from a background thread but should be reflected in the UI where it is necessary that changes to the UI are performed on the JavaFX Application thread
+__label__yes	Executes a collection of callable tasks and returns a List of the resulting Future objects after the calculation is done param tasks The tasks to execute return A List of Future objects that provide the returning values
+__label__no	This will set the code currentFile property to the link AbbreviationsFileViewModel object that was added to the code journalFiles list property lastly If there are no files in the list property this methode will do nothing as the code currentFile property is already code null
+__label__no	Method to delete the abbreviation set in the currentAbbreviation property The currentAbbreviationProperty will be set to the previous or next abbreviation in the abbreviations property if applicable Else it will be set to code null if there are no abbreviations left
+__label__no	We need to sort the reference marks according to their order of appearance
+__label__no	Returns a wrapper around the given list that posts changes on the JavaFX thread
+__label__yes	kill the remote thread
+__label__no	First try xmp import if empty try pdf import otherwise create empty entry
+__label__no	Revert the change
+__label__no	Go through unchanged types Remove them from the ones that should be stored and from the list of defaults since we don t need to mention these in prefs
+__label__no	Checks if all tabs are valid ToDo After conversion of all tabs use mvvmfx validator ToDo should be observable for binding of OK button in View
+__label__no	Next add all the visible tabs if not already present at the right position
+__label__yes	update all tab titles
+__label__no	Helper class to create and style controls according to an link Action
+__label__yes	Class for fetching and merging bibliographic information
+__label__no	paranoia ensure that there are never two instances of AllEntriesGroup
+__label__yes	Create button that triggers search
+__label__no	Activate context menu if user presses the context menu key
+__label__yes	nan
+__label__no	Add the edit field for Bibtex key
+__label__no	Remove all reference marks that don t look like JabRef citations
+__label__no	Although entries are redefined without use this also updates linkSourceBase
+__label__no	for the remaining entries intersection has to be used this approach ensures that one empty keyword list leads to an empty set of common keywords
+__label__no	A very simple implementation of the link TaskExecutor interface Every submitted task is invoked in a separate thread
+__label__no	all buttons in base dialogs react on enter
+__label__no	but not for this entry
+__label__yes	If we found it remove it from the type list
+__label__no	The main window of the application
+__label__no	Redo the change
+__label__no	Tools for automatically detecting OpenOffice or LibreOffice installations
+__label__no	Heuristic missed so try to get page number from first shown page
+__label__no	Assuming the current page is A4 or has same aspect ratio
+__label__yes	Check if there are two entries selected
+__label__no	This class controls the user interface of the journal abbreviations dialog The ui elements and their layout are defined in the fxml file
+__label__no	only add tab if DB is not already open
+__label__no	This class represents the change of type for an entry
+__label__no	General
+__label__no	Sets the title of the main window
+__label__no	check mode of currently used DB
+__label__no	No parent root just add
+__label__no	write the entries using sw which is used later to form the email content
+__label__no	Opens the given files If one of it is null or 404 nothing happens
+__label__no	Ask for consent to send data to Mr DLib on first time to tab
+__label__no	Only the first of the extensions gotten from FileType is saved into the class using get 0
+__label__no	The path to the edited subtree s root node
+__label__no	Up to version 2 4b the mime type is not included
+__label__no	ApplicationInsights Java Copyright c Microsoft Corporation All rights reserved MIT License Permission is hereby granted free of charge to any person obtaining a copy of this software and associated documentation files the Software to deal in the Software without restriction including without limitation the rights to use copy modify merge publish distribute sublicense and or sell copies of the Software and to permit persons to whom the Software is furnished to do so subject to the following conditions The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software THE SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND EXPRESS OR IMPLIED INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM DAMAGES OR OTHER LIABILITY WHETHER IN AN ACTION OF CONTRACT TORT OR OTHERWISE ARISING FROM OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+__label__no	On Windows store application as empty if the Default option is selected or if the application name is empty
+__label__no	Creates a list of all files leaf nodes in the tree structure which have been selected
+__label__yes	css server plus
+__label__yes	This method returns the enum constant value
+__label__no	Copies the doi url to the clipboard
+__label__no	Update type label
+__label__no	Update key list to match the new sorting
+__label__yes	Runs the given task and returns a Future representing that task
+__label__no	Alt on Windows
+__label__no	Runs the cleanup on the entry and records the change
+__label__no	This action can be invoked without an open database so we have to check if we have one before trying to invoke methods to execute changes in the preferences
+__label__no	Set up the list of external file types either from default values or from values recorded in Preferences
+__label__no	Notifies the tab that it got focus and should display the given entry
+__label__no	handled by FX in TextInputControl paste
+__label__yes	File doesn t exist so we can t move it
+__label__no	Opens Edit Group Dialog and changes the given group to the edited one
+__label__no	We can t watch files directly so monitor their parent directory for updates
+__label__no	Extract the list of bibtex keys from a reference mark name
+__label__no	leave the expansion state of the tree item as it is
+__label__no	Display link to expand text
+__label__no	Start looking at changes
+__label__no	change root group even though it ll be AllEntries anyway
+__label__no	When mime type is included the array length should be 5
+__label__yes	Loop through the available databases
+__label__no	Replace both entries by merged entry
+__label__no	if value null and then call nullField has been omitted as updatefield also handles value null
+__label__no	storing a backup of the whole subtree is not required when children are kept
+__label__no	Inserts each citation into a HTML body and copies it to the clipboard
+__label__no	Only one linked file open directly
+__label__yes	If not start GUI
+__label__yes	empty
+__label__no	After adding the databases go through each and see if any post open actions need to be done For instance checking if we found new entry types that can be imported or checking if the database contents should be modified due to new features in this version of JabRef Note that we have to check whether i does not go over getBasePanelCount This is because importToOpen might have been used which adds to loadedDatabases but not to getBasePanelCount
+__label__yes	New ZIP file chooser
+__label__yes	expand node and all children on drag over
+__label__no	TODO merge with import
+__label__yes	css code equal
+__label__yes	Find entries in clipboard
+__label__no	Access the Child Section s XTextContent interface and insert it into the document
+__label__no	Set the visibility of the progress bar in the right end of the status line at the bottom of the frame
+__label__no	Converts a path relative to a base path into a class name
+__label__no	The following is necesary to initiate the drag and drop in javafx although we don t need the contents It doesn t work without
+__label__no	maskText A A
+__label__no	Use the correct viewer even if pdf and ps are mixed up
+__label__no	This interface defines potential actions that may need to be taken after opening a BIB file into JabRef This can for instance be file upgrade actions that should be offered due to new features in JabRef and may depend on e g which JabRef version the file was last written by This interface is introduced in an attempt to add such functionality in a flexible manner
+__label__no	Warning before overwriting is only relevant if overwriting can happen
+__label__no	TODO Remove this copy as soon as the one included in AI is compatible with log4j 3
+__label__yes	insert the connector
+__label__no	As there is no concept like an empty node icon we return simply the other icon
+__label__no	Add all bibDatabases databases to the frame
+__label__no	This is a simple implementation of a generic suggestion provider callback The complexity of suggestion generation is O n where n is the number of possible suggestions
+__label__no	Returns a newer version excluding any non stable versions except if the installed one is unstable too If no newer version was found then an empty optional is returned
+__label__no	Prints the connection problem to the status bar and shows a dialog if it was executed manually
+__label__yes	css file powerpoint
+__label__yes	Detect Google search URL
+__label__yes	update keywords
+__label__yes	css auto fix
+__label__no	Bootstraps the initial component context from a native UNO installation See also code cppuhelper defaultBootstrap InitialComponentContext code
+__label__yes	css twitter
+__label__no	Drag and drop support
+__label__no	File on disk has changed thus look for notable changes and notify listeners in case there are such changes
+__label__no	Append a given value to a given field for all entries in a Collection This method DOES NOT update any UndoManager but returns a relevant CompoundEdit that should be registered by the caller
+__label__no	We have to use reflection to get the associated label
+__label__no	if so mark base changed Prevent the Undo button from removing change marking
+__label__no	passed file we take the first one should be focused
+__label__no	Decides if the content stored in the given link Dragboard can be droped on the given target row Currently the following sources are allowed another group will be added as subgroup on drop entries if the group implements link GroupEntryChanger will be assigned to group on drop
+__label__no	The string was removed or renamed locally We guess that it was removed
+__label__no	Returns a consent dialog used to ask permission to send data to Mr DLib
+__label__no	Left text pane
+__label__no	Initializes the components the layout the data structure and the actions in this dialog
+__label__no	Add type change menu
+__label__no	This property is only needed to get proper IDE support in FXML files e g validation that parameter passed to icon is indeed of type link IconTheme JabRefIcons
+__label__yes	cloud upload
+__label__yes	Removal of a node and all of its children
+__label__no	This worker checks if there is a new version of JabRef available If there is it will display a dialog to the user offering him multiple options to proceed see changelog go to the download page ignore this version and remind later If the versions check is executed manually and this is the latest version it will also display a dialog to inform the user
+__label__yes	If the crossref entry is not already in the database
+__label__no	Insert it at the current position
+__label__no	especially for the track execute when the action run the same function but from different source
+__label__no	Action for the Save and Save as operations called from BasePanel This class is also used for save operations when closing a database or quitting the applications The save operation is loaded off of the GUI thread using link BackgroundTask Callers can query whether the operation was canceled or whether it was successful
+__label__no	The default menu that contains functions for changing the case of text and doing several conversions
+__label__yes	Set headings
+__label__no	This method should be called after storing the preferences to collect the properties which require a restart of JabRef to load
+__label__yes	Creates a new auto completion binding between the given textInputControl and the given suggestion provider
+__label__no	We accept all kinds of dates not just in the format specified
+__label__no	this whole method is part of a background task when autodecting instances so we need to show dialog in FX thread
+__label__no	Taken from http stackoverflow com a 9417836 873661
+__label__no	We always want that the first item is selected after a change This also automatically selects the first file on the initial load
+__label__no	Function to get the command to be executed for pushing keys to be cited
+__label__no	For some reason the graphic is not set correctly by the link ActionUtils class so we have to fix this by hand
+__label__no	entry type or bibtex key will never be resolved
+__label__yes	Removal of a single node Children if any are kept
+__label__no	Copyright c 2014 2015 ControlsFX All rights reserved Redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met Redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer Redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation and or other materials provided with the distribution Neither the name of ControlsFX any associated website nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS AS IS AND ANY EXPRESS OR IMPLIED WARRANTIES INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED IN NO EVENT SHALL CONTROLSFX BE LIABLE FOR ANY DIRECT INDIRECT INCIDENTAL SPECIAL EXEMPLARY OR CONSEQUENTIAL DAMAGES INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES LOSS OF USE DATA OR PROFITS OR BUSINESS INTERRUPTION HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY WHETHER IN CONTRACT STRICT LIABILITY OR TORT INCLUDING NEGLIGENCE OR OTHERWISE ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE
+__label__no	use property as initial source
+__label__yes	Map containing all registered external file types
+__label__no	Workaround taken from https bitbucket org controlsfx controlsfx issues 330 making textfieldssetupclearbuttonfield
+__label__no	Always overwrite keys by default
+__label__no	We are not alone there is already a server out there send command line arguments to other instance
+__label__yes	Process arguments
+__label__no	Nothing set so we use the default values
+__label__no	Run the actual open in a thread to prevent the program locking until the file is loaded
+__label__no	It could be that somehow the path is null for example if it got deleted in the meantime
+__label__no	extract url parameter
+__label__no	Collect all callables to execute in one collection
+__label__no	TODO Add undo Store undo information AbstractUndoableEdit undoAddPreviousEntries null UndoableModifyGroup undo new UndoableModifyGroup GroupSelector this groupsRoot node newGroup if undoAddPreviousEntries null panel getUndoManager addEdit undo else NamedCompound nc new NamedCompound Modify Group nc addEdit undo nc addEdit undoAddPreviousEntries nc end panel getUndoManager addEdit nc if addChange isEmpty undoAddPreviousEntries UndoableChangeEntriesOfGroup getUndoableEdit null addChange
+__label__no	Adds the filename to the top of the menu If it already is in the menu it is merely moved to the top
+__label__no	This view model can be used both for add exporter and modify exporter functionalities It takes an optional exporter which is empty for add exporter and takes the selected exporter for modify exporter It returns an optional exporter which empty if an invalid or no exporter is created and otherwise contains the exporter to be added or that is modified
+__label__no	We need to catch this one here because the OpenOfficePanel class is loaded before connection and therefore cannot directly reference or catch a DisposedException which is in a OO JAR file
+__label__yes	css label outline
+__label__no	This resize policy is almost the same as link TableView CONSTRAINED RESIZE POLICY We make sure that the width of all columns sums up to the total width of the table However in contrast to link TableView CONSTRAINED RESIZE POLICY we size the columns initially by their preferred width
+__label__no	We have to cast the BibEntries from the BibEntrySuggestionProvider to ParsedEntryLink
+__label__no	Puts A List of link BibEntry in the map All previous content is cleared
+__label__no	This wraps the old Swing commands so that they fit into the new infrastructure In the long term this class should be removed
+__label__no	run in one minute
+__label__no	See if there are duplicate citations marks referring to different entries If so we need to use uniquefiers
+__label__no	TODO http api openoffice org docs DevelopersGuide OfficeDev OfficeDev xhtml 1 1 3 2 1 2 Frame Hierarchies
+__label__no	TODO Print error message Localization lang Error while writing file toString ex
+__label__no	Parse the modified file
+__label__no	Represents a binding between a text input control and a auto completion popup This class is a slightly modified version of link impl org controlsfx autocompletion AutoCompletionTextFieldBinding that works with general text input controls instead of just text fields
+__label__no	Creates an instance of link LinkedFile based on the given file We try to guess the file type and relativize the path against the given file directories TODO Move this method to link LinkedFile as soon as link CustomExternalFileType lives in model
+__label__no	Create a default suggestion provider based on the toString method of the generic objects using the provided stringConverter
+__label__yes	Remove entry
+__label__no	Repaints the table with the most recent font configuration
+__label__no	Updates the timestamp of changed entries if the feature is enabled
+__label__yes	Add the new component
+__label__no	Setting the character format failed so we throw an exception that will result in an error message for the user
+__label__no	Implementation of link TaskExecutor that runs every task on the current thread i e in a sequential order This class is not designed to be used in production but should make code involving asynchronous operations deterministic and testable
+__label__no	No file matched the name try to open it directly using the given app
+__label__no	Represents the viewport for a page Note the instances of link DocumentViewerPage are reused i e not every page is rendered in a new instance but instead link DocumentViewerPage updateItem Object is called
+__label__no	Set a given field to a given value for all entries in a Collection This method DOES NOT update any UndoManager but returns a relevant CompoundEdit that should be registered by the caller
+__label__no	Go back to the relevant position
+__label__no	Displays an BibEntry using the given layout format
+__label__no	Saved now exit
+__label__no	Try to get as much information from the temporal accessor
+__label__no	There is apparently no neat way to get the page number from a PDPage thus this old style for loop
+__label__no	Read the prefs information for file types
+__label__no	start office process
+__label__no	Make a list of all PDFs linked from this entry
+__label__no	This method is called when the dialog is opened or if it is made visible after being hidden This calls the appropriate method in the ViewModel
+__label__yes	Perform migrations
+__label__no	Constructs a link TableCell based on the value of the cell and a bunch of specified converter methods
+__label__no	store new patterns globally
+__label__no	A backup of the groups before the modification
+__label__no	MappedList implementation based on https github com corda corda blob master client jfx src main kotlin net corda client jfx utils MappedList kt
+__label__no	Start of ugly hack We need to find out which tabs will be shown and which not and remove and re add the appropriate tabs to the editor We don t want to simply remove all and re add the complete list of visible tabs because the tabs give an ugly animation the looks like all tabs are shifting in from the right This hack is required since tabbed getTabs setAll visibleTabs changes the order of the tabs in the editor
+__label__no	make sure the layout is set according to the checkbox
+__label__no	shift on win or no modifier
+__label__yes	expand or collapse the tree item and reset the time
+__label__no	The user wants to save
+__label__no	Open the file
+__label__yes	Returns the path to the system s applications folder
+__label__yes	Opens a shared database
+__label__yes	no parameters
+__label__no	This will wrap the built in and ieee abbreviations in pseudo abbreviation files and add them to the list of journal abbreviation files
+__label__yes	url
+__label__yes	First remove tabs that we do not want to show
+__label__no	Prevent right click to select group
+__label__yes	css close circle
+__label__no	Unknown external file type This instance represents a file type unknown to JabRef This can happen for example when a database is loaded which contains links to files of a type that has not been defined on this JabRef instance
+__label__no	Wait 500 ms then try to connect again but do not wait longer than 5 min 600 500 ms total
+__label__no	Returns a text formatter that restricts input to integers
+__label__yes	Format a name field for the table according to user preferences
+__label__yes	css view list
+__label__no	Ok we have seen this exact marker before
+__label__no	Execute the callables and wait for the results
+__label__no	Stores all user dialogs related to link BackupManager
+__label__yes	Nothing to do here
+__label__no	The minimum number of selected entries to ask the user for confirmation
+__label__no	Exception used to indicate that the plugin attempted to set a character format that is not defined in the current OpenOffice document
+__label__no	create call with arguments We need a socket pipe does not work https api libreoffice org examples examples html
+__label__yes	imageView setImage new WritableImage getDesiredWidth getDesiredHeight
+__label__no	Return a boolean if the selected entry have url or doi
+__label__no	This class can be used to wrap a see StringProperty inside it When wrapped any Listener listening for updates to the wrapped StringProperty for example because of a binding to it is ensured to be notified on the JavaFX Application Thread It should be used to implement bindings where updates come in from a background thread but should be reflected in the UI where it is necessary that changes to the UI are performed on the JavaFX Application thread
+__label__yes	prefs putBoolean JabRefPreferences WINDOW MAXIMISED getExtendedState Frame MAXIMIZED BOTH
+__label__yes	Dialog for managing term list files
+__label__no	Check if a path to the command has been specified
+__label__no	Will only happen if field exists
+__label__no	We need to make a copy as instances of LogEvent are reused by log4j
+__label__yes	perform permutation
+__label__yes	Stream allMatch in contrast to Stream anyMatch returns true for empty streams so this has to be checked explicitly
+__label__no	If there is no value do nothing
+__label__no	Set the default value
+__label__no	Update the citation list depending on the selected reference
+__label__no	Enable actions that depend on Connect
+__label__yes	Deleted since it does not work anymore Needs refactoring MenuItem previousPreviewLayout new MenuItem Localization lang Previous preview layout previousPreviewLayout setAccelerator keyBindingRepository getKeyCombination KeyBinding PREVIOUS PREVIEW LAYOUT previousPreviewLayout setOnAction event basePanel previousPreviewStyle MenuItem nextPreviewLayout new MenuItem Localization lang Next preview layout nextPreviewLayout setAccelerator keyBindingRepository getKeyCombination KeyBinding NEXT PREVIEW LAYOUT nextPreviewLayout setOnAction event basePanel nextPreviewStyle
+__label__no	for all types
+__label__no	We only handle ENTRY MODIFY here so the context is always a Path
+__label__yes	Opens the given URL using the system browser
+__label__yes	Constructor taking two entries
+__label__no	We create a decoration pane ourselves for performance reasons otherwise it has to be injected later leading to a complete redraw relayout of the complete scene
+__label__yes	css eye
+__label__yes	first check if a valid entry is selected
+__label__no	Return a string for displaying a node name and its number of children if it is a directory
+__label__yes	Dir must be a folder not a file
+__label__yes	Set up key bindings specific for the entry editor
+__label__no	Bootstraps a servicemanager with the jurt base components registered See also UNOIDL code com sun star lang ServiceManager code
+__label__no	The footnote s anchor gives the correct position in the text
+__label__no	See if it helps to append in
+__label__no	Remove annotations for the current entry and reinitialize annotation cache
+__label__no	For some reason the graphic is not set correctly so let s fix this
+__label__no	Set up groups tree
+__label__no	Store the directory for next time
+__label__no	those threads will be allowed to finish
+__label__no	Fetches possibly saved data and configures the control elements respectively
+__label__no	Exception used to indicate that the plugin attempted to set a character format that is not defined in the current OpenOffice document
+__label__no	Autosave
+__label__yes	Sets the indeterminate status of the progress bar p
+__label__no	The action was either canceled or unsuccessful
+__label__no	Remove fields which are not in the merged entry unless they are internal fields
+__label__no	Text before the citation
+__label__yes	entry type
+__label__yes	Display warnings if any
+__label__yes	Set the string associated with this file type s icon
+__label__yes	Added comparator for Read Status
+__label__no	This constructor should only be called to create a pseudo abbreviation file for built in lists This means it is a placeholder and it s path will be null meaning it has no place on the filesystem It s isPseudoFile property will therefore be set to true
+__label__no	TODO reflective access should be removed
+__label__no	A new or modified entry type Construct it from the string array
+__label__no	To account for numbering and for uniqiefiers we must refresh the cite markers
+__label__no	Open a http pdf ps viewer for the given link string
+__label__yes	General
+__label__no	Read all keybindings from the keybinding repository and create table keybinding models for them
+__label__no	Text leading up to s1 Insert s2
+__label__no	Migrations Warning for migrating the Review into the Comment field
+__label__no	TODO Show detailed description of the changes StringBuilder sb new StringBuilder html Localization lang Changes have been made to the following metadata elements p br nbsp nbsp sb append changes stream map unit unit key collect Collectors joining br nbsp nbsp sb append html infoPane setText sb toString
+__label__no	Global String constants for GUI actions
+__label__no	Put everything together
+__label__yes	Check if we should italicize the et al string in citations
+__label__yes	Inform the user to select entries first
+__label__no	Performs the change This method is responsible for adding a proper undo edit to the NamedCompound so the change can be undone
+__label__no	Set up bindings
+__label__no	Try to contact already running JabRef
+__label__yes	css file excel
+__label__no	Opens the url with the users standard Browser If that fails a popup will be shown to instruct the user to open the link manually and the link gets copied to the clipboard
+__label__no	Sets the link Runnable that is invoked after the task is finished irrespectively if it was successful or failed with an error
+__label__no	Field editor that provides various pre defined options as a drop down combobox
+__label__no	This method stores all file paths of the files in the journalFiles property to the global JabRef preferences Pseudo abbreviation files will not be stored
+__label__yes	icon setToolTipText Localization lang Open URL
+__label__no	An empty search field should cause the search to be cleared
+__label__no	Priority icon used for the menu
+__label__yes	checkbox marked circle outline
+__label__yes	Returns the currently viewed BasePanel
+__label__no	Generate keys
+__label__no	This class is similar to link GraphicValidationDecoration but with a different style and font based icon
+__label__no	This method returns a JComponent detailing the nature of the change
+__label__no	only remove explicit groups from the entries keyword groups should not be deleted
+__label__no	Are there children or children of children that are matched If yes we also need to show this node
+__label__yes	If there are entries to add
+__label__no	node should be generated for each call as nodes can be added to the scene graph only once
+__label__no	The user doesn t want to override cite keys
+__label__no	TODO Add undo panel getUndoManager addEdit new UndoableFieldChange entry editor getName text nextAbbreviation
+__label__no	Shows a dialog with the warnings from an import or open of a file
+__label__no	The popup has private access in link AutoCompletionBinding so we use reflection to access it
+__label__no	Try to strip the query string if any to get the correct suffix
+__label__no	Add chosen export type to last used pref to become default
+__label__no	Create a new TextSection from the document factory and access it s XNamed interface
+__label__no	A tag item in a link TagBar
+__label__no	TODO Warn if WarnAssignmentSideEffects warnAssignmentSideEffects node getNode getGroup panel frame return user aborted operation
+__label__no	TODO Expand parent to make new group visible parent expand
+__label__no	This class will copy each selected entry s BibTeX key as a hyperlink to its url to the clipboard In case an entry doesn t have a BibTeX key it will not be copied In case an entry doesn t have an url this will only copy the BibTeX key
+__label__no	check whether there is another icon defined for this file type
+__label__no	this needs to fixed because it gives asdf when going prefs get lyxpipe
+__label__no	Concatenates the formatted message of the given link LogEvent s by using the a new line separator
+__label__no	Creates a link BackgroundTask that first runs this task and based on the result runs a second task
+__label__no	Opens New Group Dialog and add the resulting group to the specified group
+__label__no	On all OSes there is a generic application available to handle file opening so use this one
+__label__no	generate the new cite keys for each entry
+__label__yes	default value
+__label__no	Customization of appearance parameters
+__label__no	remove node then insert all children
+__label__yes	Remove all current possible suggestions
+__label__no	Get entries and check if it makes sense to perform this operation
+__label__no	This method first saves all external files to its internal list then writes all abbreviations to their files and finally updates the abbreviations auto complete It basically calls link saveExternalFilesList link saveJournalAbbreviationFiles and finally link JournalAbbreviationLoader update JournalAbbreviationPreferences
+__label__no	do not open the original file
+__label__no	Finds the entry in the list best fitting the specified entry Even if no entries get a score above zero an entry is still returned
+__label__no	no more bps to check we found a matching one
+__label__yes	default pattern
+__label__no	We try to find the page that is displayed in the center of the viewport
+__label__no	Function to get the command name in case it is different from the application name
+__label__yes	Check if we are running an acceptable version of Java
+__label__yes	inheritDoc
+__label__no	Alt on Windows
+__label__no	General information
+__label__no	compare normalized markers since the actual markers can be different
+__label__no	all keywords from first entry have to be added
+__label__no	must be set here because in initialize the button is still null
+__label__yes	everything is ok
+__label__no	See if we can find a type with matching name in the default type list
+__label__no	We need to wait with setting the divider since it gets reset a few times during the initial set up
+__label__no	We calculate the new hit value We could be more intelligent and try to figure out the new number of hits based on the entry change for example a previously matched entry gets removed hits hits 1
+__label__no	It was modified Remove its entry from the defaults list since the type hasn t been removed
+__label__no	Cannot rename remote links
+__label__no	remember modified children for redo
+__label__yes	If the given component is visible it will be hidden and the other way around
+__label__no	Interface presents user described paste behaviour applying to paste method
+__label__yes	icon setToo Localization lang Open PDF
+__label__no	First get a list of the default file types as a starting point
+__label__no	The name to change to is already in the database so we can t comply
+__label__no	Look up the external file type registered with this name if any
+__label__no	TODO Add undo redo ce addEdit new UndoableInsertEntry panel getDatabase entry
+__label__no	The action concerned with generate a new sub database from latex AUX file
+__label__no	Starts the search of unlinked files according chosen directory and the file type selection The search will process in a separate thread and a progress indicator will be displayed
+__label__no	Gets the filename for the current linked file and compares it to the new suggested filename
+__label__no	Modified externally
+__label__no	Responsible for managing of all threads except GUI threads in JabRef
+__label__no	all the logic is done in openIt Even raising an existing panel
+__label__yes	Focuses the given field
+__label__yes	Set pasteActionHandler variable to passed handler
+__label__no	Gets invoked if the user selects a different group We need to notify the link StateManager about this change so that the main table gets updated
+__label__no	Merge entries
+__label__no	This panel contains the two comboboxes and the Add button
+__label__no	Gets invoked if the user changes the active database We need to get the new group tree and update the view
+__label__no	Use a application if the app is specified and just open filename otherwise
+__label__no	set default values overwritten if editedGroup null
+__label__yes	Check if the cloned entry has a crossref field
+__label__no	Print icon used for menu
+__label__no	Return a String array representing this file type This is used for storage into Preferences and the same array can be used to construct the file type later using the String constructor
+__label__yes	must be here
+__label__no	This method will write all abbreviations of this abbreviation file to the file on the file system It essentially will check if the current file is a built in list and if not it will call link AbbreviationWriter writeOrCreate
+__label__no	Constructs an link Image for the image representing the given function in the resource file listing images param name The name of the icon such as open save saveAs etc return The link Image for the function
+__label__no	Need to toggle a twice to make sure everything is selected
+__label__no	fetch entries from GUI
+__label__yes	icon setToolTipText Localization lang Open 0 file fileType getName
+__label__no	The default context menu with a specific menu for normalizing person names regarding to BibTex rules
+__label__no	Update the map of uniquefiers for the benefit of both the following generation of new citation markers and for the method that builds the bibliography
+__label__no	Check if any of the files are already open
+__label__yes	Automatically imports the files given as arguments
+__label__yes	Return null if the directory is not valid
+__label__yes	setBounds GraphicsEnvironment getLocalGraphicsEnvironment getMaximumWindowBounds WindowLocation pw new WindowLocation this JabRefPreferences POS X JabRefPreferences POS Y JabRefPreferences SIZE X JabRefPreferences SIZE Y pw displayWindowAtStoredLocation
+__label__no	css file find
+__label__yes	icon setToolTipText Localization lang Open file
+__label__no	Here we store the names of all current files If there is no current file we remove any previously stored filename
+__label__yes	Add to group
+__label__no	The subtree that was added or removed
+__label__no	Run a recursive search in a background task
+__label__no	Read a typical java property url into a Map Currently doesn t support escaping of the character it simply looks for the first to determine where the key ends Both the key and the value is trimmed for whitespace at the ends
+__label__no	Asks the user for confirmation that he really wants to the delete the file from disk or just remove the link
+__label__no	Different actions depending on where the user releases the drop in the target row Bottom top import entries Center link files to entry
+__label__yes	empty tab without database
+__label__no	ExporterViewModel wraps a TemplateExporter from logic and is used in the exporter customization dialog view and ViewModel
+__label__no	The Preferences panel for key generation
+__label__yes	insert the factory of the loader
+__label__no	We try to to prevent publishing changes in the search field directly to the search task that takes some time for larger group structures
+__label__no	Build individual layout cards for each group
+__label__no	Installs the style file and provides live reloading p The live reloading has to be turned on by setting the code Djabref theme css code property There two possible modes 1 When only code Djabref theme css code is specified then the standard code Base css code that is found will be watched and on changes in that file the style sheet will be reloaded and changes are immediately visible 2 When a path to a css file is passed to code Djabref theme css code then the given style is loaded in addition to the base css file Changes in the specified css file lead to an immediate redraw of the interface p When working from an IDE this usually means that the code Base css code is located in the build folder To use the css file that is located in the sources directly the full path can be given as value for the VM option code Djabref theme css path to src Base css code
+__label__no	Set entry number in case that is included in the preview layout
+__label__no	For some reason the graphic is not set correctly so let s fix this ToDO Find a way to reuse JabRefIconView
+__label__no	Pass other keys to children
+__label__no	class is indirectly constructed by log4j
+__label__no	Different actions depending on where the user releases the drop in the target row Bottom top insert source row before after this row Center add as child
+__label__no	Opens a file browser of the folder of the given file If possible the file is selected
+__label__no	FIXME prefix can be removed
+__label__no	This class represents the removal of an entry The constructor needs references to the database the entry and the map of open entry editors The latter to be able to close the entry s editor if it is opened after an undo and the removal is then undone
+__label__no	We know that tmpEntry is not equal to diskEntry Check if it has been modified locally as well since last tempfile was saved
+__label__no	The preferences might be not initialized in tests return immediately TODO Replace this ugly workaround by proper injection propagation
+__label__yes	return Merged BibEntry
+__label__yes	Focuses the search field if it is not focused
+__label__yes	Decide whether to show this tab for the given entry
+__label__yes	Register undo redo listener
+__label__yes	icon setToolTipText Localization lang Open ArXiv URL
+__label__no	Reporting etc this method is called on the event dispatch thread after pushEntries returns
+__label__no	Creates an object that can undo redo an edit event
+__label__no	We have to use reflection since TableUtil is not visible to us
+__label__yes	insert the acceptor
+__label__no	TODO Font padding customization setFont GUIGlobals currentFont
+__label__no	We have sorted the citation markers according to their order of appearance so we simply count up for each marker referring to a new entry
+__label__yes	Specific importer
+__label__no	Get the office component context
+__label__no	The type of the editing ADD NODE REMOVE NODE KEEP CHILDREN REMOVE NODE AND CHILDREN
+__label__yes	Font configuration
+__label__no	Shift on Windows or no modifier
+__label__no	GUI component that allows editing of the fields of a BibEntry i e the one that shows up when you double click on an entry in the table p It hosts the tabs required general optional and the buttons to the left p EntryEditor also registers itself to the event bus receiving events whenever a field of the entry changes enabling the text fields to update themselves if the change is made from somewhere else
+__label__no	TODO Float marked entries model updateMarkingState Globals prefs getBoolean JabRefPreferences FLOAT MARKED ENTRIES
+__label__yes	Ignore
+__label__yes	Find default choice if any
+__label__no	This marker appears for more than one unique entry
+__label__no	Constructs a link TreeTableCell based on the view model of the row and a bunch of specified converter methods
+__label__no	Override used newline character with the one stored in the preferences The preferences return the system newline character sequence as default
+__label__yes	For each cited key
+__label__yes	connection string
+__label__no	Generates a plain text string out of the preview and copies it additionally to the html to the clipboard WYSIWYG Editors use the HTML plain text editors the text
+__label__yes	IEEETran
+__label__yes	Sort the visible components by their preferred position
+__label__no	This method should be called after storing the preferences This calls the appropriate method in the ViewModel
+__label__no	Should this be done after we know it was successfully opened
+__label__yes	Find the default directory for this field type
+__label__yes	Set up annotation list
+__label__no	Bootstraps an initial component context with service manager and basic jurt components inserted
+__label__no	redo
+__label__yes	Generate keys for given entries
+__label__no	This Action keeps a reference to a URL When activated it shows the help Dialog unless it is already visible and shows the URL in it
+__label__no	Only serialize linked files not the ones that are automatically found
+__label__no	Puts the value of the concrete class in a map All previous content stored in the map is removed
+__label__yes	create default local component context
+__label__no	Update appearance of group
+__label__no	Checks if there are duplicates to the given entry in the list of entries to be imported
+__label__yes	If there are entries to remove
+__label__no	General fields from preferences
+__label__no	Class for creating the information about customizable entry editor tabs
+__label__no	Do not make this class final as it otherwise can t be mocked for tests
+__label__no	Refresh all reference marks with the citation markers we computed
+__label__yes	Save the database
+__label__no	Class that defines interaction with an external application in the form of pushing selected entries to it
+__label__no	A Hyperlink Click Listener for javafx WebView to open links on click in the browser Code adapted from a href https stackoverflow com a 33445383 https stackoverflow com a 33445383 a
+__label__no	Constructs a link TreeTableCell based on the view model of the row and a bunch of specified converter methods
+__label__no	Looks up the URL for the image representing the given function in the resource file listing images
+__label__no	Quick hack to disable navigating
+__label__yes	Use the received map directly
+__label__yes	Register for changes
+__label__yes	Empty
+__label__no	Disables selection
+__label__yes	Moves the given component down
+__label__no	for the case that the password is already set
+__label__no	Updated the original entry with the new fields
+__label__no	GUI for tab displaying article recommendations based on the currently selected BibEntry
+__label__yes	TODO NULL TODO Null TODO NULL
+__label__no	A date picker with configurable datetime format where both date and time can be changed via the text field and the date can additionally be changed via the JavaFX default date picker Also supports incomplete dates First recall how the date picker normally works The user selects a date in the popup which sets link valueProperty to the selected date The converter link converterProperty is used to transform the date to a string representation and display it in the text field The idea is now to intercept the process and add an additional step The user selects a date in the popup which sets link valueProperty to the selected date The date is converted to a link TemporalAccessor i e enriched by a time component using link addCurrentTime LocalDate The string converter link stringConverterProperty is used to transform the temporal accessor to a string representation and display it in the text field Inspiration taken from https github com edvin tornadofx controls blob master src main java tornadofx control DateTimePicker java
+__label__no	A simple command that does not track progress of the action
+__label__no	Create a new entry and add it to the undo stack Remove the other two entries and add them to the undo stack which is not working
+__label__no	If we are not allowed to overwrite values check if there is a non empty value already for this entry for the new field
+__label__no	Holds the version in memory Check if it has been modified
+__label__no	This class provides a view model for abbreviation objects which can also define placeholder objects of abbreviations This is indicated by using the code pseudoAbbreviation property
+__label__no	TODO Implement jump to entry TODO Add toolitp for tag Localization lang Jump to entry This feature was removed while converting the linked entries editor to JavaFX Right now there is no nice way to re implement it as we have no good interface to control the focus of the main table except directly using the JabRefFrame class as below parsedEntryLink getLinkedEntry ifPresent e frame getCurrentBasePanel highlightEntry e
+__label__yes	basePanel getPreviewPanel updateLayout preferences getPreviewPreferences
+__label__no	The mouse location within the cell when the dropping gesture occurs
+__label__no	Store changes to table preferences This method is called when the user clicks Ok
+__label__no	TODO Rework so that we don t rely on JabRefFrame and not the complete preferences
+__label__no	Util class for searching files on the file system which are not linked to a provided link BibDatabase
+__label__no	Entry type unknown treat all fields as required
+__label__no	Switch to currently selected entry if mode is changed to live
+__label__yes	Returns a list of BasePanel
+__label__no	We need to wrap the list since otherwise sorting in the table does not work
+__label__no	Creates a VBox of the related article information to be used in the StackPane displayed in the Related Articles tab
+__label__yes	Redo the change
+__label__yes	Refresh all cite markers in the document
+__label__no	TODOSwingUtilities invokeLater undo putValue Action SHORT DESCRIPTION event getUndoDescription undo setEnabled event isCanUndo redo putValue Action SHORT DESCRIPTION event getRedoDescription redo setEnabled event isCanRedo
+__label__no	move all children to newNode then add newNode
+__label__no	Checks whether the file exists or if a new file should be opened The file will be added to the set of journal abbreviation files If the file also exists its abbreviations will be read and written to the abbreviations property
+__label__no	TODO reflective access should be removed
+__label__no	if user does not change anything with his action we do not do anything either even no output message
+__label__no	Enriches a suggestion provider by a given set of content selector values
+__label__yes	Revert the change
+__label__no	Always fill out all the available space
+__label__yes	Good bye
+__label__no	Enrich auto completion by content selector values
+__label__yes	Name the reference
+__label__no	The log event will be forwarded to the link LogMessages archive
+__label__no	ToDo After conversion of all tabs to mvvm rework interface and make validSettings bindable Button btnSave Button this getDialogPane lookupButton saveButton btnSave disableProperty bind viewModel validSettings validProperty not
+__label__yes	Frame titles
+__label__no	Set to true in case the command could not be executed e g if the file is not found Set to true in case the tunnel to the program if one is used does not operate Set to true if the corresponding path is not defined in the preferences
+__label__no	Add context menu only for non null items
+__label__no	Copies the selected entries and formats them with the selected citation style or preview then it is copied to the clipboard This worker cannot be reused
+__label__no	This class defines a type of external files that can be linked to from JabRef The class contains enough information to provide an icon a standard extension and a link to which application handles files of this type
+__label__no	Error stream has been closed See if there were any errors
+__label__yes	In case it did not work
+__label__no	link FileFilter implementation that allows only files which are not linked in any of the link BibEntry s of the specified link BibDatabase br br This link FileFilter sits on top of another link FileFilter implementation which it first consults Only if this major filefilter has accepted a file this implementation will verify on that file
+__label__no	Sort entries into current members and non members of the group Current members will be removed Current non members will be added
+__label__no	For ONLY FULL the auto completer returns the full name e g Smith Bob For ONLY ABBREVIATED the auto completer returns the first name abbreviated e g Smith B For BOTH the auto completer returns both versions
+__label__no	Resolve the bibtex key from a citation reference marker name and look up the index of the key in a list of keys
+__label__no	Send event to trigger changes
+__label__no	This class provides a model for managing journal abbreviation lists It provides all necessary methods to create modify or delete journal abbreviations and files To visualize the model one can bind the properties to ui elements
+__label__yes	Makes sure that the given component is visible
+__label__no	TODO show parserwarnings if any not here for ImportFormatReader UnknownFormatImport p imports ParserResultWarningDialog showParserResultWarningDialog p parserResult frame
+__label__yes	The action concerned with opening an existing database
+__label__yes	icon setToolTipText priorityViewModel getLocalization
+__label__no	Check if the type has changed
+__label__no	In case no stringConverter was provided use the default strategy
+__label__no	Installs the base css file as a stylesheet in the given scene Changes in the css file lead to a redraw of the scene using the new css file
+__label__no	TODO Add undo and display message MoveGroupChange undo new MoveGroupChange GroupTreeNodeViewModel source getParent getNode source getNode getPositionInParent target getNode target getChildCount
+__label__yes	Except every file
+__label__yes	The current version of the installed JabRef
+__label__yes	No occurrence or at the end Check if there are path separators in the suffix if so it is definitely not a proper suffix so we should give up
+__label__no	This method causes all open BasePanels to set up their tables anew When called from PrefsDialog3 this updates to the new settings
+__label__no	Pretend that we just switched to the current file in order to refresh the display
+__label__yes	Pass other keys to parent
+__label__no	Must be executed after the initialization of the view otherwise it doesn t work
+__label__no	Remember the type in case we need to uniquefy
+__label__yes	Steps to reproduce
+__label__yes	do not open the original file
+__label__no	We have to put Entry Editor Previous before because otherwise the decrease font size is found first
+__label__no	Update active search query when switching between databases
+__label__yes	Create help button for currently selected fetcher
+__label__no	In case of removing a node but keeping all of its children the number of children has to be stored
+__label__no	Move contents from one field to another for a Collection of entries
+__label__yes	Adding of a single node group
+__label__no	This is called when the user drops some PreviewLayouts either in the availableListView or in the empty space of chosenListView
+__label__no	TODO use WEB SEARCH instead as soon as it is available TODO use WEB SEARCH instead as soon as it is available
+__label__no	Executes the task on the current thread The code is essentially taken from link javafx concurrent Task TaskCallable call but adapted to run sequentially
+__label__yes	This method returns the default key binding the key s which are assigned
+__label__no	TODO Add undo UndoableAddOrRemoveGroup undo new UndoableAddOrRemoveGroup parent new GroupTreeNodeViewModel newGroupNode UndoableAddOrRemoveGroup ADD NODE panel getUndoManager addEdit undo
+__label__no	Test if the field is legally set
+__label__no	Need to run this async otherwise the dialog does not work
+__label__yes	Revert the change
+__label__yes	and adding merged entries
+__label__yes	remove newlines hyphens before linebreaks
+__label__no	Creates a link BackgroundTask that first runs this task and based on the result runs a second task
+__label__no	This action checks whether any new custom entry types were loaded from this BIB file If so an offer to remember these entry types is given
+__label__no	nan
+__label__yes	Other fields
+__label__no	Register listener The wrapper created by the FXCollections will set a weak listener on the wrapped list This weak listener gets garbage collected Hence we need to maintain a reference to this list
+__label__no	Try to download fulltext PDF for selected entry ies by following URL or DOI link
+__label__yes	Editor for external file types
+__label__yes	configure elements
+__label__no	This class is essentially a wrapper around link Task We cannot use link Task directly since it runs certain update notifications on the JavaFX thread and so makes testing harder We take the opportunity and implement a fluid interface
+__label__yes	Updates the view with the contents of the given entry
+__label__no	try to connect to office
+__label__no	Switch tab if asked to do so
+__label__yes	Store visual state
+__label__no	This class has an abstract UI role as it listens for an link AutosaveEvent and saves the bib file associated with the given link BasePanel
+__label__no	Set owner timestamp
+__label__no	the submenu will behave dependent on what style is currently selected citation preview
+__label__no	Find the linking footnote marker
+__label__no	Tests if we are running an acceptable Java and terminates JabRef when we are sure the version is not supported This test uses the requirements for the Java version as specified in code gradle build code It is possible to define a minimum version including the built number and to indicate whether Java 9 can be used which it currently can t It tries to compare this version number to the version of the currently running JVM The check is optimistic and will rather return true even if we could not exactly determine the version p Note Users with a very old version like 1 6 will not profit from this since class versions are incompatible and JabRef won t even start Currently JabRef won t start with Java 9 either but the warning that it cannot be used with this version is helpful anyway to prevent users to update from an old 1 8 directly to version 9 Additionally we soon might have a JabRef that does start with Java 9 but is not perfectly compatible Therefore we should leave the Java 9 check alive
+__label__yes	Subscribe to type changes for rebuilding the currently visible tab
+__label__no	May happen during initialization just ignore
+__label__no	Look for the last in the link and return the following characters This gives the extension for most reasonably named links
+__label__no	No selected group show all entries
+__label__yes	Headings
+__label__yes	get XTextContent interface
+__label__yes	Method to change the currentAbbrevaition property to a new abbreviation
+__label__yes	Update the merged entry
+__label__yes	release panel from save status
+__label__yes	Set text of each of the boxes
+__label__yes	Do nothing
+__label__no	This class represents the removal of an entry The constructor needs references to the database the entry and the map of open entry editors The latter to be able to close the entry s editor if it is opened before the insert is undone
+__label__no	This method is called to indicate that the settings panel returned from the getSettingsPanel method has been shown to the user and that the user has indicated that the settings should be stored This method must store the state of the widgets in the settings panel to Globals prefs
+__label__yes	Check the given possible suggestion is a match is a valid suggestion
+__label__yes	Read name format options MK
+__label__no	This method inserts a cite marker in the text for the given BibEntry and may refresh the bibliography
+__label__no	FIXME Move to viewModel until fieldFormatterCleanupsPanel is property implemented
+__label__no	Since the directory does not exist we cannot move it to there So this option is not checked regardless of the presets stored in the preferences
+__label__no	TODO reflective access should be removed
+__label__no	ensure that there is always only one AllEntriesGroup
+__label__no	Class for manipulating the Bibliography of the currently start document in OpenOffice
+__label__no	Check for running JabRef
+__label__no	The MacAdapter calls this method when About is selected from the application menu
+__label__no	TODO Be a bit smarter and try to infer correct icon for example using link org jabref gui externalfiletype ExternalFileTypes getExternalFileTypeByName String
+__label__no	Restore focus to field run this async so that editor is already initialized correctly
+__label__yes	Get the page number of the current page in the document
+__label__no	First see if the stripped link gives a reasonable suffix
+__label__no	Hide progress indicator if finished over 70 loaded
+__label__yes	fields
+__label__yes	Ask if keys should be generated
+__label__no	quote String so explorer handles URL query strings correctly
+__label__no	This class provides a model for abbreviation files It actually doesn t save the files as objects but rather saves their paths This also allows to specify pseudo files as placeholder objects
+__label__no	Set language to None
+__label__no	To align with buttons below which also have 0 5em padding
+__label__no	TODO switch Icon color searchIcon setIcon IconTheme JabRefIcon SEARCH getIcon
+__label__no	The entry currently shown
+__label__no	setting a multi value special field the setted value is displayed too
+__label__no	First hide old page and show background instead recalculate size of background to make sure its correct
+__label__no	For some reason the graphic is not set correctly so let s fix this
+__label__no	Exception used to indicate that the plugin attempted to set a character format that is not defined in the current OpenOffice document
+__label__no	Submits a one shot task that becomes enabled after the given delay
+__label__no	css folder
+__label__no	This Action may only be used in a menu or button Never in the entry editor FileListEditor and EntryEditor have other ways to update the file links
+__label__no	backwards compatibility stub
+__label__yes	Swing
+__label__yes	Preferences and XML
+__label__yes	Annotations PostConstruct
+__label__yes	Libre Office
+__label__no	A mocking class used as a placeholder for the real Oracle JDBC drivers to prevent build errors
+__label__no	no data
+__label__no	A mocking class used as a placeholder for the real Oracle JDBC drivers to prevent build errors
+__label__no	A mocking class used as a placeholder for the real Oracle JDBC drivers to prevent build errors
+__label__yes	do nothing
+__label__no	FIXME Reuse SearchWorker here
+__label__no	FIXME Reuse SearchWorker here
+__label__no	A mocking class used as a placeholder for the real Oracle JDBC drivers to prevent build errors
+__label__no	A mocking class used as a placeholder for the real Oracle JDBC drivers to prevent build errors
+__label__no	A mocking class used as a placeholder for the real Oracle JDBC drivers to prevent build errors
+__label__no	This package contains stubs for oracle jdbc to prevent build errors if the non distributable oraclejdbdc6 jar is unavailable in the classpath
+__label__yes	empty
+__label__no	Annotation to indicate that usage of ApacheCommonsLang3 is explicitly allowed The intention is to fully switch to Google Guava and only use Apache Commons Lang3 if there is no other possibility
+__label__yes	The rationale
+__label__no	print statistics
+__label__no	Defines the different modes that the BasePanel can operate in
+__label__yes	Puts content onto the clipboard
+__label__yes	Get the String residing on the clipboard return any text found on the Clipboard if none found return an empty String
+__label__no	Will open a file like importFile but will also request JabRef to focus on this database
+__label__no	Run an entry fetcher from the command line
+__label__yes	Download web resource to temporary file
+__label__no	means guess the format
+__label__no	Check if we should reset all preferences to default values
+__label__yes	Check if we should import preferences from a file
+__label__yes	List to put imported loaded database s in
+__label__no	enables blanks within the search term stands for a blank
+__label__no	export matches
+__label__no	read in the export format take default format if no format entered
+__label__no	default exporter HTML table with Abstract BibTeX
+__label__no	export new database
+__label__no	Leftover arguments that have a bib extension are interpreted as BIB files to open Other files and files that could not be opened as bib we try to import instead
+__label__no	We will try to import this file Normally we will import it into a new tab but if this import has been initiated by another instance through the remote listener we will instead import it into the current library This will enable easy integration with web browsers that can open a reference file in JabRef
+__label__no	write an output if something could be resolved
+__label__yes	Show just a warning message if encoding did not work for all characters
+__label__no	This signals that the latest import should be stored in BibTeX format to the given file
+__label__no	This signals that the latest import should be stored in the given format to the given file
+__label__no	Set the global variable for this database s file directory before exporting so formatters can resolve linked files correctly This is an ugly hack
+__label__no	String clearSearch clearSearch mainTable getInputMap put Globals getKeyPrefs getKey KeyBinding CLEAR SEARCH clearSearch mainTable getActionMap put clearSearch new AbstractAction Override public void actionPerformed ActionEvent e need to close these here b c this action overshadows the responsible actions when the main table is selected switch mode case SHOWING NOTHING frame getGlobalSearchBar endSearch break case SHOWING PREVIEW getPreviewPanel close break case SHOWING EDITOR case WILL SHOW EDITOR entryEditorClosing getEntryEditor break default LOGGER warn unknown BasePanelMode mode doing nothing break mainTable getActionMap put Actions CUT new AbstractAction Override public void actionPerformed ActionEvent e try runCommand Actions CUT catch Throwable ex LOGGER warn Could not cut ex mainTable getActionMap put Actions COPY new AbstractAction Override public void actionPerformed ActionEvent e try runCommand Actions COPY catch Throwable ex LOGGER warn Could not copy ex mainTable getActionMap put Actions PASTE new AbstractAction Override public void actionPerformed ActionEvent e try runCommand Actions PASTE catch Throwable ex LOGGER warn Could not paste ex
+__label__no	The search can lead to an unexpected 100 CPU usage which is perceived as a bug if the search incidentally starts at a directory with lots of stuff below It is now disabled by default
+__label__no	Returns a collection of suggestion providers which are populated from the current library
+__label__no	Generates and copies citations based on the selected entries to the clipboard param outputFormat the desired link CitationStyleOutputFormat
+__label__no	Removes the selected entries from the database param cut If false the user will get asked if he really wants to delete the entries and it will be localized as deleted If true the action will be localized as cut
+__label__no	This method is called from JabRefFrame if a database specific action is requested by the user Runs the command if it is defined or prints an error message to the standard error stream
+__label__no	This method is called from JabRefFrame when the user wants to create a new entry param bibEntry The new entry
+__label__yes	Set up auto completion for this database
+__label__no	Sets the entry editor as the bottom component in the split pane If an entry editor already was shown makes sure that the divider doesn t move Updates the mode to SHOWING EDITOR Then shows the given entry param entry The entry to edit
+__label__no	This method selects the given entry and scrolls it into view in the table If an entryEditor is shown it is given focus afterwards
+__label__no	This method is called from an EntryEditor when it should be closed We relay to the selection listener which takes care of the rest
+__label__no	Closes the entry editor if it is showing the given entry
+__label__no	Depending on whether a preview or an entry editor is showing save the current divider location in the correct preference setting
+__label__no	Get an array containing the currently selected entries The array is stable and not changed if the selection changes return A list containing the selected entries Is never null
+__label__no	Set the query the user currently searches while this basepanel is active
+__label__no	Ensures that the search auto completer is up to date when entries are changed AKA Let the auto completer if any harvest words from the entry Actual methods for autocomplete indexingmust run in javafx thread
+__label__no	Ensures that the results of the current search are updated when a new entry is inserted into the database Actual methods for performing search must run in javafx thread
+__label__no	Keeps track of the string dialog if it is open
+__label__no	To contain instantiated entry editors This is to save time As most enums this must not be null
+__label__yes	AutoCompleter used in the search bar
+__label__no	Used to track whether the base has changed since last save
+__label__no	the query the user searches when this BasePanel is active
+__label__no	ensure that at each addition of a new entry the entry is added to the groups interface
+__label__no	ensure that all entry changes mark the panel as changed
+__label__yes	check if file is modified
+__label__no	if the database is not empty and no file is assigned the database came from an import and has to be treated somehow mark as changed This also happens internally at basepanel to ensure consistency line 224
+__label__yes	The action for copying selected entries
+__label__no	The action for pasting entries or cell contents more robust detection of available content flavors doesn t only look at first one offered support for parsing string flavor clipboard contents which are bibtex entries This allows you to a paste entire bibtex entries from a text editor web browser etc b copy and paste entries between multiple instances of JabRef since only the text representation seems to get as far as the X clipboard at least on my system
+__label__yes	The action for copying the selected entry s key
+__label__yes	The action for copying the selected entry s title
+__label__no	The action for copying a cite for the selected entry
+__label__no	The action for copying the BibTeX keys as hyperlinks to the urls of the selected entries
+__label__no	Collect all non null titles
+__label__no	All entries had titles
+__label__yes	Collect all non null keys
+__label__no	All entries had keys
+__label__yes	Collect all non null keys
+__label__no	All entries had keys
+__label__no	OK in a future version this string should be configurable to allow arbitrary exports
+__label__yes	Collect all non null keys
+__label__no	All entries had keys
+__label__no	Set owner and timestamp
+__label__yes	Create an UndoableInsertEntry object
+__label__yes	The database just changed
+__label__no	Focus field and entry in main table async to give entry editor time to load
+__label__no	Add the listener that binds selection to state manager TODO should be replaced by proper JavaFX binding as soon as table is implemented in JavaFX
+__label__no	Update entry editor and preview according to selected entries
+__label__no	TODO Register these actions globally
+__label__no	restore last splitting state before mainTable is created as creation affects the stored size of the entryEditors
+__label__yes	Set up name autocompleter for search
+__label__no	Saves the divider position as soon as it changes We need to keep a reference to the subscription otherwise the binding gets garbage collected
+__label__no	create changeMonitor and changePane so we get notifications about outside changes to the file
+__label__no	if the database is not empty and no file is assigned the database came from an import and has to be treated somehow mark as changed
+__label__no	Ensure that the suggestion providers are in sync with entries
+__label__no	Create empty suggestion providers if auto completion is deactivated
+__label__no	Put an asterisk behind the filename to indicate the database has changed
+__label__no	Run the search operation
+__label__no	Automatically add new entry to the selected group or set of groups
+__label__no	IMO only used to update the status found X entries
+__label__no	No URL or DOI found in the url and doi fields Look for web links in the file field as a fallback
+__label__no	Useful for checking out new algorithm improvements and thresholds Not used inside the JabRef code itself
+__label__no	This method takes care of creating dependencies By default it just creates a new instance of the class Dependencies without default constructor are constructed by hand
+__label__no	Use our own method to construct dependencies
+__label__no	This interface provides methods to create dialogs and show them to the user
+__label__no	This will create and display new link ChoiceDialog of type T with a default choice and a collection of possible choices implNote The implementation should accept code null for code defaultChoice but callers should use link showChoiceDialogAndWait String String String Collection
+__label__no	This will create and display new link TextInputDialog with a text fields to enter data
+__label__yes	This will create and display new link TextInputDialog with a text field with a default value to enter data
+__label__no	This will create and display a new information dialog It will include a blue information icon on the left and a single OK Button To create an information dialog with custom buttons see also link showCustomButtonDialogAndWait Alert AlertType String String ButtonType
+__label__no	This will create and display a new information dialog It will include a yellow warning icon on the left and a single OK Button To create a warning dialog with custom buttons see also link showCustomButtonDialogAndWait Alert AlertType String String ButtonType
+__label__no	This will create and display a new error dialog It will include a red error icon on the left and a single OK Button To create a error dialog with custom buttons see also link showCustomButtonDialogAndWait Alert AlertType String String ButtonType
+__label__yes	Create and display error dialog displaying the given exception param message the error message param exception the exception causing the error
+__label__yes	Create and display error dialog displaying the given exception param exception the exception causing the error
+__label__yes	Create and display error dialog displaying the given message
+__label__no	This will create and display a new confirmation dialog It will include a blue question icon on the left and a OK and Cancel button To create a confirmation dialog with custom buttons see also link showCustomButtonDialogAndWait Alert AlertType String String ButtonType
+__label__no	Create and display a new confirmation dialog It will include a blue question icon on the left and a OK with given label and Cancel button To create a confirmation dialog with custom buttons see also link showCustomButtonDialogAndWait Alert AlertType String String ButtonType
+__label__no	Create and display a new confirmation dialog It will include a blue question icon on the left and a OK with given label and Cancel also with given label button To create a confirmation dialog with custom buttons see also link showCustomButtonDialogAndWait Alert AlertType String String ButtonType return true if the use clicked OK otherwise false
+__label__no	Create and display a new confirmation dialog It will include a blue question icon on the left and a YES with given label and Cancel also with given label button To create a confirmation dialog with custom buttons see also link showCustomButtonDialogAndWait Alert AlertType String String ButtonType Moreover the dialog contains a opt out checkbox with the given text to support Do not ask again behaviour
+__label__no	Create and display a new confirmation dialog It will include a blue question icon on the left and a YES with given label and Cancel also with given label button To create a confirmation dialog with custom buttons see also link showCustomButtonDialogAndWait Alert AlertType String String ButtonType Moreover the dialog contains a opt out checkbox with the given text to support Do not ask again behaviour
+__label__yes	Shows a custom dialog and returns the result param dialog dialog to show param R type of result
+__label__no	Constructs and shows a canceable link ProgressDialog Clicking cancel will cancel the underlying service and close the dialog param title title of the dialog param content message to show above the progress bar param task The link Task which executes the work and for which to show the dialog
+__label__no	nan
+__label__no	Shows a new file save dialog The method doesn t return until the displayed file save dialog is dismissed The return value specifies the file chosen by the user or an empty link Optional if no selection has been made After a file was selected the given file dialog configuration is updated with the selected extension type if any
+__label__no	Shows a new file open dialog The method doesn t return until the displayed open dialog is dismissed The return value specifies the file chosen by the user or an empty link Optional if no selection has been made After a file was selected the given file dialog configuration is updated with the selected extension type if any return the selected file or an empty link Optional if no file has been selected
+__label__no	Shows a new file open dialog The method doesn t return until the displayed open dialog is dismissed The return value specifies the files chosen by the user or an empty link List if no selection has been made return the selected files or an empty link List if no file has been selected
+__label__no	Shows a new directory selection dialog The method doesn t return until the displayed open dialog is dismissed The return value specifies the file chosen by the user or an empty link Optional if no selection has been made return the selected directory or an empty link Optional if no directory has been selected
+__label__no	Displays a Print Dialog Allow the user to update job state such as printer and settings These changes will be available in the appropriate properties after the print dialog has returned The print dialog is also used to confirm the user wants to proceed with printing
+__label__no	Shows a new dialog that list all files contained in the given archive and which lets the user select one of these files The method doesn t return until the displayed open dialog is dismissed The return value specifies the file chosen by the user or an empty link Optional if no selection has been made return the selected file or an empty link Optional if no file has been selected
+__label__no	Contains all the different link DataFormat s that may occur in JabRef
+__label__no	Dialog that prompts the user to choose a type for an entry Returns null if canceled
+__label__no	The buttonType will always be cancel even if we pressed one of the entry type buttons
+__label__no	we set the managed property so that they will only be rendered when they are visble so that the Nodes only take the space when visible avoids removing and adding from the scence graph
+__label__yes	Do nothing
+__label__no	This class provides a super class for all dialogs implemented in JavaFX To create a custom JavaFX dialog one should create an instance of this class and set a dialog pane through the inherited link Dialog setDialogPane DialogPane method The dialog can be shown via link Dialog show or link Dialog showAndWait The layout of the pane should be defined in an external fxml file and loaded it via the link FXMLLoader
+__label__no	This field is initialized upon startup Only GUI code is allowed to access it logic code should use dependency injection
+__label__no	This field is initialized upon startup Only GUI code is allowed to access it logic code should use dependency injection
+__label__no	Manager for the state of the GUI
+__label__yes	Remote listener
+__label__no	In the main program this field is initialized in JabRef java Each test case initializes this field if required
+__label__no	Key binding preferences
+__label__yes	Key binding preferences
+__label__yes	Background tasks
+__label__no	FIXME Workaround for bug https github com Microsoft ApplicationInsights Java issues 662
+__label__no	Static variables for graphics files and keyboard shortcuts
+__label__no	Perform initializations that are only used in graphical mode This is to prevent the Xlib connection to 0 0 refused by server error when access to the X server on Un x is unavailable
+__label__no	add some additional space to improve appearance
+__label__yes	Width of Ranking Icon Column
+__label__no	Set up entry editor colors first time
+__label__yes	update preferences
+__label__no	Number of characters per line
+__label__no	boolean options
+__label__no	This class provides methods to create default JavaFX dialogs which will also work on top of Swing windows The created dialogs are instances of the link FXDialog class The available dialogs in this class are useful for displaying small information graphic dialogs rather than complex windows For more complex dialogs it is advised to rather create a new sub class of link FXDialog
+__label__no	Need to force the alert to layout in order to grab the graphic as we are replacing the dialog pane with a custom pane
+__label__no	Create a new dialog pane that has a checkbox instead of the hide show details button Use the supplied callback for the action of the checkbox
+__label__no	Fool the dialog into thinking there is some expandable content a group won t take up any space if it has no children
+__label__yes	JabRef Launcher
+__label__no	The side pane is displayed at the left side of JabRef and shows instances of link SidePaneComponent
+__label__no	Override this method if the component needs to make any changes before it can close

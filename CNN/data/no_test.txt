@@ -1,0 +1,188 @@
+this event is fired from link org jabref logic autosaveandbackup autosavemanager in case that a save task is pending
+this is kept in sync with the database upon adding removing an entry it is updated as well
+writes all data to the specified writer using each object s tostring method
+returns whether an entry with the given id exists entry type hashcode
+returns a set of strings that contains all field names that are visible this means that the fields are not internal fields internal fields are fields that are starting with
+collects entries having the specified bibtex key and returns these entries as list the order of the entries is the order they appear in the database
+inserts the entry given that its id is not already in use use util createid to make up a unique id for an entry
+removes the given entry the entry is removed based on the id link bibentry id
+take the given bibentry and resolve any string references
+if we get to this point the string has obviously not been defined locally check if one of the standard bibtex month strings has been used
+we did not find the boundaries of the string ref this makes it impossible to interpret it as a string label so we should just append the rest of the text and finish
+the file where this database was last saved to
+returns the first existing file directory from link getfiledirectories filepreferences
+take care using crossrefentry comparator that referred entries occur after referring ones this is a necessary requirement for bibtex to be able to resolve referenced entries correctly
+if dir is only current directory just use its parent real current directory as path
+this node s parent or null if this node has no parent
+returns this node s parent or an empty optional if this node has no parent
+returns true if this node is an ancestor of the given node p a node is considered an ancestor of itself
+adds the given node at the end of the chain e g a b c d a b c d
+we use some explicit casts of the form t this the constructor ensures that this cast is valid
+filters change events and only relays major changes
+search all fields search within the acm guide to computing literature encompasses the acm full text collection bibtex format
+map to collect entry type definitions that we must save along with entries using them
+this exception is thrown in case that the sql database structure is not compatible with the current shared database support mechanisms
+some file formats write something at the start of the file like the encoding
+use a map instead of a set since i need to know how many of each key is in there
+helper function for counting the number of the key usages removes the given key from the internal keyset together with the count of it if the key is set to 1 if it is not set to 1 the counter will be decreased br special case if a null or empty key is passed it is not counted and thus not removed
+runs the formatter on the specified field in the given entry if the formatter returns an empty string then the field is removed
+array of children may be empty if this node has no children but never null
+get the child index of this node in its parent p if this node is a root then an unsupportedoperationexception is thrown use the isroot method to check for this case
+gets the number of levels above this node i e the distance from the root to this node p if this node is the root returns 0
+returns the path from the root to get to this node the last element in the path is this node
+returns the previous sibling of this node in the parent s children list returns an empty optional if this node has no parent or is the parent s first child p this method performs a linear search that is o n where n is the number of children
+check if we must write the type definition for this entry as well our criterion is that all non standard types not all customized standard types must be written
+removes the subtree rooted at this node from the tree giving this node an empty parent does nothing if this node is the root of it tree
+if user defined entry type then add it otherwise enrich returns empty optional it is a completely unknown entry type so ignore it
+sorts the list of children according to the order induced by the specified link comparator p all children must be mutually comparable using the specified comparator that is code c compare e1 e2 must not throw a code classcastexception for any children code e1 and code e2 in the list
+removes this node from its parent and makes it a child of the specified node by adding it to the specified position in the children list in this way the whole subtree based at this node is moved to the given node
+creates a deep copy of this node and all of its children
+perform checks and changes for users with a preference set from an older jabref version
+added from jabref 2 11 beta 4 onwards to fix wrong encoding names
+upgrade the sort order preferences for the current version the old preference is kept in case an old version of jabref is used with these preferences but it is only used when the new preference does not exist
+migrate default pattern
+pref node already exists do not migrate from previous version
+finally write whatever remains of the file but at least a concluding newline
+formats a field value by with a particular formatter transformation calling this method with a null argument results in a nullpointerexception
+fulltextfetcher implementation that attempts to find a pdf url at acs
+add the formatter to the map if it is not already there
+convert the contents of the hashmap into the correct serialization
+then we go through the string looking for references to other strings if we find references to strings that we will write but still haven t we write those before proceeding this ensures that the string order will be acceptable for bibtex
+imports a biblioscape tag file the format is described on http www biblioscape com download biblioscape8 pdf several biblioscape field types are ignored others are only included in the bibtex field comment
+ignore empty lines e g at file
+to find type first check tw then rt
+return a bibentry by looking up the given url from the bibsonomy scraper
+first try to match by string names
+but they have non matching contents so we ve found a change
+see if we can detect a name change for those entries that we couldn t match based on their content
+finally see if there are remaining strings in the new database they must have been added
+we re dealing with a special character usually either an undotted i or j or an accent like one in table 3 1 of the latex manual or a foreign character like one in table 3 2 if the first character after the left brace is a backslash the special character ends with the matching right brace how we handle what is in between depends on the special character in general this code will do reasonably well if there is other stuff too between braces but it doesn t try to do anything special with colon s
+retrieve pdf link
+determine whether there starts a special char at pos e g oe ae return it as string if nothing found return optional empty also used by bibtexpurify
+three options 1 original order 2 order specified in metadata 3 order specified in preferences
+skip over open brace
+skip over the backslash
+from the bibtex manual pops the top two string literals it changes the case of the second according to the specifications of the first as follows note the word letters in the next sentence refers only to those at brace level 0 the top most brace level no other characters are changed except perhaps for special characters described in section 4 if the first literal is the string t it converts to lower case all letters except the very first character in the string which it leaves alone and except the first character following any colon and then nonnull white space which it also leaves alone if it s the string l it converts all letters to lower case and if it s the string u it converts all letters to upper case it then pushes this resulting string if either type is incorrect it complains and pushes the null string however if both types are correct but the specification string i e the first string isn t one of the legal ones it merely pushes the second back onto the stack after complaining another note it ignores case differences in the specification string for example the strings t and t are equivalent for the purposes of this built in function christopher i think this should be another grammar this parser is horrible
+doi field seems to contain doi cleanup note url ee field
+we have begun to use getsortedentries for both database save operations and non database save operations in a non database save operation such as the exportdatabase call we do not wish to use the global preference of saving in standard order
+http www diva portal org smash aboutdiva jsf dswid 3222 diva portal contains research publications and student theses from 40 swedish universities and research institutions
+fulltextfetcher implementation that follows the doi resolution redirects and scans for a full text pdf url
+follow all redirects and scan for a single pdf link
+some publishers are quite slow default is 3s
+only check if pdf is included in the link or inside the text acm uses tokens without pdf inside the link see https github com lehner localcopy for more scrape ideas
+return if only one link was found high accuracy
+gets an object for a desired key from this bibtexkeypattern or one of it s parents in the case of databasebibtexkeypattern this method first tries to obtain the object from this bibtexkeypattern via the code get code method of code hashtable code if this fails we try the default br if that fails we try the parent br if that fails we return the default labelpattern br
+will only happen if both entries have the field and the content is identical
+will only happen if field exists
+returns an array of default commandline options to start bootstrapped instance of soffice with you may use it in connection with bootstrap method for example like this pre list list arrays aslist bootstrap getdefaultoptions list remove nologo list remove nodefault list add invisible bootstrap bootstrap list toarray new string list size pre
+find out if we are configured with disable dynloading or not try to load the lo bootstrap shared library which won t exist in the disable dynloading case and which will be already loaded otherwise so nothing unexpected happens that case yeah this would be simpler if i just could be bothered to keep a separate branch for disable dynloading on android merging in master periodically until i know for sure whether it is what i want or not
+get a reference to the body text of the document
+we need to catch this one here because the openofficepanel class is loaded before connection and therefore cannot directly reference or catch a disposedexception which is in a oo jar file
+manages which link sidepanecomponent s are shown
+we need normalized in parenthesis markers for uniqueness checking purposes
+insert bookmark at the end of the document instead of mxdoctext getend you could use a text cursor s xtextrange interface or any xtextrange
+check if there is page info stored for this citation if so insert it into the citation text before inserting the citation
+query xbookmarkssupplier from document model and get bookmarks collection
+insert bookmark
+preferences dialog contains a tabbedpane and tabs will be defined in separate classes tabs must implement the preferencestab interface since this dialog will call the storesettings method of all tabs when the user presses ok
+this is called if a user starts typing some characters into the keyboard with focus on one listview the listview will scroll to the next cell with the name of the previewlayout fitting those characters
+helper class for sorting visible components based on their preferred position
+this method is called when the dialog is opened or if it is made visible after being hidden the tab should update all its values this is the only place to set values for the fields in the tab it is illegal to set values only at construction time because the dialog will be reused and updated
+this method is called before the link storesettings method to check if there are illegal settings in the tab or if is ready to be closed this calls the appropriate method in the viewmodel
+build a panel for checkbox settings
+external file links
+this class manages the gui state of jabref including currently selected database currently selected group active search active number of search results
+shift on win or no modifier
+check whether this operation requires bibtex keys to be set for the entries if true is returned an error message will be displayed if keys are missing return true if bibtex keys are required for this operation
+linux gnuclient emacslient escaping java string insert cite blah2001 so sh receives insert cite blah2001 so emacs receives insert cite blah2001
+load fxml
+true if the input should be split at a single white space instead of the usual delimiter and for names useful if the input consists of a list of last names
+we only create the context menu when really necessary
+formatter that only accepts integer more or less taken from http stackoverflow com a 36749659 873661
+we only create the context menu when really necessary
+utility class with static methods for javafx link text objects
+runs the given task and returns a future representing that task usually you want to use the other method link execute backgroundtask param v type of return value of the task param task the task to run
+node is directly matched so show it
+ensures that suggestion providers are up to date when entries are changed or added
+queue on javafx thread and wait for completion
+string converter to be used to convert suggestions to strings
+creates a link backgroundtask that first runs this task and based on the result runs a second task param nextoperation the function that performs the next operation
+open folders is needed to indirectly support email programs which cannot handle the unofficial mailto attachment property
+stores all words in the given field which are separated by separating chars
+the header can be removed
+this class is a wrapper class for the containing list as it is currently not possible to inject complex object types into fxml controller
+todo implement
+todo re implement customize entry types feature https github com jabref jabref issues 4719
+this method opens a pdf using the giving the parameters to the executing pdf reader
+normalize white spaces
+external changes to currentpage should result in scrolling to this page
+poor mans reverse databinding necessary because we use a constant value above
+put keywords back
+first remove fields that the user has removed
+see if the user has changed the entry type
+entry type unknown treat all fields as required
+gets a stackpane of related article information to be displayed in the related articles tab
+ctrl on windows no modifier on xubuntu
+special tabs
+remove subscription for old entry if existing
+needed to track for which type of entry this tab was build and to rebuild it if the type changes
+the tab just got the focus override this method if you want to perform a special action on focus like selecting the first field in the editor
+set up details pane
+copies the meta and content information of the pdf annotation to the clipboard
+opens a new issue on github and copies log to clipboard
+set the global variable for this database s file directory before exporting so formatters can resolve linked files correctly this is an ugly hack
+set the global variable for this database s file directory before exporting so formatters can resolve linked files correctly this is an ugly hack
+make sure we remember which filter was used to set the default for next time
+can not use backgroundtask wrap runnable because runnable run can t throw exceptions
+set new location
+fixme show merge dialog
+make sure directory exists since otherwise copy fails
+bind global state
+directory
+look up the external file type registered for this filename if any param filename the name of the file whose type to look up return the externalfiletype registered or null if none
+this entry indicates that a default entry type should be removed
+no file type was recognized try to find a usable file type based on mime type
+no type could be found from mime type try based on the extension
+construct an externalfiletype from a string array this is used when reading file type definitions from preferences where the available data types are limited we assume that the array contains the same values as the main constructor in the same order
+stores the list of external entry types in the preferences
+check if there are path separators in the suffix if so it is definitely not a proper suffix so we should give up
+adds the given list of menu items to the context menu the usage of link supplier prevents that the menus need to be instantiated at this point they are populated when the user needs them which prevents many unnecessary allocations when the main table is just scrolled with the entry editor open
+todo reenable customize entry types feature https github com jabref jabref issues 4719 factory createmenuitem standardactions customize entry types new customizeentryaction this
+todo show progress
+if we did not find a file type from the mime type try based on extension
+converts a string value to the type t if the type cannot be directly casted to t this method must be overriden in a subclass param string the input value to convert return the value or null if the value could not be casted
+the default context menu with a specific menu copying a doi url param textarea text area that this menu will be connected to return menu containing items of the default menu and an item for copying a doi url
+this class represents a file link for a bibtex entry
+author jzieren
+we want to notify all tabs about the changes to avoid problems when changing the column set
+number of hits
+remember path to edited node this cannot be stored as a reference because the reference itself might change the method below is more robust
+the path to the global groups root node
+this holds the new subtree the root s modified children to allow redo
+get node to edit todo null
+dialog for creating or modifying groups operates directly on the vector containing group information
+create layout
+edit group changed name to something that is already present
+configure for current type
+in case we want to move an item in the same parent and the item is moved down we need to adjust the target index
+todo keep assignments
+new languages of the help have to be added here
+save was cancelled or an error occurred
+such an error console can be useful in getting complete bug reports especially from windows users without asking users to run jabref in a command window to catch the error info p it offers a separate tab for the log output
+focus is on text field copy paste cut selected text
+handled by fx in textinputcontrol paste
+this import method never throws an ioexception
+bibtex result we must merge it into our main base
+set timestamp and owner set timestamp and owner
+todo remove old entry or add it to a list of entries to be deleted we only delete it after ok is clicked entriestodelete add other get
+this method is queried in order to find out whether the action needs to be performed or not param pr the result of the bib parse operation return true if the action should be called false otherwise
+opens the given file if null or 404 nothing happens
+list of actions that may need to be called after opening the file such as upgrade actions etc that may depend on the jabref version that wrote the file
+this method will execute the concrete file opening and loading in a background thread
+if no files are remaining to open this could mean that a file was already open if so we may have to raise the correct tab
+converts journal full names to either iso or medline abbreviations for all selected entries
+converts journal abbreviations back to full name for all selected entries
+never null
+this class provides a editable text field that is used as table cell it handles the editing of the abbreviation column
+unabbreviate the journal name of the given entry
+todo reflective access should be removed

@@ -1,0 +1,664 @@
+text,real_label,predict_label
+implNote taken from link com sun javafx scene control behavior TextAreaBehavior contextMenuRequested javafx scene input ContextMenuEvent,yes,yes
+icon setToolTipText printedViewModel getLocalization,yes,yes
+Synchronize changes of the underlying date value with the temporalAccessorValue,no,no
+Ask if the user really wants to close the given database,yes,yes
+css information,no,yes
+Check if there is a default type with the same name If so this is a modification of that type so remove the default one,no,no
+each entry type,yes,yes
+TODO Username domain and identity should be included as in NET version TODO Should check seems that it is not included in Log4j2,no,no
+Already parsed via command line parameter e g jabref jar somefile bib,no,no
+finally add things to the currently opened tab,yes,yes
+To simplify the exporter API we simply do a normal export to a temporary file and read the contents afterwards,no,no
+This class monitors a set of files for changes Upon detecting a change it notifies the registered link FileUpdateListener s Implementation based on https stackoverflow com questions 16251273 can i watch for single file change with watchservice not the whole directory,no,no
+for AutoGroup,no,no
+Creates a new list in which each element is converted using the provided mapping All changes to the underlying list are propagated to the converted list In contrast to link org fxmisc easybind EasyBind map ObservableList Function the items are converted when the are inserted and at the initialization instead of when they are accessed Thus the initial CPU overhead and memory consumption is higher but the access to list items is quicker,no,no
+Sets the link Consumer that is invoked after the task has failed with an exception The consumer always runs on the JavaFX thread,no,no
+TODO Add undo final UndoableModifySubtree undo new UndoableModifySubtree getGroupTreeRoot node Remove subgroups panel getUndoManager addEdit undo,no,no
+db file exists,yes,yes
+Another unlikely possibility is that both disk and mem version has been modified in the same way Check for this too,no,no
+Should only occur when preferences are set directly via preferences put and not via setFirstnameMode,no,no
+Dir must be a folder not a file,yes,yes
+This method is called when the user presses OK in the Preferences dialog This calls the appropriate method in the ViewModel,no,no
+TODO doesn t work for citations in footnotes tables,no,no
+Save,yes,yes
+Constructor with optional column captions for the two entries,no,no
+If content selector values are present then we want to show the auto complete suggestions immediately on focus,no,no
+This is called when the user drops some PreviewLayouts on another cell in chosenListView to sort them,no,no
+Helper methods for javafx binding Some methods are taken from https bugs openjdk java net browse JDK 8134679,no,no
+Formats a String to multiple Texts by replacing some parts and adding font characteristics,no,no
+Copies the given list of link LogEvent s to the clipboard,no,no
+All entries had keys,no,no
+Add radio buttons if the two entries do not have identical fields,no,no
+Delivers possible completions as a list of link BibEntry based on their cite key,no,no
+css eye,no,yes
+Method to add a new abbreviation to the abbreviations list property It also sets the currentAbbreviation property to the new abbreviation,no,no
+Class for handling general actions cut copy and paste The focused component is kept track of by Globals focusListener and we call the action stored under the relevant name in its action map,no,no
+Returns a new ObservableValue that holds the value held by this ObservableValue or code other when this ObservableValue is empty,no,no
+A command that is only executable if a database is open Deprecated use instead,no,no
+Define focused tab,no,no
+A single tab displayed in the EntryEditor holding several FieldEditors,no,no
+poll with timeout in case the library is not analyzed completely but contains no more duplicates,no,no
+Clears the current log,yes,yes
+Sets a a new key bind to this objects key binding object if the given key event is a valid combination of keys,no,no
+Revert the change,yes,yes
+Fade new page in for smoother transition,no,no
+css rss,no,yes
+Get the search describer for a given search query,yes,yes
+Does the actual operation on a Bibtex entry based on the settings specified in this same dialog Returns the number of occurrences replaced,no,no
+should be opened in browser,no,no
+Returns the HashMap containing all key bindings,yes,yes
+Add menu for fetching bibliographic information,no,no
+ctrl on win,no,no
+Adds the specified node as a child of the current root The group contained in b newGroups b must not be of type AllEntriesGroup since every tree has exactly one AllEntriesGroup its root The b newGroups b are inserted directly i e they are not deepCopy d,no,no
+Adds the given entries to this node s group,yes,yes
+No we canceled or there is no panel to get the database from highly unlikely,no,no
+default,yes,yes
+Bug report body,yes,yes
+Do nothing by default,yes,yes
+Text after the citation,no,no
+The only instance of this class,yes,yes
+Placeholder class for a custom generic type safe dragboard to be used in drag and drop does not depend on serialization Don t use this class directly Use the instance provided in link GUIGlobals localDragboard,no,no
+Search and import unknown references from associated BIB files,no,no
+A wizard dialog for generating a new sub database from existing TeX AUX file,no,no
+Shows a dialog with the warnings from an import or open of a file,no,no
+get permutation array,no,no
+Set pseudo classes to indicate if row is root or sub item 1 deep,no,no
+Don t report this error since this getting the suffix is a non critical operation and this error will be triggered and reported elsewhere,no,no
+Selected entries,yes,yes
+For all fields in joint add a row and possibly radio buttons,no,no
+Puts A List of link PreviewLayout in the map All previous content is cleared,no,no
+Remove the entry from the import inspection dialog,yes,yes
+Second check if the duplicate is of another entry in the import,no,no
+TODO Remove old entry Or add it to a list of entries to be deleted We only delete it after Ok is clicked entriesToDelete add other get,no,no
+Taken from https stackoverflow com questions 23326562 apache pdfbox convert pdf to images,no,no
+Check if this looks like a remote link,yes,yes
+Get list of exporters and sort before adding to file dialog,yes,yes
+Save all properties dependent on the ID This makes it possible to restore them,no,no
+Initialize protected terms loader,yes,yes
+Returns MenuItemContainer node associated with this menu item which can contain 1 label node of type Label for displaying menu item text 2 right node of type Label for displaying accelerator text or an arrow if it s a Menu 3 graphic node for displaying menu item icon and 4 left node for displaying either radio button or check box This is basically rewritten impl styleableGetNode which should not be used since it s marked as deprecated,no,no
+setContentType CONTENT TYPE StyleSheet sheet HTMLEditorKit getEditorKit getStyleSheet sheet addRule BODY STYLE sheet addRule ADDITION STYLE sheet addRule REMOVAL STYLE sheet addRule CHANGE STYLE setEditable false,yes,yes
+Sets the name and the abbreviation of the code currentAbbreviation property to the values of the code abbreviationsName and code abbreviationsAbbreviation properties,no,no
+Finally go through all citation markers and update those referring to entries in our current list,no,no
+describe advanced search expression,no,no
+if we re going to override some cite keys warn the user about it,no,no
+This method is called after the new database has been added to the GUI if the isActionNecessary method returned true Note if several such methods need to be called sequentially it is important that all implementations of this method do not return until the operation is finished,no,no
+Searches recursively all files in the specified directory br br All files matched by the given link UnlinkedPDFFileFilter are taken into the resulting tree br br The result will be a tree structure of nodes of the type link CheckBoxTreeItem br br The user objects that are attached to the nodes is the link FileNodeWrapper which wraps the link File Object br br For ensuring the capability to cancel the work of this recursive method the first position in the integer array state must be set to 1 to keep the recursion running When the states value changes the method will resolve its recursion and return what it has saved so far,no,no
+This method attaches a linked file from a URL if not already linked to an entry using the key and value pair from the findFullTexts map and then downloads the file into the given targetDirectory,no,no
+init paste handler for URLEditor to format pasted url link in textArea,no,no
+Create a new SuggestionProviderString,yes,yes
+Set the new sections name to Child Section,yes,yes
+Ok done Then try to gather in all we have found Since we might have found one or more bibtex results it s best to gather them in a BibDatabase,no,no
+TODO can we find out whether the save was actually done or not,no,no
+This method shall be used to add a new journal abbreviation file to the set of journal abbreviation files It basically just calls the link openFile Path method,no,no
+UndoableAddOrRemoveGroup undo new UndoableAddOrRemoveGroup groupsRoot new GroupTreeNodeViewModel newGroups UndoableAddOrRemoveGroup ADD NODE ce addEdit undo,yes,yes
+no new version could be found only respect the ignored version on automated version checks,no,no
+Compare the deleted entry in memory with the one in the tmpfile The entry could have been removed in memory,no,no
+retrieve bookmark by name,yes,yes
+Run validation checks,yes,yes
+Be happy with the first found BibEntry and move on to next key,yes,yes
+css open in app,yes,yes
+Fills the current values to the text fields,no,no
+Create a default suggestion provider based on the toString method of the generic objects,no,no
+The lines above work also if the dir does not exist at all NULL is accepted by the filechooser as no inital path,no,no
+css paperclip,yes,yes
+Converts the citations into the RTF format,no,no
+PushToApplication,yes,yes
+Returns the default context menu items except undo redo,no,no
+use preferences value if no DB is open,no,no
+We have to use supplier for the localized text so that language changes are correctly reflected,no,no
+TODO switch Icon color searchIcon setIcon IconTheme JabRefIcon ADVANCED SEARCH getIcon,no,no
+We have overwritten the marker for the start of the reference list We need to add it again,no,no
+Create and run cleaner,yes,yes
+If we found it remove it from the type list,yes,yes
+Work around for different input methods https github com FXMisc RichTextFX issues 146,no,no
+This class represents a change in any field value The relevant information is the BibEntry the field name the old and the new value Old new values can be null,no,no
+Parse the temporary file,no,no
+Show progress indicator,yes,yes
+Fail on unsupported Java versions,no,no
+Get the string associated with this file type s icon,no,no
+things to be appended to an opened tab should be done after opening all tabs add them to the list,no,no
+setTitle FRAME TITLE,no,no
+we do not trim the value at the assignment to enable users to have spaces at the beginning and at the end of the pattern,no,no
+jni convenience easier to iterate over array than calling Hashtable,no,no
+create menu items one for each case changer,no,no
+We import all files and collect their results,no,no
+Constructs a link ListCell based on the view model of the row and a bunch of specified converter methods,no,no
+TODO Store undo if undo isEmpty groupSelector concludeAssignment UndoableChangeEntriesOfGroup getUndoableEdit target undo target getNode assignedEntries,no,no
+TODO This means a duplicate string name exists so it s not a very exceptional situation We should maybe give a warning,no,no
+Dialog shown when closing of application needs to wait for a save operation to finish,no,no
+TODO Find a better way to update preview,no,no
+We are alone so we start the server,no,no
+Keep track of changes made to the columns like reordering or resizing,no,no
+the encoding of shared database is always UTF 8,no,no
+replace the placeholder if used,no,no
+If the file is an ordinary file i e not a resource part of a jar bundle we watch it for changes and turn on live reloading,no,no
+Shift on Windows or no modifier,no,no
+Show tooltips,no,no
+This class provides a editable text field that is used as table cell It handles the editing of the name column,no,no
+return the first one we found anyway,no,no
+regex is correct otherwise OK would have been disabled therefore I don t catch anything here,no,no
+Returns the int representing the selected hierarchical group context,yes,yes
+TODO warn if assignment has undesired side effects modifies a field keywords if WarnAssignmentSideEffects warnAssignmentSideEffects mNode getNode getGroup mPanel frame return user aborted operation,no,no
+Bidirectional binding does not work so use listeners instead,no,no
+Main function for building the merge entry JPanel,no,no
+A prefsTab is a component displayed in the PreferenceDialog It needs to extend from Component,no,no
+The actual operation This method will not be called on the event dispatch thread so it should not do GUI operations without utilizing invokeLater,no,no
+create a dummy group,no,no
+An Action for launching mass field Functionality Defaults to selected entries or all entries if none are selected Input field name Either set field or clear field,no,no
+Need to toggle a twice to make sure nothing is selected,no,no
+ctrl on win no modifier on Xubuntu,no,no
+If we are supposed to set character format for citations must run a test before we delete old citation markers Otherwise if the specified character format doesn t exist we end up deleting the markers before the process crashes due to a the missing format with catastrophic consequences for the user need to do this only once,no,no
+Get center of focused cell,no,no
+Opens a new console starting on the given file location If no command is specified in link Globals the default system console will be executed,no,no
+I think setting root to null is not possible,no,no
+General info dialog The MacAdapter calls this method when Quit is selected from the application menu Cmd Q is pressed or Quit is selected from the Dock The function returns a boolean indicating if quitting is ok or not p Non OSX JabRef calls this when choosing Quit from the menu p SIDE EFFECT tears down JabRef,no,no
+fits the standard found x entries message thus hinders the searchbar to jump around while searching if the frame width is too small,no,no
+View model for a field editor that shows various options backed by a map,no,no
+Hide horizontal scrollbar and always wrap text,no,no
+Delivers possible completions as a list of link Author s,no,no
+XML Syntax Highlighting for RichTextFX Codearea created by c Carlos Martins github cemartins License BSD 2 Clause see https github com FXMisc RichTextFX blob master LICENSE and https github com FXMisc RichTextFX blob master richtextfx demos README md xml editor,no,no
+Inserts the JabRefPreferences values into the the Properties of the ViewModel,no,no
+Alt on Windows,no,no
+for each column get either actual width or if it does not exist default value,no,no
+Opens the import inspection dialog to let the user decide which of the given entries to import,no,no
+Update journal abbreviation loader,yes,yes
+Generate dialog title,yes,yes
+Wrapper around one of our actions from link Action to convert them to controlsfx link org controlsfx control action Action,no,no
+Open File Browser,no,yes
+Flipped around,no,no
+css file multiple,yes,yes
+find office executable relative to this class s class loader,no,no
+Add the entries to the open tab,no,no
+css star circle,yes,yes
+Set empty background and create proper rendering in background for smoother loading,no,no
+Function to initialize parameters Currently it is expected that commandPathPreferenceKey is set to the path of the application,no,no
+The root of the global groups tree,no,no
+Gets invoked if an entry in the current database changes,yes,yes
+wait until office is started,no,no
+Check if we are supposed to set a character format for citations,no,no
+css arrow up bold,yes,yes
+TODO reflective access should be removed,no,no
+Creates a column for DOIs or URLs The code firstField is preferred to be shown over code secondField,no,no
+Get the comparator to order the suggestions,no,no
+Check if there are empty keys,yes,yes
+Repeat for individual file dir reuse text and dir vars,no,no
+alt on win,no,no
+Represents the view model for a page in the document viewer,yes,yes
+Menu to show up on right click in a text field for converting text formats,no,no
+This is ugly but we have no proper update mechanism in place to propagate the changes so redraw everything,no,no
+TODO Print error message Localization lang PDF does not exist,no,no
+Prints parsing statistics,no,no
+Calls the link AbbreviationsFileViewModel writeOrCreate method for each file in the journalFiles property which will overwrite the existing files with the content of the abbreviations property of the AbbriviationsFile Non existing files will be created,no,no
+Sets the link Consumer that is invoked after the task is successfully finished The consumer always runs on the JavaFX thread,no,no
+Copyright c 2014 2016 ControlsFX All rights reserved Redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met Redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer Redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation and or other materials provided with the distribution Neither the name of ControlsFX any associated website nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS AS IS AND ANY EXPRESS OR IMPLIED WARRANTIES INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED IN NO EVENT SHALL CONTROLSFX BE LIABLE FOR ANY DIRECT INDIRECT INCIDENTAL SPECIAL EXEMPLARY OR CONSEQUENTIAL DAMAGES INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES LOSS OF USE DATA OR PROFITS OR BUSINESS INTERRUPTION HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY WHETHER IN CONTRACT STRICT LIABILITY OR TORT INCLUDING NEGLIGENCE OR OTHERWISE ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE,no,no
+Extract destination URL,no,no
+Updates the view to reflect changes to visible components,yes,yes
+This class represents a change in any field value The relevant information is the BibEntry the field name the old and the new value Old new values can be null,no,no
+Abstract class for pushing entries into different editors,no,no
+put the warning into as exception text it will be displayed to the user,no,no
+This wraps the old Swing commands so that they fit into the new infrastructure In the long term this class should be removed,no,no
+The default context menu with a specific menu item to cleanup URL,no,no
+icon is chosen based on field name in cell so map fields to its names,no,no
+Execute command,no,no
+Ignored,no,yes
+Returns true if there is an external file type registered for this extension,no,no
+unknown cannot un abbreviate anything,yes,yes
+vim set shiftwidth 4 softtabstop 4 expandtab,no,no
+Redo the change,no,no
+We need to get the tab header the following is a ugly workaround,no,no
+reset all fields,yes,yes
+Similar to link org fxmisc easybind monadic MonadicObservableValue,no,no
+nan,no,yes
+css clipboard arrow left,yes,yes
+TODO Replace by http docs oracle com javase 7 docs api java awt Desktop html http stackoverflow com questions 18004150 desktop api is not supported on the current platform,no,no
+Executes a callable task that provides a return value after the calculation is done param command The task to execute return A Future object that provides the returning value,yes,no
+Need to run this on the JavaFX thread,no,no
+set original filename again,no,no
+If required check that all entries have BibTeX keys defined,no,no
+Check if the value returned by getColumnValue is the same as a simple check of the entry s field s would give The reasons for being different are combinations may also happen The entry has a crossref where the field content is obtained from The field has a string in it which getColumnValue resolves There are some alias fields For example if the entry has a date field but no year field link BibEntry getResolvedFieldOrAlias String BibDatabase will return the year value from the date field when queried for year,no,no
+TODO imlement default,no,no
+Use default key bindings,yes,yes
+Store shown columns and their width in preferences,no,no
+TODO Add undo final UndoableAddOrRemoveGroup undo new UndoableAddOrRemoveGroup groupsRoot node UndoableAddOrRemoveGroup REMOVE NODE KEEP CHILDREN panel getUndoManager addEdit undo,no,no
+Read all saved file paths and read their abbreviations,no,no
+On Linux Java FX fonts look blurry per default This can be improved by using a non default rendering setting See https github com woky javafx hates linux,no,no
+Runs the specified link Runnable on the JavaFX application thread and waits for completion,yes,no
+JabRef MainClass,yes,yes
+Bootstraps the component context from a UNO installation,no,no
+if Globals prefs isKeywordSyncEnabled return final BibEntry entry event getBibEntry NamedCompount code similar to SpecialFieldUpdateListener NamedCompound nc new NamedCompound Localization lang Synchronized special fields based on keywords List FieldChange changes SpecialFieldsUtils syncSpecialFieldsFromKeywords entry Globals prefs getKeywordDelimiter for FieldChange change changes nc addEdit new UndoableFieldChange change Don t insert the compound into the undoManager it would be added before the component which undoes the insertion of the entry and creates heavy problems which prohibits the undo the deleting multiple entries,no,no
+Get target folder,no,no
+Ctrl on Windows no modifier on Xubuntu,no,no
+default command,no,no
+Reloads the JabRefPreferences into the UI,no,no
+We define two file type objects as equal if their name extension openWith and iconName are equal,no,no
+Create buttons,yes,yes
+Time stamp,no,yes
+This class can be used to wrap an see ObservableList inside it When wrapped any Listener listening for updates to the wrapped ObservableList for example because of a binding to it is ensured to be notified on the JavaFX Application Thread It should be used to implement bindings where updates come in from a background thread but should be reflected in the UI where it is necessary that changes to the UI are performed on the JavaFX Application thread,no,no
+Executes a collection of callable tasks and returns a List of the resulting Future objects after the calculation is done param tasks The tasks to execute return A List of Future objects that provide the returning values,yes,no
+This will set the code currentFile property to the link AbbreviationsFileViewModel object that was added to the code journalFiles list property lastly If there are no files in the list property this methode will do nothing as the code currentFile property is already code null,no,no
+Method to delete the abbreviation set in the currentAbbreviation property The currentAbbreviationProperty will be set to the previous or next abbreviation in the abbreviations property if applicable Else it will be set to code null if there are no abbreviations left,no,no
+We need to sort the reference marks according to their order of appearance,no,no
+Returns a wrapper around the given list that posts changes on the JavaFX thread,no,no
+kill the remote thread,yes,yes
+First try xmp import if empty try pdf import otherwise create empty entry,no,no
+Revert the change,no,yes
+Go through unchanged types Remove them from the ones that should be stored and from the list of defaults since we don t need to mention these in prefs,no,no
+Checks if all tabs are valid ToDo After conversion of all tabs use mvvmfx validator ToDo should be observable for binding of OK button in View,no,no
+Next add all the visible tabs if not already present at the right position,no,no
+update all tab titles,yes,yes
+Helper class to create and style controls according to an link Action,no,no
+Class for fetching and merging bibliographic information,yes,yes
+paranoia ensure that there are never two instances of AllEntriesGroup,no,no
+Create button that triggers search,yes,yes
+Activate context menu if user presses the context menu key,no,no
+nan,yes,yes
+Add the edit field for Bibtex key,no,no
+Remove all reference marks that don t look like JabRef citations,no,no
+Although entries are redefined without use this also updates linkSourceBase,no,no
+for the remaining entries intersection has to be used this approach ensures that one empty keyword list leads to an empty set of common keywords,no,no
+A very simple implementation of the link TaskExecutor interface Every submitted task is invoked in a separate thread,no,no
+all buttons in base dialogs react on enter,no,no
+but not for this entry,no,no
+If we found it remove it from the type list,yes,yes
+The main window of the application,no,no
+Redo the change,no,no
+Tools for automatically detecting OpenOffice or LibreOffice installations,no,no
+Heuristic missed so try to get page number from first shown page,no,no
+Assuming the current page is A4 or has same aspect ratio,no,no
+Check if there are two entries selected,yes,yes
+This class controls the user interface of the journal abbreviations dialog The ui elements and their layout are defined in the fxml file,no,no
+only add tab if DB is not already open,no,no
+This class represents the change of type for an entry,no,no
+General,no,yes
+Sets the title of the main window,no,no
+check mode of currently used DB,no,no
+No parent root just add,no,no
+write the entries using sw which is used later to form the email content,no,no
+Opens the given files If one of it is null or 404 nothing happens,no,no
+Ask for consent to send data to Mr DLib on first time to tab,no,no
+Only the first of the extensions gotten from FileType is saved into the class using get 0,no,no
+The path to the edited subtree s root node,no,no
+Up to version 2 4b the mime type is not included,no,no
+ApplicationInsights Java Copyright c Microsoft Corporation All rights reserved MIT License Permission is hereby granted free of charge to any person obtaining a copy of this software and associated documentation files the Software to deal in the Software without restriction including without limitation the rights to use copy modify merge publish distribute sublicense and or sell copies of the Software and to permit persons to whom the Software is furnished to do so subject to the following conditions The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software THE SOFTWARE IS PROVIDED AS IS WITHOUT WARRANTY OF ANY KIND EXPRESS OR IMPLIED INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM DAMAGES OR OTHER LIABILITY WHETHER IN AN ACTION OF CONTRACT TORT OR OTHERWISE ARISING FROM OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE,no,no
+On Windows store application as empty if the Default option is selected or if the application name is empty,no,no
+Creates a list of all files leaf nodes in the tree structure which have been selected,no,no
+css server plus,yes,yes
+This method returns the enum constant value,yes,yes
+Copies the doi url to the clipboard,no,no
+Update type label,no,no
+Update key list to match the new sorting,no,no
+Runs the given task and returns a Future representing that task,yes,yes
+Alt on Windows,no,no
+Runs the cleanup on the entry and records the change,no,no
+This action can be invoked without an open database so we have to check if we have one before trying to invoke methods to execute changes in the preferences,no,no
+Set up the list of external file types either from default values or from values recorded in Preferences,no,no
+Notifies the tab that it got focus and should display the given entry,no,no
+handled by FX in TextInputControl paste,no,no
+File doesn t exist so we can t move it,yes,yes
+Opens Edit Group Dialog and changes the given group to the edited one,no,no
+We can t watch files directly so monitor their parent directory for updates,no,no
+Extract the list of bibtex keys from a reference mark name,no,no
+leave the expansion state of the tree item as it is,no,no
+Display link to expand text,no,no
+Start looking at changes,no,no
+change root group even though it ll be AllEntries anyway,no,no
+When mime type is included the array length should be 5,no,no
+Loop through the available databases,yes,yes
+Replace both entries by merged entry,no,no
+if value null and then call nullField has been omitted as updatefield also handles value null,no,no
+storing a backup of the whole subtree is not required when children are kept,no,no
+Inserts each citation into a HTML body and copies it to the clipboard,no,no
+Only one linked file open directly,no,no
+If not start GUI,yes,yes
+empty,yes,yes
+After adding the databases go through each and see if any post open actions need to be done For instance checking if we found new entry types that can be imported or checking if the database contents should be modified due to new features in this version of JabRef Note that we have to check whether i does not go over getBasePanelCount This is because importToOpen might have been used which adds to loadedDatabases but not to getBasePanelCount,no,no
+New ZIP file chooser,yes,yes
+expand node and all children on drag over,yes,yes
+TODO merge with import,no,no
+css code equal,yes,yes
+Find entries in clipboard,yes,yes
+Access the Child Section s XTextContent interface and insert it into the document,no,no
+Set the visibility of the progress bar in the right end of the status line at the bottom of the frame,no,no
+Converts a path relative to a base path into a class name,no,no
+The following is necesary to initiate the drag and drop in javafx although we don t need the contents It doesn t work without,no,no
+maskText A A,no,no
+Use the correct viewer even if pdf and ps are mixed up,no,no
+This interface defines potential actions that may need to be taken after opening a BIB file into JabRef This can for instance be file upgrade actions that should be offered due to new features in JabRef and may depend on e g which JabRef version the file was last written by This interface is introduced in an attempt to add such functionality in a flexible manner,no,no
+Warning before overwriting is only relevant if overwriting can happen,no,no
+TODO Remove this copy as soon as the one included in AI is compatible with log4j 3,no,no
+insert the connector,yes,yes
+As there is no concept like an empty node icon we return simply the other icon,no,no
+Add all bibDatabases databases to the frame,no,no
+This is a simple implementation of a generic suggestion provider callback The complexity of suggestion generation is O n where n is the number of possible suggestions,no,no
+Returns a newer version excluding any non stable versions except if the installed one is unstable too If no newer version was found then an empty optional is returned,no,no
+Prints the connection problem to the status bar and shows a dialog if it was executed manually,no,no
+css file powerpoint,yes,yes
+Detect Google search URL,yes,yes
+update keywords,yes,yes
+css auto fix,yes,yes
+Bootstraps the initial component context from a native UNO installation See also code cppuhelper defaultBootstrap InitialComponentContext code,no,no
+css twitter,yes,yes
+Drag and drop support,no,no
+File on disk has changed thus look for notable changes and notify listeners in case there are such changes,no,no
+Append a given value to a given field for all entries in a Collection This method DOES NOT update any UndoManager but returns a relevant CompoundEdit that should be registered by the caller,no,no
+We have to use reflection to get the associated label,no,no
+if so mark base changed Prevent the Undo button from removing change marking,no,no
+passed file we take the first one should be focused,no,no
+Decides if the content stored in the given link Dragboard can be droped on the given target row Currently the following sources are allowed another group will be added as subgroup on drop entries if the group implements link GroupEntryChanger will be assigned to group on drop,no,no
+The string was removed or renamed locally We guess that it was removed,no,no
+Returns a consent dialog used to ask permission to send data to Mr DLib,no,no
+Left text pane,no,no
+Initializes the components the layout the data structure and the actions in this dialog,no,no
+Add type change menu,no,no
+This property is only needed to get proper IDE support in FXML files e g validation that parameter passed to icon is indeed of type link IconTheme JabRefIcons,no,no
+cloud upload,yes,yes
+Removal of a node and all of its children,yes,yes
+This worker checks if there is a new version of JabRef available If there is it will display a dialog to the user offering him multiple options to proceed see changelog go to the download page ignore this version and remind later If the versions check is executed manually and this is the latest version it will also display a dialog to inform the user,no,no
+If the crossref entry is not already in the database,yes,yes
+Insert it at the current position,no,no
+especially for the track execute when the action run the same function but from different source,no,no
+Action for the Save and Save as operations called from BasePanel This class is also used for save operations when closing a database or quitting the applications The save operation is loaded off of the GUI thread using link BackgroundTask Callers can query whether the operation was canceled or whether it was successful,no,no
+The default menu that contains functions for changing the case of text and doing several conversions,no,no
+Set headings,yes,yes
+This method should be called after storing the preferences to collect the properties which require a restart of JabRef to load,no,no
+Creates a new auto completion binding between the given textInputControl and the given suggestion provider,yes,yes
+We accept all kinds of dates not just in the format specified,no,no
+this whole method is part of a background task when autodecting instances so we need to show dialog in FX thread,no,no
+Taken from http stackoverflow com a 9417836 873661,no,no
+We always want that the first item is selected after a change This also automatically selects the first file on the initial load,no,no
+Function to get the command to be executed for pushing keys to be cited,no,no
+For some reason the graphic is not set correctly by the link ActionUtils class so we have to fix this by hand,no,no
+entry type or bibtex key will never be resolved,no,no
+Removal of a single node Children if any are kept,yes,yes
+Copyright c 2014 2015 ControlsFX All rights reserved Redistribution and use in source and binary forms with or without modification are permitted provided that the following conditions are met Redistributions of source code must retain the above copyright notice this list of conditions and the following disclaimer Redistributions in binary form must reproduce the above copyright notice this list of conditions and the following disclaimer in the documentation and or other materials provided with the distribution Neither the name of ControlsFX any associated website nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS AS IS AND ANY EXPRESS OR IMPLIED WARRANTIES INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED IN NO EVENT SHALL CONTROLSFX BE LIABLE FOR ANY DIRECT INDIRECT INCIDENTAL SPECIAL EXEMPLARY OR CONSEQUENTIAL DAMAGES INCLUDING BUT NOT LIMITED TO PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES LOSS OF USE DATA OR PROFITS OR BUSINESS INTERRUPTION HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY WHETHER IN CONTRACT STRICT LIABILITY OR TORT INCLUDING NEGLIGENCE OR OTHERWISE ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE,no,no
+use property as initial source,no,no
+Map containing all registered external file types,yes,yes
+Workaround taken from https bitbucket org controlsfx controlsfx issues 330 making textfieldssetupclearbuttonfield,no,no
+Always overwrite keys by default,no,no
+We are not alone there is already a server out there send command line arguments to other instance,no,no
+Process arguments,yes,yes
+Nothing set so we use the default values,no,no
+Run the actual open in a thread to prevent the program locking until the file is loaded,no,no
+It could be that somehow the path is null for example if it got deleted in the meantime,no,no
+extract url parameter,no,yes
+Collect all callables to execute in one collection,no,no
+TODO Add undo Store undo information AbstractUndoableEdit undoAddPreviousEntries null UndoableModifyGroup undo new UndoableModifyGroup GroupSelector this groupsRoot node newGroup if undoAddPreviousEntries null panel getUndoManager addEdit undo else NamedCompound nc new NamedCompound Modify Group nc addEdit undo nc addEdit undoAddPreviousEntries nc end panel getUndoManager addEdit nc if addChange isEmpty undoAddPreviousEntries UndoableChangeEntriesOfGroup getUndoableEdit null addChange,no,no
+Adds the filename to the top of the menu If it already is in the menu it is merely moved to the top,no,no
+This view model can be used both for add exporter and modify exporter functionalities It takes an optional exporter which is empty for add exporter and takes the selected exporter for modify exporter It returns an optional exporter which empty if an invalid or no exporter is created and otherwise contains the exporter to be added or that is modified,no,no
+We need to catch this one here because the OpenOfficePanel class is loaded before connection and therefore cannot directly reference or catch a DisposedException which is in a OO JAR file,no,no
+css label outline,yes,yes
+This resize policy is almost the same as link TableView CONSTRAINED RESIZE POLICY We make sure that the width of all columns sums up to the total width of the table However in contrast to link TableView CONSTRAINED RESIZE POLICY we size the columns initially by their preferred width,no,no
+We have to cast the BibEntries from the BibEntrySuggestionProvider to ParsedEntryLink,no,no
+Puts A List of link BibEntry in the map All previous content is cleared,no,no
+This wraps the old Swing commands so that they fit into the new infrastructure In the long term this class should be removed,no,no
+run in one minute,no,no
+See if there are duplicate citations marks referring to different entries If so we need to use uniquefiers,no,no
+TODO http api openoffice org docs DevelopersGuide OfficeDev OfficeDev xhtml 1 1 3 2 1 2 Frame Hierarchies,no,no
+TODO Print error message Localization lang Error while writing file toString ex,no,no
+Parse the modified file,no,no
+Represents a binding between a text input control and a auto completion popup This class is a slightly modified version of link impl org controlsfx autocompletion AutoCompletionTextFieldBinding that works with general text input controls instead of just text fields,no,no
+Creates an instance of link LinkedFile based on the given file We try to guess the file type and relativize the path against the given file directories TODO Move this method to link LinkedFile as soon as link CustomExternalFileType lives in model,no,no
+Create a default suggestion provider based on the toString method of the generic objects using the provided stringConverter,no,no
+Remove entry,yes,yes
+Repaints the table with the most recent font configuration,no,no
+Updates the timestamp of changed entries if the feature is enabled,no,no
+Add the new component,yes,yes
+Setting the character format failed so we throw an exception that will result in an error message for the user,no,no
+Implementation of link TaskExecutor that runs every task on the current thread i e in a sequential order This class is not designed to be used in production but should make code involving asynchronous operations deterministic and testable,no,no
+No file matched the name try to open it directly using the given app,no,no
+Represents the viewport for a page Note the instances of link DocumentViewerPage are reused i e not every page is rendered in a new instance but instead link DocumentViewerPage updateItem Object is called,no,no
+Set a given field to a given value for all entries in a Collection This method DOES NOT update any UndoManager but returns a relevant CompoundEdit that should be registered by the caller,no,no
+Go back to the relevant position,no,no
+Displays an BibEntry using the given layout format,no,no
+Saved now exit,no,no
+Try to get as much information from the temporal accessor,no,no
+There is apparently no neat way to get the page number from a PDPage thus this old style for loop,no,no
+Read the prefs information for file types,no,no
+start office process,no,no
+Make a list of all PDFs linked from this entry,no,no
+This method is called when the dialog is opened or if it is made visible after being hidden This calls the appropriate method in the ViewModel,no,no
+Perform migrations,yes,yes
+Constructs a link TableCell based on the value of the cell and a bunch of specified converter methods,no,no
+store new patterns globally,no,no
+A backup of the groups before the modification,no,no
+MappedList implementation based on https github com corda corda blob master client jfx src main kotlin net corda client jfx utils MappedList kt,no,no
+Start of ugly hack We need to find out which tabs will be shown and which not and remove and re add the appropriate tabs to the editor We don t want to simply remove all and re add the complete list of visible tabs because the tabs give an ugly animation the looks like all tabs are shifting in from the right This hack is required since tabbed getTabs setAll visibleTabs changes the order of the tabs in the editor,no,no
+make sure the layout is set according to the checkbox,no,no
+shift on win or no modifier,no,no
+expand or collapse the tree item and reset the time,yes,yes
+The user wants to save,no,no
+Open the file,no,yes
+Returns the path to the system s applications folder,yes,yes
+Opens a shared database,yes,yes
+no parameters,yes,yes
+This will wrap the built in and ieee abbreviations in pseudo abbreviation files and add them to the list of journal abbreviation files,no,no
+url,yes,yes
+First remove tabs that we do not want to show,yes,yes
+Prevent right click to select group,no,no
+css close circle,yes,yes
+Unknown external file type This instance represents a file type unknown to JabRef This can happen for example when a database is loaded which contains links to files of a type that has not been defined on this JabRef instance,no,no
+Wait 500 ms then try to connect again but do not wait longer than 5 min 600 500 ms total,no,no
+Returns a text formatter that restricts input to integers,no,no
+Format a name field for the table according to user preferences,yes,no
+css view list,yes,yes
+Ok we have seen this exact marker before,no,no
+Execute the callables and wait for the results,no,no
+Stores all user dialogs related to link BackupManager,no,no
+Nothing to do here,yes,yes
+The minimum number of selected entries to ask the user for confirmation,no,no
+Exception used to indicate that the plugin attempted to set a character format that is not defined in the current OpenOffice document,no,no
+create call with arguments We need a socket pipe does not work https api libreoffice org examples examples html,no,no
+imageView setImage new WritableImage getDesiredWidth getDesiredHeight,yes,yes
+Return a boolean if the selected entry have url or doi,no,no
+This class can be used to wrap a see StringProperty inside it When wrapped any Listener listening for updates to the wrapped StringProperty for example because of a binding to it is ensured to be notified on the JavaFX Application Thread It should be used to implement bindings where updates come in from a background thread but should be reflected in the UI where it is necessary that changes to the UI are performed on the JavaFX Application thread,no,no
+prefs putBoolean JabRefPreferences WINDOW MAXIMISED getExtendedState Frame MAXIMIZED BOTH,yes,yes
+Dialog for managing term list files,yes,yes
+Check if a path to the command has been specified,no,yes
+Will only happen if field exists,no,no
+We need to make a copy as instances of LogEvent are reused by log4j,no,no
+perform permutation,yes,yes
+Stream allMatch in contrast to Stream anyMatch returns true for empty streams so this has to be checked explicitly,yes,yes
+If there is no value do nothing,no,no
+Set the default value,no,yes
+Update the citation list depending on the selected reference,no,no
+Enable actions that depend on Connect,no,no
+Deleted since it does not work anymore Needs refactoring MenuItem previousPreviewLayout new MenuItem Localization lang Previous preview layout previousPreviewLayout setAccelerator keyBindingRepository getKeyCombination KeyBinding PREVIOUS PREVIEW LAYOUT previousPreviewLayout setOnAction event basePanel previousPreviewStyle MenuItem nextPreviewLayout new MenuItem Localization lang Next preview layout nextPreviewLayout setAccelerator keyBindingRepository getKeyCombination KeyBinding NEXT PREVIEW LAYOUT nextPreviewLayout setOnAction event basePanel nextPreviewStyle,yes,yes
+for all types,no,yes
+We only handle ENTRY MODIFY here so the context is always a Path,no,no
+Opens the given URL using the system browser,yes,yes
+Constructor taking two entries,yes,yes
+We create a decoration pane ourselves for performance reasons otherwise it has to be injected later leading to a complete redraw relayout of the complete scene,no,no
+css eye,yes,yes
+first check if a valid entry is selected,yes,yes
+Return a string for displaying a node name and its number of children if it is a directory,no,no
+Dir must be a folder not a file,yes,yes
+Set up key bindings specific for the entry editor,yes,yes
+Bootstraps a servicemanager with the jurt base components registered See also UNOIDL code com sun star lang ServiceManager code,no,no
+The footnote s anchor gives the correct position in the text,no,no
+See if it helps to append in,no,no
+Remove annotations for the current entry and reinitialize annotation cache,no,no
+For some reason the graphic is not set correctly so let s fix this,no,no
+Set up groups tree,no,no
+Store the directory for next time,no,no
+those threads will be allowed to finish,no,no
+Fetches possibly saved data and configures the control elements respectively,no,no
+Exception used to indicate that the plugin attempted to set a character format that is not defined in the current OpenOffice document,no,no
+Autosave,no,no
+Sets the indeterminate status of the progress bar p,yes,yes
+The action was either canceled or unsuccessful,no,no
+Remove fields which are not in the merged entry unless they are internal fields,no,no
+Text before the citation,no,no
+entry type,yes,yes
+Display warnings if any,yes,yes
+Set the string associated with this file type s icon,yes,yes
+Added comparator for Read Status,yes,yes
+This constructor should only be called to create a pseudo abbreviation file for built in lists This means it is a placeholder and it s path will be null meaning it has no place on the filesystem It s isPseudoFile property will therefore be set to true,no,no
+TODO reflective access should be removed,no,no
+A new or modified entry type Construct it from the string array,no,no
+To account for numbering and for uniqiefiers we must refresh the cite markers,no,no
+Open a http pdf ps viewer for the given link string,no,no
+General,yes,yes
+Read all keybindings from the keybinding repository and create table keybinding models for them,no,no
+Text leading up to s1 Insert s2,no,no
+Migrations Warning for migrating the Review into the Comment field,no,no
+TODO Show detailed description of the changes StringBuilder sb new StringBuilder html Localization lang Changes have been made to the following metadata elements p br nbsp nbsp sb append changes stream map unit unit key collect Collectors joining br nbsp nbsp sb append html infoPane setText sb toString,no,no
+Global String constants for GUI actions,no,no
+Put everything together,no,no
+Check if we should italicize the et al string in citations,yes,yes
+Inform the user to select entries first,yes,yes
+Performs the change This method is responsible for adding a proper undo edit to the NamedCompound so the change can be undone,no,no
+Set up bindings,no,no
+Try to contact already running JabRef,no,no
+css file excel,yes,yes
+Opens the url with the users standard Browser If that fails a popup will be shown to instruct the user to open the link manually and the link gets copied to the clipboard,no,no
+Sets the link Runnable that is invoked after the task is finished irrespectively if it was successful or failed with an error,no,no
+Field editor that provides various pre defined options as a drop down combobox,no,no
+This method stores all file paths of the files in the journalFiles property to the global JabRef preferences Pseudo abbreviation files will not be stored,no,no
+icon setToolTipText Localization lang Open URL,yes,yes
+An empty search field should cause the search to be cleared,no,no
+Priority icon used for the menu,no,no
+checkbox marked circle outline,yes,yes
+Returns the currently viewed BasePanel,yes,yes
+Generate keys,no,yes
+This class is similar to link GraphicValidationDecoration but with a different style and font based icon,no,no
+This method returns a JComponent detailing the nature of the change,no,no
+only remove explicit groups from the entries keyword groups should not be deleted,no,no
+Are there children or children of children that are matched If yes we also need to show this node,no,no
+If there are entries to add,yes,yes
+node should be generated for each call as nodes can be added to the scene graph only once,no,no
+The user doesn t want to override cite keys,no,no
+TODO Add undo panel getUndoManager addEdit new UndoableFieldChange entry editor getName text nextAbbreviation,no,no
+Shows a dialog with the warnings from an import or open of a file,no,no
+The popup has private access in link AutoCompletionBinding so we use reflection to access it,no,no
+Try to strip the query string if any to get the correct suffix,no,no
+Add chosen export type to last used pref to become default,no,no
+Create a new TextSection from the document factory and access it s XNamed interface,no,no
+A tag item in a link TagBar,no,no
+TODO Warn if WarnAssignmentSideEffects warnAssignmentSideEffects node getNode getGroup panel frame return user aborted operation,no,no
+TODO Expand parent to make new group visible parent expand,no,no
+This class will copy each selected entry s BibTeX key as a hyperlink to its url to the clipboard In case an entry doesn t have a BibTeX key it will not be copied In case an entry doesn t have an url this will only copy the BibTeX key,no,no
+check whether there is another icon defined for this file type,no,no
+this needs to fixed because it gives asdf when going prefs get lyxpipe,no,no
+Concatenates the formatted message of the given link LogEvent s by using the a new line separator,no,no
+Creates a link BackgroundTask that first runs this task and based on the result runs a second task,no,no
+Opens New Group Dialog and add the resulting group to the specified group,no,no
+On all OSes there is a generic application available to handle file opening so use this one,no,no
+generate the new cite keys for each entry,no,no
+default value,yes,yes
+Customization of appearance parameters,no,no
+remove node then insert all children,no,yes
+Remove all current possible suggestions,yes,yes
+Get entries and check if it makes sense to perform this operation,no,no
+This method first saves all external files to its internal list then writes all abbreviations to their files and finally updates the abbreviations auto complete It basically calls link saveExternalFilesList link saveJournalAbbreviationFiles and finally link JournalAbbreviationLoader update JournalAbbreviationPreferences,no,no
+do not open the original file,no,no
+Finds the entry in the list best fitting the specified entry Even if no entries get a score above zero an entry is still returned,no,no
+no more bps to check we found a matching one,no,no
+default pattern,yes,no
+We try to find the page that is displayed in the center of the viewport,no,no
+Function to get the command name in case it is different from the application name,no,no
+Check if we are running an acceptable version of Java,yes,yes
+inheritDoc,yes,yes
+Alt on Windows,no,no
+General information,no,no
+compare normalized markers since the actual markers can be different,no,no
+all keywords from first entry have to be added,no,no
+must be set here because in initialize the button is still null,no,no
+everything is ok,yes,yes
+See if we can find a type with matching name in the default type list,no,no
+We need to wait with setting the divider since it gets reset a few times during the initial set up,no,no
+We calculate the new hit value We could be more intelligent and try to figure out the new number of hits based on the entry change for example a previously matched entry gets removed hits hits 1,no,no
+It was modified Remove its entry from the defaults list since the type hasn t been removed,no,no
+Cannot rename remote links,no,no
+remember modified children for redo,no,no
+If the given component is visible it will be hidden and the other way around,yes,yes
+Interface presents user described paste behaviour applying to paste method,no,no
+icon setToo Localization lang Open PDF,yes,yes
+First get a list of the default file types as a starting point,no,no
+The name to change to is already in the database so we can t comply,no,no
+Look up the external file type registered with this name if any,no,no
+TODO Add undo redo ce addEdit new UndoableInsertEntry panel getDatabase entry,no,no
+The action concerned with generate a new sub database from latex AUX file,no,no
+Starts the search of unlinked files according chosen directory and the file type selection The search will process in a separate thread and a progress indicator will be displayed,no,no
+Gets the filename for the current linked file and compares it to the new suggested filename,no,no
+Modified externally,no,no
+Responsible for managing of all threads except GUI threads in JabRef,no,no
+all the logic is done in openIt Even raising an existing panel,no,no
+Focuses the given field,yes,yes
+Set pasteActionHandler variable to passed handler,yes,yes
+Gets invoked if the user selects a different group We need to notify the link StateManager about this change so that the main table gets updated,no,no
+Merge entries,no,yes
+This panel contains the two comboboxes and the Add button,no,no
+Gets invoked if the user changes the active database We need to get the new group tree and update the view,no,no
+Use a application if the app is specified and just open filename otherwise,no,no
+set default values overwritten if editedGroup null,no,no
+Check if the cloned entry has a crossref field,yes,yes
+Print icon used for menu,no,no
+Return a String array representing this file type This is used for storage into Preferences and the same array can be used to construct the file type later using the String constructor,no,no
+must be here,yes,yes
+This method will write all abbreviations of this abbreviation file to the file on the file system It essentially will check if the current file is a built in list and if not it will call link AbbreviationWriter writeOrCreate,no,no
+Constructs an link Image for the image representing the given function in the resource file listing images param name The name of the icon such as open save saveAs etc return The link Image for the function,no,no
+Need to toggle a twice to make sure everything is selected,no,no
+fetch entries from GUI,no,no
+icon setToolTipText Localization lang Open 0 file fileType getName,yes,yes
+The default context menu with a specific menu for normalizing person names regarding to BibTex rules,no,no
+Update the map of uniquefiers for the benefit of both the following generation of new citation markers and for the method that builds the bibliography,no,no
+Check if any of the files are already open,no,yes
+Automatically imports the files given as arguments,yes,yes
+Return null if the directory is not valid,yes,yes
+setBounds GraphicsEnvironment getLocalGraphicsEnvironment getMaximumWindowBounds WindowLocation pw new WindowLocation this JabRefPreferences POS X JabRefPreferences POS Y JabRefPreferences SIZE X JabRefPreferences SIZE Y pw displayWindowAtStoredLocation,yes,yes
+css file find,no,yes
+icon setToolTipText Localization lang Open file,yes,yes
+Here we store the names of all current files If there is no current file we remove any previously stored filename,no,no
+Add to group,yes,yes
+The subtree that was added or removed,no,no
+Run a recursive search in a background task,no,no
+Read a typical java property url into a Map Currently doesn t support escaping of the character it simply looks for the first to determine where the key ends Both the key and the value is trimmed for whitespace at the ends,no,no
+Asks the user for confirmation that he really wants to the delete the file from disk or just remove the link,no,no
+Different actions depending on where the user releases the drop in the target row Bottom top import entries Center link files to entry,no,no
+empty tab without database,yes,yes
+ExporterViewModel wraps a TemplateExporter from logic and is used in the exporter customization dialog view and ViewModel,no,no
+The Preferences panel for key generation,no,no
+insert the factory of the loader,yes,yes
+We try to to prevent publishing changes in the search field directly to the search task that takes some time for larger group structures,no,no
+Build individual layout cards for each group,no,no
+Installs the style file and provides live reloading p The live reloading has to be turned on by setting the code Djabref theme css code property There two possible modes 1 When only code Djabref theme css code is specified then the standard code Base css code that is found will be watched and on changes in that file the style sheet will be reloaded and changes are immediately visible 2 When a path to a css file is passed to code Djabref theme css code then the given style is loaded in addition to the base css file Changes in the specified css file lead to an immediate redraw of the interface p When working from an IDE this usually means that the code Base css code is located in the build folder To use the css file that is located in the sources directly the full path can be given as value for the VM option code Djabref theme css path to src Base css code,no,no
+Set entry number in case that is included in the preview layout,no,no
+For some reason the graphic is not set correctly so let s fix this ToDO Find a way to reuse JabRefIconView,no,no
+Pass other keys to children,no,no
+class is indirectly constructed by log4j,no,no
+Different actions depending on where the user releases the drop in the target row Bottom top insert source row before after this row Center add as child,no,no
+Opens a file browser of the folder of the given file If possible the file is selected,no,no
+FIXME prefix can be removed,no,no
+This class represents the removal of an entry The constructor needs references to the database the entry and the map of open entry editors The latter to be able to close the entry s editor if it is opened after an undo and the removal is then undone,no,no
+We know that tmpEntry is not equal to diskEntry Check if it has been modified locally as well since last tempfile was saved,no,no
+The preferences might be not initialized in tests return immediately TODO Replace this ugly workaround by proper injection propagation,no,no
+return Merged BibEntry,yes,yes
+Focuses the search field if it is not focused,yes,yes
+Decide whether to show this tab for the given entry,yes,yes
+Register undo redo listener,yes,yes
+icon setToolTipText Localization lang Open ArXiv URL,yes,yes
+Reporting etc this method is called on the event dispatch thread after pushEntries returns,no,no
+Creates an object that can undo redo an edit event,no,no
+We have to use reflection since TableUtil is not visible to us,no,no
+insert the acceptor,yes,yes
+TODO Font padding customization setFont GUIGlobals currentFont,no,no
+We have sorted the citation markers according to their order of appearance so we simply count up for each marker referring to a new entry,no,no
+Specific importer,yes,yes
+Get the office component context,no,no
+The type of the editing ADD NODE REMOVE NODE KEEP CHILDREN REMOVE NODE AND CHILDREN,no,no
+Font configuration,yes,yes
+Shift on Windows or no modifier,no,no
+GUI component that allows editing of the fields of a BibEntry i e the one that shows up when you double click on an entry in the table p It hosts the tabs required general optional and the buttons to the left p EntryEditor also registers itself to the event bus receiving events whenever a field of the entry changes enabling the text fields to update themselves if the change is made from somewhere else,no,no
+TODO Float marked entries model updateMarkingState Globals prefs getBoolean JabRefPreferences FLOAT MARKED ENTRIES,no,no
+Ignore,yes,yes
+Find default choice if any,yes,yes
+This marker appears for more than one unique entry,no,no
+Constructs a link TreeTableCell based on the view model of the row and a bunch of specified converter methods,no,no
+Override used newline character with the one stored in the preferences The preferences return the system newline character sequence as default,no,no
+For each cited key,yes,yes
+connection string,yes,yes
+Generates a plain text string out of the preview and copies it additionally to the html to the clipboard WYSIWYG Editors use the HTML plain text editors the text,no,no
+IEEETran,yes,yes
+Sort the visible components by their preferred position,yes,yes
+This method should be called after storing the preferences This calls the appropriate method in the ViewModel,no,no

@@ -1,0 +1,249 @@
+implnote taken from link com sun javafx scene control behavior textareabehavior contextmenurequested javafx scene input contextmenuevent
+icon settooltiptext printedviewmodel getlocalization
+ask if the user really wants to close the given database
+each entry type
+finally add things to the currently opened tab
+db file exists
+dir must be a folder not a file
+save
+clears the current log
+revert the change
+get the search describer for a given search query
+returns the hashmap containing all key bindings
+adds the given entries to this node s group
+default
+bug report body
+do nothing by default
+the only instance of this class
+selected entries
+remove the entry from the import inspection dialog
+check if this looks like a remote link
+get list of exporters and sort before adding to file dialog
+initialize protected terms loader
+setcontenttype content type stylesheet sheet htmleditorkit geteditorkit getstylesheet sheet addrule body style sheet addrule addition style sheet addrule removal style sheet addrule change style seteditable false
+create a new suggestionproviderstring
+set the new sections name to child section
+undoableaddorremovegroup undo new undoableaddorremovegroup groupsroot new grouptreenodeviewmodel newgroups undoableaddorremovegroup add node ce addedit undo
+retrieve bookmark by name
+run validation checks
+be happy with the first found bibentry and move on to next key
+css open in app
+css paperclip
+pushtoapplication
+create and run cleaner
+if we found it remove it from the type list
+show progress indicator
+returns the int representing the selected hierarchical group context
+update journal abbreviation loader
+generate dialog title
+css file multiple
+css star circle
+gets invoked if an entry in the current database changes
+css arrow up bold
+check if there are empty keys
+represents the view model for a page in the document viewer
+updates the view to reflect changes to visible components
+unknown cannot un abbreviate anything
+reset all fields
+css clipboard arrow left
+executes a callable task that provides a return value after the calculation is done param command the task to execute return a future object that provides the returning value
+use default key bindings
+runs the specified link runnable on the javafx application thread and waits for completion
+jabref mainclass
+create buttons
+executes a collection of callable tasks and returns a list of the resulting future objects after the calculation is done param tasks the tasks to execute return a list of future objects that provide the returning values
+kill the remote thread
+update all tab titles
+class for fetching and merging bibliographic information
+create button that triggers search
+nan
+if we found it remove it from the type list
+check if there are two entries selected
+css server plus
+this method returns the enum constant value
+runs the given task and returns a future representing that task
+file doesn t exist so we can t move it
+loop through the available databases
+if not start gui
+empty
+new zip file chooser
+expand node and all children on drag over
+css code equal
+find entries in clipboard
+insert the connector
+css file powerpoint
+detect google search url
+update keywords
+css auto fix
+css twitter
+cloud upload
+removal of a node and all of its children
+if the crossref entry is not already in the database
+set headings
+creates a new auto completion binding between the given textinputcontrol and the given suggestion provider
+removal of a single node children if any are kept
+map containing all registered external file types
+process arguments
+css label outline
+remove entry
+add the new component
+perform migrations
+expand or collapse the tree item and reset the time
+returns the path to the system s applications folder
+opens a shared database
+no parameters
+url
+first remove tabs that we do not want to show
+css close circle
+format a name field for the table according to user preferences
+css view list
+nothing to do here
+imageview setimage new writableimage getdesiredwidth getdesiredheight
+prefs putboolean jabrefpreferences window maximised getextendedstate frame maximized both
+dialog for managing term list files
+perform permutation
+stream allmatch in contrast to stream anymatch returns true for empty streams so this has to be checked explicitly
+deleted since it does not work anymore needs refactoring menuitem previouspreviewlayout new menuitem localization lang previous preview layout previouspreviewlayout setaccelerator keybindingrepository getkeycombination keybinding previous preview layout previouspreviewlayout setonaction event basepanel previouspreviewstyle menuitem nextpreviewlayout new menuitem localization lang next preview layout nextpreviewlayout setaccelerator keybindingrepository getkeycombination keybinding next preview layout nextpreviewlayout setonaction event basepanel nextpreviewstyle
+opens the given url using the system browser
+constructor taking two entries
+css eye
+first check if a valid entry is selected
+dir must be a folder not a file
+set up key bindings specific for the entry editor
+sets the indeterminate status of the progress bar p
+entry type
+display warnings if any
+set the string associated with this file type s icon
+added comparator for read status
+general
+check if we should italicize the et al string in citations
+inform the user to select entries first
+css file excel
+icon settooltiptext localization lang open url
+checkbox marked circle outline
+returns the currently viewed basepanel
+if there are entries to add
+default value
+remove all current possible suggestions
+default pattern
+check if we are running an acceptable version of java
+inheritdoc
+everything is ok
+if the given component is visible it will be hidden and the other way around
+icon settoo localization lang open pdf
+focuses the given field
+set pasteactionhandler variable to passed handler
+check if the cloned entry has a crossref field
+must be here
+icon settooltiptext localization lang open 0 file filetype getname
+automatically imports the files given as arguments
+return null if the directory is not valid
+setbounds graphicsenvironment getlocalgraphicsenvironment getmaximumwindowbounds windowlocation pw new windowlocation this jabrefpreferences pos x jabrefpreferences pos y jabrefpreferences size x jabrefpreferences size y pw displaywindowatstoredlocation
+icon settooltiptext localization lang open file
+add to group
+empty tab without database
+insert the factory of the loader
+return merged bibentry
+focuses the search field if it is not focused
+decide whether to show this tab for the given entry
+register undo redo listener
+icon settooltiptext localization lang open arxiv url
+insert the acceptor
+specific importer
+font configuration
+ignore
+find default choice if any
+for each cited key
+connection string
+ieeetran
+sort the visible components by their preferred position
+find the default directory for this field type
+set up annotation list
+generate keys for given entries
+create default local component context
+if there are entries to remove
+save the database
+use the received map directly
+register for changes
+empty
+moves the given component down
+todo null todo null todo null
+basepanel getpreviewpanel updatelayout preferences getpreviewpreferences
+returns a list of basepanel
+redo the change
+refresh all cite markers in the document
+revert the change
+good bye
+name the reference
+frame titles
+in case it did not work
+makes sure that the given component is visible
+the action concerned with opening an existing database
+icon settooltiptext priorityviewmodel getlocalization
+except every file
+the current version of the installed jabref
+no occurrence or at the end check if there are path separators in the suffix if so it is definitely not a proper suffix so we should give up
+pass other keys to parent
+steps to reproduce
+do not open the original file
+create help button for currently selected fetcher
+adding of a single node group
+this method returns the default key binding the key s which are assigned
+revert the change
+and adding merged entries
+remove newlines hyphens before linebreaks
+other fields
+editor for external file types
+configure elements
+updates the view with the contents of the given entry
+store visual state
+subscribe to type changes for rebuilding the currently visible tab
+headings
+get xtextcontent interface
+method to change the currentabbrevaition property to a new abbreviation
+update the merged entry
+release panel from save status
+set text of each of the boxes
+do nothing
+check the given possible suggestion is a match is a valid suggestion
+read name format options mk
+get the page number of the current page in the document
+fields
+ask if keys should be generated
+swing
+preferences and xml
+annotations postconstruct
+libre office
+do nothing
+empty
+the rationale
+puts content onto the clipboard
+get the string residing on the clipboard return any text found on the clipboard if none found return an empty string
+download web resource to temporary file
+check if we should import preferences from a file
+list to put imported loaded database s in
+show just a warning message if encoding did not work for all characters
+set up auto completion for this database
+autocompleter used in the search bar
+check if file is modified
+the action for copying selected entries
+the action for copying the selected entry s key
+the action for copying the selected entry s title
+collect all non null keys
+collect all non null keys
+collect all non null keys
+create an undoableinsertentry object
+the database just changed
+set up name autocompleter for search
+this will create and display new link textinputdialog with a text field with a default value to enter data
+create and display error dialog displaying the given exception param message the error message param exception the exception causing the error
+create and display error dialog displaying the given exception param exception the exception causing the error
+create and display error dialog displaying the given message
+shows a custom dialog and returns the result param dialog dialog to show param r type of result
+do nothing
+remote listener
+key binding preferences
+background tasks
+width of ranking icon column
+update preferences
+jabref launcher
